@@ -1,0 +1,67 @@
+VER 3 010000000000001E "Ancestral Spirit" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover] Ancestral Spirit
+END
+VER 3 0100000000000017 "Chain Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][] Chain Heal
+END
+VER 3 0100000000000019 "Earth Shield" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][] Earth Shield
+END
+VER 3 0100000000000010 "EE / Harden Skin" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Earth Elemental
+/cast [talent:6/2] Harden Skin
+END
+VER 3 0100000000000011 "FE / Meteor" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Fire Elemental
+/cast [talent:6/2] Meteor
+END
+VER 3 0100000000000012 "focus wind shear" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=focus] Wind Shear
+END
+VER 3 0100000000000015 "Healing Surge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][] Healing Surge
+END
+VER 3 0100000000000014 "Healing Wage" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][] Healing Wave
+END
+VER 3 010000000000001B "Primordial Wave" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead] Primordial Wave; Primordial Wave
+END
+VER 3 010000000000001D "Purge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead][] Purge
+END
+VER 3 010000000000001C "Purify Spirit" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][] Purify Spirit
+END
+VER 3 0100000000000016 "Riptide" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][] Riptide
+END
+VER 3 0100000000000021 "SE / EOTS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Storm Elemental
+/cast [talent:6/2] Eye of the Storm
+END
+VER 3 010000000000000B "Tier 4" "INV_MISC_QUESTIONMARK"
+#showtooltip [talent:4/2] Earthen Wall Totem; [talent:4/3] Ancestral Protection Totem
+/cast [talent:4/2] Earthen Wall Totem; [talent:4/3] Ancestral Protection Totem
+END
+VER 3 010000000000000E "Tier 7" "INV_MISC_QUESTIONMARK"
+#showtooltip [talent:7/2] Wellspring; [talent:7/3] Ascendance
+/cast [talent:7/2] Wellspring; [talent:7/3] Ascendance
+END
+VER 3 010000000000001A "Unleash Life" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][] Unleash Life
+END

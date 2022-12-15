@@ -1,0 +1,23 @@
+VER 3 0000000000000009 "dismount" "4640490"
+/dismount [noflying, mounted]
+/dismount [mod:alt, mounted]
+END
+VER 3 0000000000000006 "focus" "136035"
+/focus [@focus,exists] none; target
+END
+VER 3 000000000000000A "mount" "134400"
+#showicon
+/use [swimming, nomounted] Abyssal Seahorse
+/use [flyable, nomounted] Restoration Deathwalker
+/use [noflyable, nomounted] Swift Horde Wolf
+/dismount [noflying, mounted]
+/dismount [mod:alt, mounted]
+END
+VER 3 0000000000000007 "Trinket 1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] 13
+END
+VER 3 0000000000000008 "Trinket 2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] 14
+END

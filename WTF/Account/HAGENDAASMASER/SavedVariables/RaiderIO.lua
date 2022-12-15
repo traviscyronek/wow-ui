@@ -1,0 +1,59 @@
+
+RaiderIO_Config = {
+}
+RaiderIO_LastCharacter = "us-Madkow-kiljaeden"
+RaiderIO_MissingCharacters = {
+	["us-Spaceshipcuh-kiljaeden"] = true,
+	["us-Kyuss-kiljaeden"] = true,
+	["us-Afkay-kiljaeden"] = true,
+	["us-Niye-kiljaeden"] = true,
+	["us-Crôvàx-kiljaeden"] = true,
+	["us-Superspammin-kiljaeden"] = true,
+	["us-Vrizkz-kiljaeden"] = true,
+	["us-Odio-kiljaeden"] = true,
+	["us-Lürtz-kiljaeden"] = true,
+	["us-Skonoms-kiljaeden"] = true,
+	["us-Madkow-kiljaeden"] = true,
+	["us-Sanä-kiljaeden"] = true,
+	["us-Neucrotic-kiljaeden"] = true,
+	["us-Rotinshot-tichondrius"] = true,
+	["us-Kennakenken-kiljaeden"] = true,
+	["us-Liamr-kiljaeden"] = true,
+	["us-Shaggymane-kiljaeden"] = true,
+	["us-Zazezizozu-kiljaeden"] = true,
+	["us-Dämondrache-kiljaeden"] = true,
+	["us-Kitini-kiljaeden"] = true,
+	["us-Ponsz-kiljaeden"] = true,
+	["us-Joestarr-kiljaeden"] = true,
+	["us-Arkenstone-kiljaeden"] = true,
+	["us-Humping-kiljaeden"] = true,
+	["us-Flerpycast-kiljaeden"] = true,
+	["us-Virikas-sargeras"] = true,
+	["us-Kuwabara-kiljaeden"] = true,
+	["us-Chicknfinger-kiljaeden"] = true,
+	["us-Vothuglife-kiljaeden"] = true,
+	["us-Rammadon-kiljaeden"] = true,
+	["us-Ômgmyeyes-kiljaeden"] = true,
+	["us-Thorvir-kiljaeden"] = true,
+	["us-Masochistaa-kiljaeden"] = true,
+	["us-Zeldrís-kiljaeden"] = true,
+	["us-Brittania-kiljaeden"] = true,
+	["us-Happywalk-kiljaeden"] = true,
+	["us-Clorbid-kiljaeden"] = true,
+	["us-Hiredthug-kiljaeden"] = true,
+	["us-Yippie-kiljaeden"] = true,
+	["us-Norinako-kiljaeden"] = true,
+	["us-Skylàr-illidan"] = true,
+	["us-Goldengawd-kiljaeden"] = true,
+	["us-Véricose-kiljaeden"] = true,
+	["us-Joeexotic-kiljaeden"] = true,
+	["us-Hôbbz-kiljaeden"] = true,
+	["us-Kovenn-kiljaeden"] = true,
+	["us-Hozfarm-kiljaeden"] = true,
+	["us-Cristty-kiljaeden"] = true,
+}
+RaiderIO_MissingServers = {
+}
+RaiderIO_CachedRuns = nil
+RaiderIO_RWF = {
+}

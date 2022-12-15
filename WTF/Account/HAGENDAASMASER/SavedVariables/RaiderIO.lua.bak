@@ -1,0 +1,44 @@
+
+RaiderIO_Config = {
+}
+RaiderIO_LastCharacter = "us-Madkow-kiljaeden"
+RaiderIO_MissingCharacters = {
+	["us-Yaren-draenor"] = true,
+	["us-Yoomis-kiljaeden"] = true,
+	["us-Rent-kiljaeden"] = true,
+	["us-Shinrahn-tichondrius"] = true,
+	["us-Caiia-quelthalas"] = true,
+	["us-Syndrith-saurfang"] = true,
+	["us-Quixotik-saurfang"] = true,
+	["us-Araki-eldrethalas"] = true,
+	["us-Madkow-kiljaeden"] = true,
+	["us-Snaffu-area-52"] = true,
+	["us-Grimnmas-quelthalas"] = true,
+	["us-Jahbu-zuljin"] = true,
+	["us-Dragonbane-kiljaeden"] = true,
+	["us-Brazzar-kiljaeden"] = true,
+	["us-Terrault-kiljaeden"] = true,
+	["us-Skexis-exodar"] = true,
+	["us-Valeree-proudmoore"] = true,
+	["us-Polydektus-kiljaeden"] = true,
+	["us-Saribro-kiljaeden"] = true,
+	["us-Gandrah-magtheridon"] = true,
+	["us-Vesserus-zuljin"] = true,
+	["us-Synris-frostwolf"] = true,
+	["us-Ishida-baelgun"] = true,
+	["us-Malidomaa-kiljaeden"] = true,
+	["us-Lilflipsy-kiljaeden"] = true,
+	["us-Vaedorn-kiljaeden"] = true,
+	["us-Jantakurdis-wyrmrest-accord"] = true,
+	["us-Staffa-kiljaeden"] = true,
+	["us-Dellzora-illidan"] = true,
+	["us-Cowvengence-silvermoon"] = true,
+	["us-Endezan-saurfang"] = true,
+	["us-Vitruvianman-kiljaeden"] = true,
+	["us-Urzzul-blades-edge"] = true,
+}
+RaiderIO_MissingServers = {
+}
+RaiderIO_CachedRuns = nil
+RaiderIO_RWF = {
+}

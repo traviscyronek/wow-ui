@@ -1,0 +1,10 @@
+lightweight tag 8272e2a4787d40d8210c3d4e1a7b408127e10f2d v1.9.50
+Author:	GitHub <noreply@github.com>
+Date:	Tue Nov 29 12:50:44 2022 -0800
+
+commit 8272e2a4787d40d8210c3d4e1a7b408127e10f2d
+Author: Antonio Lobato <aj.lobato@gmail.com>
+Date:   Tue Nov 29 12:50:44 2022 -0800
+
+    Fixed itemlevel range for Dragonflight (#835)
+
