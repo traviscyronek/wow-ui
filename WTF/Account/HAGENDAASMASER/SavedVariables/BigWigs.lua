@@ -3,13 +3,37 @@ BigWigs3DB = {
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
 		},
+		["LibDualSpec-1.0"] = {
+		},
+		["BigWigs_Plugins_Sounds"] = {
+		},
+		["BigWigs_Plugins_AutoReply"] = {
+		},
+		["BigWigs_Plugins_Countdown"] = {
+			["profiles"] = {
+				["Default"] = {
+					["position"] = {
+						"CENTER", -- [1]
+						"CENTER", -- [2]
+						-222.3589935302734, -- [3]
+						-274.3587951660156, -- [4]
+					},
+				},
+			},
+		},
 		["BigWigs_Plugins_AltPower"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
-		["BigWigs_Plugins_BossBlock"] = {
+		["BigWigs_Plugins_InfoBox"] = {
+			["profiles"] = {
+				["Default"] = {
+					["posx"] = 386.2163859801512,
+					["posy"] = 228.3672203222704,
+				},
+			},
 		},
 		["BigWigs_Plugins_Bars"] = {
 			["profiles"] = {
@@ -26,17 +50,11 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
-		["BigWigs_Plugins_InfoBox"] = {
-			["profiles"] = {
-				["Default"] = {
-					["posx"] = 386.2163859801512,
-					["posy"] = 228.3672203222704,
-				},
-			},
+		["BigWigs_Plugins_Wipe"] = {
 		},
-		["BigWigs_Plugins_Sounds"] = {
+		["BigWigs_Plugins_BossBlock"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -48,10 +66,6 @@ BigWigs3DB = {
 					["width"] = 127.6926879882813,
 				},
 			},
-		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -65,21 +79,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
-		},
 		["BigWigs_Plugins_Pull"] = {
-		},
-		["BigWigs_Plugins_Countdown"] = {
-			["profiles"] = {
-				["Default"] = {
-					["position"] = {
-						"CENTER", -- [1]
-						"CENTER", -- [2]
-						-222.3589935302734, -- [3]
-						-274.3587951660156, -- [4]
-					},
-				},
-			},
 		},
 	},
 	["profileKeys"] = {

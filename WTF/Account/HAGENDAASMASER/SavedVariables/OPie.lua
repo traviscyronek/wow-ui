@@ -4,52 +4,26 @@ OPie_SavedData = {
 	["CharProfiles"] = {
 	},
 	["_GameVersion"] = "10.0.2",
-	["_OPieVersion"] = "Yuzu 3 (4.111)",
+	["_OPieVersion"] = "Yuzu 4 (4.112)",
 	["ProfileStorage"] = {
 		["default"] = {
-			["RotationTokens"] = {
-				["OPCTAt"] = "OPCHSdo",
-			},
 			["Bindings"] = {
 				["RaidSymbols"] = "SHIFT-A",
-				["SpecMenu"] = "SHIFT-H",
-				["WorldMarkers"] = "CTRL-A",
 				["OPieTracking"] = false,
+				["OPieAutoQuest"] = "SHIFT-Q",
+				["WorldMarkers"] = "CTRL-A",
 				["CommonTrades"] = false,
 				["food"] = "SHIFT-N",
 				["travel"] = "CTRL-H",
-				["OPieAutoQuest"] = "SHIFT-Q",
+				["SpecMenu"] = "SHIFT-H",
+			},
+			["RotationTokens"] = {
+				["OPCTAt"] = "OPCHSh",
 			},
 		},
 	},
 	["PersistentStorage"] = {
 		["RingKeeper"] = {
-			["food"] = {
-				{
-					"item", -- [1]
-					113509, -- [2]
-					["sliceToken"] = "ABuevj7K7bJ",
-				}, -- [1]
-				{
-					"item", -- [1]
-					173859, -- [2]
-					["sliceToken"] = "ABuevj7K7bu",
-				}, -- [2]
-				{
-					"item", -- [1]
-					172041, -- [2]
-					["sliceToken"] = "ABuevj7K7by",
-				}, -- [3]
-				{
-					"item", -- [1]
-					172043, -- [2]
-					["sliceToken"] = "ABuevj7K7bt",
-				}, -- [4]
-				["limit"] = "Madkow-Kil'jaeden",
-				["save"] = true,
-				["hotkey"] = "SHIFT-N",
-				["name"] = "consumables",
-			},
 			["SpecMenu"] = {
 				{
 					"specset", -- [1]
@@ -105,6 +79,32 @@ OPie_SavedData = {
 				["name"] = "Specializations and Travel",
 				["save"] = true,
 				["hotkey"] = "ALT-H",
+			},
+			["food"] = {
+				{
+					"item", -- [1]
+					113509, -- [2]
+					["sliceToken"] = "ABuevj7K7bJ",
+				}, -- [1]
+				{
+					"item", -- [1]
+					173859, -- [2]
+					["sliceToken"] = "ABuevj7K7bu",
+				}, -- [2]
+				{
+					"item", -- [1]
+					172041, -- [2]
+					["sliceToken"] = "ABuevj7K7by",
+				}, -- [3]
+				{
+					"item", -- [1]
+					172043, -- [2]
+					["sliceToken"] = "ABuevj7K7bt",
+				}, -- [4]
+				["limit"] = "Madkow-Kil'jaeden",
+				["save"] = true,
+				["hotkey"] = "SHIFT-N",
+				["name"] = "consumables",
 			},
 			["travel"] = {
 				{

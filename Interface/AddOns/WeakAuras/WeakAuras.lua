@@ -2905,6 +2905,7 @@ local function pAdd(data, simpleChange)
       end
     end
     Private.UpdatedTriggerState(id)
+    Private.callbacks:Fire("Add", data.uid, data.id, data, simpleChange)
   else
     Private.DebugLog.SetEnabled(data.uid, data.information.debugLog)
 
@@ -3013,6 +3014,7 @@ local function pAdd(data, simpleChange)
     end
 
     Private.UpdateSoundIcon(data)
+    Private.callbacks:Fire("Add", data.uid, data.id, data, simpleChange)
   end
 end
 
@@ -3611,6 +3613,7 @@ function Private.PerformActions(data, when, region)
   end
 end
 
+--- @type fun(id: auraId): auraData?
 function WeakAuras.GetData(id)
   return id and db.displays[id];
 end
@@ -3787,14 +3790,6 @@ local function UpdateMouseoverTooltip(region)
 end
 
 function Private.ShowMouseoverTooltip(region, owner)
-  if region:IsAnchoringRestricted() then
-    local data = region.id and WeakAuras.GetData(region.id)
-    if data then
-      Private.AuraWarnings.UpdateWarning(data.uid, "anchoring", "warning", L["This aura tried to show a tooltip on a anchoring restricted region"])
-    end
-    return
-  end
-
   currentTooltipRegion = region;
   currentTooltipOwner = owner;
 

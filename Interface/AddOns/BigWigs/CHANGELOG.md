@@ -1,7 +1,13 @@
 # BigWigs
 
-## [v254.3](https://github.com/BigWigsMods/BigWigs/tree/v254.3) (2022-12-04)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v254.2...v254.3) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v255](https://github.com/BigWigsMods/BigWigs/tree/v255) (2022-12-15)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v254.5...v255) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- Update ptBR (#1296)  
-- Plugins/BossBlock: Brackenhide, Ruby Life Pools, Nokhud talking heads (#1297)  
+- bump version  
+- Update koKR (#1299)  
+- VaultOfTheIncarnates/SennarthTheColdBreath: Fix Suffocating Webs cast spellid  
+- Core/BossPrototype: More informative error when trying to display invalid raid markers on players in a TargetsMessage  
+- VaultOfTheIncarnates/Locales: Remove unused locale  
+- VaultOfTheIncarnates/Terros: Minor fixes  
+- VaultOfTheIncarnates/DatheaAscended: Timer updates  
+- VaultOfTheIncarnates/Eranog: Timer updates  

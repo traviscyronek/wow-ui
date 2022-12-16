@@ -12,9 +12,9 @@
 ## Notes-itIT: Aggiungi oggetti di teletrasporto ai gruppi virtuali di AdiBags
 ## Notes-frFR: Ajoute différents objets de type Pierre de foyer aux groupes virtuels d'AdiBags
 
-## Version: 2.01
+## Version: 2.02
 ## Author: Sygon of Lightbringer-US (Crimson Embers, Alliance)
-## X-Date: 2022-12-01T06:53:11Z
+## X-Date: 2022-12-13T18:27:05Z
 ## X-License: Copyright © 2022 Paul Vandersypen. All Rights Reserved
 ## X-Category: Bags & Inventory
 ## Dependencies: AdiBags

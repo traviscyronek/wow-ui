@@ -7,6 +7,7 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
+L['elite_loot_385'] = ns.color.Orange('Ce rare peut laisser tomber du butin ayant un ilvl plus élevé que la normale !')
 L['gem_cluster_note'] = 'L\'objet requis peut être trouvé au Renom 21 avec l\'Expédition du Dracaret dans les Paquetages d\'éclaireurs de l\'expédition et les Poussières dérangées.'
 
 L['options_icons_bonus_boss'] = 'Élites bonus'
@@ -29,11 +30,11 @@ L['chunk_of_sculpture_note'] = 'Sur le sol, près de la statue du dragon sur la 
 L['dislodged_dragoneye_note'] = 'Sur un rocher sous le coffre de la statue du dragon.'
 L['finely_carved_wing_note'] = 'Sous le genou droit de la statue du dragon.'
 L['fragment_requirement_note'] = ns.color.Red('Avant de pouvoir collecter les morceaux brisés, vous devez demander à {npc:193915} à l\'|cFFFFFD00Ambassade de Trêve-Ailée|r près de la statue du dragon ce qu\'elle fait ici.')
-L['golden_claw_note'] = 'Au niveau de la griffe arrière gauche de la statue du dragon.'
+L['golden_claw_note'] = 'Au niveau de la griffe arrière droite de la statue du dragon.'
 L['precious_stone_fragment_note'] = 'Sous le pied droit de la statue.'
 L['stone_dragontooth_note'] = 'Sur le sol, à côté du piédestal de la statue du dragon.'
 L['tail_fragment_note'] = 'Sur la queue de la statue du dragon.'
-L['wrapped_gold_band_note'] = 'Sous la griffe arrière droite de la statue du dragon.'
+L['wrapped_gold_band_note'] = 'Sous la griffe arrière gauche de la statue du dragon.'
 L['options_icons_fragment'] = '{achievement:16323}'
 L['options_icons_fragment_desc'] = 'Afficher les emplacements des morceaux brisés pour le haut-fait {achievement:16323}.'
 
@@ -58,23 +59,30 @@ L['options_icons_dragonrace_desc'] = 'Afficher les emplacements des Courses du V
 
 L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, pas sur les familiers de combat.'
 L['options_icons_squirrels'] = '{achievement:16729}'
-L['options_icons_squirrels_desc'] = 'Afficher les emplacements des bestioles pour {achievement:16729}.'
+L['options_icons_squirrels_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:16729}.'
 
 L['hnj_sublabel'] = 'Nécessite une Grande chasse Shikaar à proximité'
 L['hnj_western_azure_span_hunt'] = 'Au sommet de l\'arbre mort.'
+L['hnj_northern_thaldraszus_hunt'] = ns.color.Orange('Note : Lorsque l\'événement de chasse commence, vous devez le rejoindre rapidement. Si vous tardez, il sera tué par des monstres sauvages.')
 L['options_icons_hemet_nesingwary_jr'] = '{achievement:16542}'
 L['options_icons_hemet_nesingwary_jr_desc'] = 'Afficher les emplacements d\'{npc:194590} pour le haut-fait {achievement:16542}.'
 
-L['pretty_neat_selfie_note'] = 'Prenez une photo avec l\'appareil P.R.O.F.I.L.'
-L['bugged_selfie'] = '|cFFFF0000(BUG : Le mauvais PNJ ou aucun PNJ ne sera détecté.)|r'
-L['options_icons_pretty_neat_selfie'] = '{achievement:16446}'
-L['options_icons_pretty_neat_selfie_desc'] = 'Affichez les emplacements des PNJ pour le haut-fait {achievement:16446}.'
+L['pretty_neat_note'] = 'Prenez une photo avec l\'appareil P.R.O.F.I.L.'
+L['pretty_neat_note_blazewing'] = 'Peut être trouvé pendant le combat de boss contre la {npc:189901} dans le donjon ' .. ns.color.Yellow('Neltharus') .. '.'
+L['options_icons_pretty_neat'] = '{achievement:16446}'
+L['options_icons_pretty_neat_desc'] = 'Affichez les emplacements des PNJ pour le haut-fait {achievement:16446}.'
+
+L['large_lunker_sighting'] = 'Coin de pêche rohart à gros malabar'
+L['large_lunker_sighting_note'] = 'Utilisez 5x {item:194701} pour invoquer soit un {npc:192919} soit un rare.'
+
+L['options_icons_legendary_album'] = '{achievement:16570}'
+L['options_icons_legendary_album_desc'] = 'Afficher les emplacements des personnalités légendaires pour le haut-fait {achievement:16570}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['brackenhide_rare_note'] = 'L\'apparition de ce rare sera annoncée dans le chat si vous vous trouvez dans la zone du |cFFFFFD00Creux des Fougerobes|r.'
+L['brackenhide_rare_note'] = 'Ces rares apparaissent selon une rotation fixe comme suit : {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} avec un intervalle de 10 minutes entre chacun.'
 L['fisherman_tinnak_note'] = 'Récupérez la |cFFFFFD00Canne à pêche cassée|r, le |cFFFFFD00Filet de pêche déchiré|r et le |cFFFFFD00Vieux harpon|r pour faire apparaître le rare.'
 L['spellwrought_snowman_note'] = 'Récupérez 10x {npc:193424} et amenez-les au {npc:193242}.'
 L['trilvarus_loreweaver_note'] = 'Récupérez un |cFFFFFD00Fragment chantant|r pour obtenir {spell:382076} et utilisez le |cFFFFFD00Focalisateur déchargé|r pour faire apparaître le rare.'
@@ -86,6 +94,9 @@ L['gnoll_fiend_flail_note'] = 'La {item:199066} peut être trouvée dans les Paq
 L['pepper_hammer_note'] = 'Récupérez la |cFFFFFD00Sève|r et utilisez le |cFFFFFD00Bâton|r pour attirer le {npc:195373}.\n\n|cFFFF0000(BUG : Pour cliquer sur le bâton, un rechargement peut être nécessaire)|r'
 L['snow_covered_scroll'] = 'Parchemin couvert de neige'
 
+L['pm_engi_frizz_buzzcrank'] = 'Il se tient à côté d\'un sanctuaire.'
+L['pm_jewel_pluutar'] = 'A l\'intérieur du bâtiment.'
+L['pm_script_lydiara_whisperfeather'] = 'Assise sur un banc.'
 L['pt_alch_experimental_decay_sample_note'] = 'A l\'intérieur d\'un grand chaudron vert.'
 L['pt_alch_firewater_powder_sample_note'] = 'À l\'extérieur d\'une maison en rondins, près d\'un vase.'
 L['pt_ench_enriched_earthen_shard_note'] = 'Sur un tas de pierres.'
@@ -106,8 +117,17 @@ L['leyline_note'] = 'Réalignez la ligne tellurique.'
 L['options_icons_layline'] = '{achievement:16638}'
 L['options_icons_layline_desc'] = 'Afficher les emplacements de toutes les lignes telluriques pour le haut-fait {achievement:16638}.'
 
+L['river_rapids_wrangler_note'] = 'Parlez à {npc:186157} et sélectionnez "J\'aimerais refaire une descente des rapides". Vous avez 60 secondes pour récupérer 40x charges de {spell:373490}.'
 L['seeing_blue_note'] = 'Volez du sommet des archives d’Azur jusqu’à l’assemblée de Cobalt sans atterrir.'
 L['snowman_note'] = 'Il y a trois {npc:197599s} dans la zone (elles ont pu être déplacées par d\'autres joueurs), faites-les rouler vers les deux enfants {npc:197838} et {npc:197839}.\nVous obtenez le haut-fait lorsque les boules de neige ont la bonne taille.'
+
+L['snowclaw_cub_note_start'] = 'Vous devez terminer la suite de quêtes {quest:67094} donnée par {npc:192522} à |cFFFFFD00Valdrakken|r pour obtenir le titre de |cFFFFFD00Dryade honoraire|r.\n\nRassemblez les objets suivants :'
+L['snowclaw_cub_note_item1'] = 'Récupérez 3x {item:197744} sur divers {npc:182559} aux |cFFFFFD00Rivages de l’Éveil|r.'
+L['snowclaw_cub_note_item2'] = 'Achetez 1x {item:198356} à la {npc:193310} aux |cFFFFFD00Rivages de l’Éveil|r.'
+L['snowclaw_cub_note_end'] = ns.color.Orange('Tous les objets peuvent être achetés à l\'hôtel des ventes. Ceci est particulièrement utile si vous n\'avez pas facilement accès à un {item:199215} qui est nécessaire pour acheter des objets à la {npc:193310}.') .. '\n\nUne fois le titre |cFFFFFD00Dryade honoraire|r équipé, offrez les 4 objets à l\'{npc:196768} pour recevoir votre mascotte.'
+
+L['tome_of_polymoph_duck'] = 'Utilisez {spell:1953} pour entrer dans la grotte et interagir avec le livre |cFFFFFD00La tempête de mana pour les novices|r pour terminer la quête.'
+
 L['temperamental_skyclaw_note'] = [[
 Rassemblez (ou achetez à l'hôtel des ventes) :
 
@@ -135,7 +155,7 @@ L['mysterious_wand_note'] = 'Ramassez la |cFFFFFD00Clé en cristal|r et placez-l
 -------------------------------------------------------------------------------
 
 L['hunter_of_the_deep_note'] = 'Cliquez sur le râtelier d\'armes et tirez sur les poissons jusqu\'à ce que le rare apparaisse.'
-L['scaleseeker_mezeri_note'] = 'Offrez un {item:194681} à {npc:193224} et elle révélera le rare.'
+L['scaleseeker_mezeri_note'] = 'Offrez un {item:194681} à {npc:193224} et suivez-la jusqu\'à ce qu\'elle révèle le rare.'
 L['shade_of_grief_note'] = 'Cliquez sur la {npc:193166} pour faire apparaître le rare.'
 L['windscale_the_stormborn_note'] = 'Tuez les {npc:192367s} canalisant dans l\'{npc:192357}.'
 L['zarizz_note'] = 'Cliquez et ' .. ns.color.Orange('/siffler') .. ' les quatre {npc:193169s} pour invoquer le rare.'
@@ -146,6 +166,9 @@ L['slightly_chewed_duck_egg_note'] = 'Trouvez et caressez {npc:192997} pour obte
 L['yennus_boat'] = 'Bateau jouet rohart'
 L['yennus_boat_note'] = 'Récupérez le |cFFFFFD00Bateau jouet rohart|r pour obtenir {item:200876}, ce qui lance la quête {quest:72063} qui peut être rendue à {npc:195252}.'
 
+L['pm_ench_shalasar_glimmerdusk'] = 'Au deuxième étage de la tour brisée.'
+L['pm_herb_hua_greenpaw'] = 'Agenouillée près d\'un arbre.'
+L['pm_leath_erden'] = 'Debout à côté d\'un {npc:193092} mort, près de la rivière.'
 L['pt_alch_canteen_of_suspicious_water_note'] = 'Au fond d\'une grotte, près d\'un {npc:194887} mort.'
 L['pt_ench_stormbound_horn_note'] = 'A la |cFFFFFD00Cime Chant-du-Vent|r.'
 L['pt_jewel_fragmented_key_note'] = 'Sous les racines d\'un arbre dans un bâtiment en ruine.'
@@ -184,11 +207,16 @@ L['dreamguard_note'] = 'Ciblez le Garde-rêve et ' .. ns.color.Orange('/dormir')
 L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Afficher les emplacements des Gardes-rêves pour {achievement:16574}'
 
+L['khadin_note'] = 'Échangez les {item:191784} contre de la connaissance de métiers.'
+L['the_great_swog_note'] = 'Échangez des {item:199338}, {item:199339} et {item:199340} contre des {item:202102}.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
 
+L['ancient_protector_note'] = 'Tuez des {npc:193244} proches pour obtenir {item:197708}. Combinez 5 {item:197708} pour créer un {item:197733} et utilisez-le pour activer les Réacteurs titanesques à proximité.'
 L['blightpaw_note'] = 'Parlez à l\'{npc:193222} à proximité et acceptez de l\'aider.'
+L['corrupted_proto_dragon_note'] = 'Examinez l\'|cFFFFFD00Oeuf de dragon corrompu|r pour faire apparaître le rare.'
 L['weeping_vilomah_note'] = 'Parlez à {npc:193206} pour invoquer le rare.'
 L['woofang_note'] = 'Caressez {npc:193156} pour faire apparaître le rare.'
 
@@ -198,6 +226,8 @@ L['sandy_wooden_duck_note'] = 'Récupérez {item:199069} et utilisez-la.'
 
 L['tasty_hatchling_treat_note'] = 'Dans un tonneau derrière l\'étagère.'
 
+L['pm_mining_bridgette_holdug'] = 'Au sommet d\'un pilier de roche couvert d\'herbe.'
+L['pm_tailor_elysa_raywinder'] = 'Sur une corniche à mi-hauteur de la tour.'
 L['pt_alch_contraband_concoction_note'] = 'Caché dans les buissons. ' .. ns.color.Orange('Difficile à voir.')
 L['pt_alch_furry_gloop_note'] = 'Jetez un {npc:194855} proche dans chaque chaudron puis tuez le monstre qui apparaît.'
 L['pt_ench_fractured_titanic_sphere_note'] = 'Au sud du |cFFFFFD00Bastion de Tyr|r.'
@@ -210,17 +240,33 @@ L['pt_script_how_to_train_your_whelpling_note'] = 'Un petit livre marron posé d
 L['pt_smith_draconic_flux_note'] = 'A l\'intérieur d\'un bâtiment.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Cliquez sur le |cFFFFFD00Rouet tisse-dragon ancien|r pour effectuer un mini-jeu où vous devez relier les bobines de fil à la gemme centrale.'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Une petite bannière dans un tas de sable.'
-L['pt_mining_bridgette_holdug'] = 'Au sommet d\'un pilier de roche couvert d\'herbe.'
+
+L['picante_pomfruit_cake_note'] = '{item:200904} n\'est pas disponible tous les jours, alors revenez quotidiennement à l\'|cFF00CCFFEnclave de Rubis|r. Pendant que vous y êtes, n\'oubliez pas de goûter les 3 plats disponibles pour obtenir {achievement:16556}.'
+L['icecrown_bleu_note'] = 'Achetez auprès de {npc:196729} ' .. ns.color.NPC('<Fromager>') .. ' au |cFF00CCFFMarché d’artisanat|r.'
+L['dreamwarding_dripbrew_note'] = 'Achetez auprès de {npc:197872} ' .. ns.color.NPC('<Caféinomancien>') .. ' au |cFFFFFD00Laboratoire de nuit|r.'
+L['arcanostabilized_provisions_note'] = 'Achetez auprès de {npc:198831} ' .. ns.color.NPC('<Cuisinière en chef>') .. ' à la |cFF00CCFFConfluence Temporelle|r dans |cFF00CCFFL’avenir des Primalistes|r.'
+L['steamed_scarab_steak_note'] = 'Achetez auprès de {npc:197586} ' .. ns.color.NPC('<Tavernière du spa>') .. ' au |cFFFFFD00Spa « Rêves sereins »|r.'
+L['craft_creche_crowler_note'] = 'Achetez auprès de {npc:187444} ' .. ns.color.NPC('<Vendeur de breuvages draconiques itinérant>') .. ' étant situé dans ces zones aléatoires chaque jour : |cFFFFFD00Sanctuaire de l’Essence rubis|r, |cFFFFFD00Auberge Vertécaille|r, |cFFFFFD00Camp Nulle-Part|r, |cFF00CCFFConfluence Temporelle|r.'
+L['bivigosas_blood_sausages_note'] = 'Achetez auprès de l\'{npc:188895} ' .. ns.color.NPC('<Nourriture et boissons>') .. ' au |cFFFFFD00Poste Gelikyr|r.'
+L['options_icons_specialties'] = '{achievement:16621}'
+L['options_icons_specialties_desc'] = 'Afficher les emplacements des aliments et boissons pour le haut-fait {achievement:16621}.'
+L['options_icons_new_perspective'] = '{achievement:16634}'
+L['options_icons_new_perspective_desc'] = 'Afficher les emplacements des panoramas pour le haut-fait {achievement:16634}.'
+L['new_perspective_note'] = 'Prenez une photo du panorama avec l\'Appareil P.R.O.F.I.L. L\'emplacement sera marqué par un cercle lumineux violet dès que vous aurez activé le mode appareil photo.\n\nSi vous n\'obtenez pas de crédit pour ce haut-fait, modifiez la perspective.'
+L['ruby_feast_gourmand'] = 'Chaque jour, un chef invité au hasard sert des plats et des boissons variés.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = 'La Troupe Qalashi voyage sur leur {npc:192737} jusqu\'à cette tour.'
+L['captain_lancer_note'] = 'Apparaît immédiatement après avoir terminé l\'événement du {spell:388945}.'
+L['enkine_note'] = 'Tuez des {npc:193137}, {npc:193138} ou {npc:193139} le long de la rivière de lave pour obtenir les {item:201092}, utilisez-les et pêchez près de la {npc:191866} dans la lave.'
 L['lepidoralia_note'] = 'Situé dans la |cFFFFFD00Caverne Bruissante|r. Aidez le {npc:193342} à attraper des {npc:193274s} jusqu\'à ce que le rare apparaisse.'
 L['obsidian_citadel_rare_note'] = 'Vous et d\'autres joueurs devez rapporter un total de %dx {item:191264} à %s. Pour fabriquer une clé, vous devez combiner 30x {item:191251} et 3x {item:193201}. Vous pouvez obtenir ces objets sur les monstres de la |cFFFFFD00Citadelle d\'obsidienne|r.'
 L['shadeslash_note'] = 'Cliquez sur le |cFFFFFD00Focalisateur volé|r pour invoquer le rare.'
 L['obsidian_throne_rare_note'] = 'À l\'intérieur du |cFFFFFD00Trône d\'obsidienne|r.'
+L['skald_impaler_note'] = 'Utilisez 5x {item:194701} pour invoquer le rare.'
 L['slurpo_snail_note'] = 'Récupérez un {item:201033} dans une grotte de |cFFFFFD00La Travée d\'Azur|r (11, 41) et utilisez-le dans cette grotte pour l\'invoquer.'
 L['worldcarver_atir_note'] = 'Récupérez 3x {item:191211} sur les {npc:187366} à proximité et placez-les sur les {npc:197395} pour faire apparaître le rare.'
 
@@ -242,6 +288,9 @@ Récupérez trois items différents et combinez-les à |cFFFFFD00"l\'Énigmes sa
 {item:200066}
 ]]
 
+L['pm_alch_grigori_vialtry'] = 'Sur une corniche surplombant l\'|cFFFFFD00Assaut de Givréclair|r.'
+L['pm_skin_zenzi'] = 'Assise à côté de la rivière.'
+L['pm_smith_grekka_anvilsmash'] = 'Elle est assise dans l\'herbe à côté de la tour en ruines.'
 L['pt_alch_frostforged_potion_note'] = 'Au milieu du cratère gelé.'
 L['pt_alch_well_insulated_mug_note'] = 'Dans le |cFFFFFD00Donjon du Fléau-des-Dragons|r entre un groupe de monstres élites.'
 L['pt_ench_enchanted_debris_note'] = 'Utilisez et suivez le {npc:194872} pour récupérer les débris à la fin.'
@@ -261,7 +310,6 @@ L['pt_smith_molten_ingot_note'] = 'Envoyez 3 lingots dans la lave pour faire app
 L['pt_smith_qalashi_weapon_diagram_note'] = 'Au sommet d\'une enclume.'
 L['pt_tailor_itinerant_singed_fabric_note'] = 'Un morceau de tissu accroché à un arbre juste à l\'extérieur de la grotte où le boss final apparaît.' .. ns.color.Orange('Nécessite de la précision avec le Vol à dos de Dragon ou bien un portail de démoniste.')
 L['pt_tailor_mysterious_banner_note'] = 'Flottant sur le toit des bâtiments.'
-L['pt_smith_grekka_anvilsmash'] = 'Elle est assise dans l\'herbe à côté de la tour en ruines.\n\n|cFFFF0000(Actuellement buggé.)|r'
 
 L['quack_week_1'] = 'Semaine 1'
 L['quack_week_2'] = 'Semaine 2'
@@ -282,3 +330,29 @@ L['options_icons_chiseled_record_desc'] = 'Afficher les emplacements des tablett
 L['grand_theft_mammoth_note'] = 'Chevauchez le {npc:194625} jusqu\'au {npc:198163}.\n\n|cFFFF0000(BUG : Si vous ne pouvez pas interagir avec le {npc:194625}, essayez un /reload.)|r'
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
 L['options_icons_grand_theft_mammoth_desc'] = 'Afficher les emplacements des {npc:194625s} pour le haut-fait {achievement:16493}.'
+
+L['options_icons_stories'] = '{achievement:16406}'
+L['options_icons_stories_desc'] = 'Afficher les emplacements des quêtes pour le haut-fait {achievement:16406}.'
+L['all_sides_of_the_story_garrick_and_shuja_note'] = 'Commencez la suite de quêtes et écoutez l\'histoire de {npc:184449} et {npc:184451}.'
+L['all_sides_of_the_story_duroz_and_kolgar_note'] = 'Dans une petite pièce sous la plate-forme.\n\nCommencez la suite de quêtes et écoutez l\'histoire de {npc:194800} et {npc:194801}. D\'autres quêtes seront débloquées dans les deux semaines suivantes.'
+L['all_sides_of_the_story_tarjin_note'] = 'Commencez la suite de quêtes avec {quest:70779}.\n{npc:196214} vous racontera une autre histoire chaque semaine.'
+L['all_sides_of_the_story_veritistrasz_note'] = 'Commencez la quête {quest:70132} pour écouter toutes les histoires de {npc:194076}.\nEnsuite, vous débloquerez {quest:70134} puis {quest:70268}.\n\nPour la dernière quête, vous aurez besoin du {item:198661} qui se trouve à l\'intérieur du ' .. ns.color.Yellow('Donjon du Fléau-des-Dragons') .. '.'
+
+L['slumbering_worldsnail_note1'] = [[
+1. Récupérez 3x {item:193201} et 30x {item:191251} sur les monstres se trouvant dans la |cFFFFFD00Citadelle d'Obsidienne|r pour créer une {item:191264}.
+
+2. Échangez la {item:191264} contre une {item:200069} à {npc:187275}.
+
+3. Il y a 30% de chances que le coffre contienne un {item:199215}.
+
+4. Utiliser l'abonnement vous donnera le débuff {spell:386848} qui vous permettra de farmer des {item:202173} dans la |cFFFFFD00Citadelle d'Obsidienne|r.
+
+5. Rassemblez 1000x {item:202173} pour acheter la {item:192786}.]]
+
+L['slumbering_worldsnail_note2'] = ns.color.Orange('Note : Si vous mourrez, vous perdrez votre debuff d\'abonnement. Vous pouvez acheter un nouvel abonnement auprès de {npc:193310} pour 20x {item:202173} avant de mourir ou bien vous devrez apporter d\'autres clés pour avoir une chance d\'obtenir un nouvel abonnement dans le coffre.')
+
+L['magmashell_note'] = 'Récupérez une {item:201883} sur les {npc:193138} dans la |cFFFFFD00Citadelle d\'Obsidienne|r et apportez-la à l\'{npc:199010}.\n\n' .. ns.color.Orange('Il y aura un sort canalisé pendant 20 secondes une fois dans la lave pour obtenir la monture, il est donc recommandé de faire appel à un soigneur ou quelque chose comme la {item:200116}.')
+
+L['options_icons_safari'] = '{achievement:16519}'
+L['options_icons_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:16519}.'
+L['shyfly_note'] = 'Vous devez avoir la quête {quest:70853} pour voir les {npc:189102}.'
