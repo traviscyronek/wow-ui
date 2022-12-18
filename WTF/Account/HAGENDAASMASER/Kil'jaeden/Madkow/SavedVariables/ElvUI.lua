@@ -2,316 +2,360 @@
 ElvCharacterDB = {
 	["ConvertKeybindings"] = true,
 	["ChatEditHistory"] = {
-		"/adibags", -- [1]
-		"/p hey", -- [2]
-		"/p need neck/", -- [3]
-		"/beg", -- [4]
-		"/p tyty", -- [5]
-		"/p do mechs", -- [6]
-		"/p do we always start phased differently?", -- [7]
-		"/p crickets", -- [8]
-		"/p almost there", -- [9]
-		"/p fishing nearby", -- [10]
-		"/p hmm, k", -- [11]
-		"/p couldn't interact with anything last time", -- [12]
-		"/p we have to kill the add faster", -- [13]
-		"/p we're just letting him run up to the lance and disable it", -- [14]
-		"/p what is this damange", -- [15]
-		"/p need to keep them together", -- [16]
-		"/p ancestral bond", -- [17]
-		"/p damage increased when apart", -- [18]
-		"/p you can see wheere he jumps to", -- [19]
-		"/p to predict where to go", -- [20]
+		"/p yea srry", -- [1]
+		"/p was slow", -- [2]
+		"/p the spouts push you back up", -- [3]
+		"/p 1%", -- [4]
+		"/p i'd run it back", -- [5]
+		"/p ah what", -- [6]
+		"/p jesus that's a lot of dam", -- [7]
+		"/p mana", -- [8]
+		"/p yea", -- [9]
+		"/p ran out on SL shit", -- [10]
+		"/p kk we good", -- [11]
+		"/p nobody sitting in link", -- [12]
+		"/p ah damn", -- [13]
+		"/p r", -- [14]
+		"/p fack", -- [15]
+		"/p don't think i got enough sustain hps", -- [16]
+		"/p i gotta plant and hard cast", -- [17]
+		"/p airght", -- [18]
+		"/p don't think i got the gear to keep you up", -- [19]
+		"/p srry all", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"hey", -- [1]
-			"Madkow-Kil'jaeden", -- [2]
+			"off by 1 % fuck", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Madkow-Kil'jaeden", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			594, -- [11]
-			"Player-9-0007E692", -- [12]
+			1450, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671136772,
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671323088,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [1]
 		{
-			"Mind summoning? ", -- [1]
-			"Foxyy-TwistingNether", -- [2]
+			"Omen of Death on Breecehall", -- [1]
+			"Breecehall-Thrall", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Foxyy-TwistingNether", -- [5]
+			"Breecehall-Thrall", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			598, -- [11]
-			"Player-163-0B8AD6BC", -- [12]
+			1452, -- [11]
+			"Player-3678-0D594ED8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8788eeFoxyy-TwistingNether|r",
-			[51] = 1671136833,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff8788eeBreecehall-Thrall|r",
+			[51] = 1671323102,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [2]
 		{
-			"Inc", -- [1]
-			"Starlie-Kilrogg", -- [2]
+			"ggs", -- [1]
+			"Verknoxx-Area52", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Starlie-Kilrogg", -- [5]
+			"Verknoxx-Area52", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			601, -- [11]
-			"Player-4-0BCE0D4D", -- [12]
+			1461, -- [11]
+			"Player-3676-0E01227D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aStarlie-Kilrogg|r",
-			[51] = 1671136843,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa330c9Verknoxx-Area52|r",
+			[51] = 1671323172,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [3]
 		{
-			"I just remembered I have WM on, but I am here", -- [1]
-			"Dexxterr-Uldum", -- [2]
+			"1%", -- [1]
+			"Madkow-Kil'jaeden", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dexxterr-Uldum", -- [5]
+			"Madkow-Kil'jaeden", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			603, -- [11]
-			"Player-84-09F4A1E2", -- [12]
+			1462, -- [11]
+			"Player-9-0007E692", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Dexxterr-Uldum|r",
-			[51] = 1671136850,
+			[52] = "|cff0070ddMadkow|r",
+			[51] = 1671323177,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [4]
 		{
-			"sorry lagging a little", -- [1]
-			"Doomshadow-Kilrogg", -- [2]
+			"no we need %", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Doomshadow-Kilrogg", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			720, -- [11]
-			"Player-4-0003BF20", -- [12]
+			1463, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaDoomshadow-Kilrogg|r",
-			[51] = 1671137869,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671323179,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [5]
 		{
-			"need neck/", -- [1]
-			"Madkow-Kil'jaeden", -- [2]
+			"yo", -- [1]
+			"Breecehall-Thrall", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Madkow-Kil'jaeden", -- [5]
+			"Breecehall-Thrall", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			758, -- [11]
-			"Player-9-0007E692", -- [12]
+			1464, -- [11]
+			"Player-3678-0D594ED8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671138054,
+			[52] = "|cff8788eeBreecehall-Thrall|r",
+			[51] = 1671323182,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [6]
 		{
-			"I do not ", -- [1]
-			"Foxyy-TwistingNether", -- [2]
+			"take the port", -- [1]
+			"Breecehall-Thrall", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Foxyy-TwistingNether", -- [5]
+			"Breecehall-Thrall", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			767, -- [11]
-			"Player-163-0B8AD6BC", -- [12]
+			1465, -- [11]
+			"Player-3678-0D594ED8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8788eeFoxyy-TwistingNether|r",
-			[51] = 1671138159,
+			[52] = "|cff8788eeBreecehall-Thrall|r",
+			[51] = 1671323184,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [7]
 		{
-			"tyty", -- [1]
-			"Madkow-Kil'jaeden", -- [2]
+			"right", -- [1]
+			"Verknoxx-Area52", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Madkow-Kil'jaeden", -- [5]
+			"Verknoxx-Area52", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			770, -- [11]
-			"Player-9-0007E692", -- [12]
+			1466, -- [11]
+			"Player-3676-0E01227D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671138177,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa330c9Verknoxx-Area52|r",
+			[51] = 1671323184,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [8]
 		{
-			"lagging does not work well in a gauntlet lol", -- [1]
-			"Doomshadow-Kilrogg", -- [2]
+			"guys", -- [1]
+			"Breecehall-Thrall", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Doomshadow-Kilrogg", -- [5]
+			"Breecehall-Thrall", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			807, -- [11]
-			"Player-4-0003BF20", -- [12]
+			1467, -- [11]
+			"Player-3678-0D594ED8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaDoomshadow-Kilrogg|r",
-			[51] = 1671138590,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff8788eeBreecehall-Thrall|r",
+			[51] = 1671323185,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [9]
 		{
-			"We need to kill the totems", -- [1]
-			"Starlie-Kilrogg", -- [2]
+			"fuck we have to run it?", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Starlie-Kilrogg", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			827, -- [11]
-			"Player-4-0BCE0D4D", -- [12]
+			1470, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aStarlie-Kilrogg|r",
-			[51] = 1671138723,
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671323223,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [10]
 		{
-			"lag gone!", -- [1]
-			"Doomshadow-Kilrogg", -- [2]
+			"idk", -- [1]
+			"Breecehall-Thrall", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Doomshadow-Kilrogg", -- [5]
+			"Breecehall-Thrall", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			829, -- [11]
-			"Player-4-0003BF20", -- [12]
+			1471, -- [11]
+			"Player-3678-0D594ED8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaDoomshadow-Kilrogg|r",
-			[51] = 1671138809,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff8788eeBreecehall-Thrall|r",
+			[51] = 1671323228,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [11]
 		{
-			"the totems are what kill us", -- [1]
-			"Doomshadow-Kilrogg", -- [2]
+			"at least we +3", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Doomshadow-Kilrogg", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			850, -- [11]
-			"Player-4-0003BF20", -- [12]
+			1472, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaDoomshadow-Kilrogg|r",
-			[51] = 1671139071,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671323243,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [12]
 		{
-			"do mechs", -- [1]
-			"Madkow-Kil'jaeden", -- [2]
+			"gg", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Madkow-Kil'jaeden", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			857, -- [11]
-			"Player-9-0007E692", -- [12]
+			1473, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671139160,
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671323244,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [13]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:16257:Player-9-0007E692:1:12:15:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Brackenhide Hollow]|h|r!", -- [1]
+			"i got |cffa335ee|Hkeystone:180653:400:8:10:6:14:0|h[Keystone: The Nokhud Offensive (8)]|h|r", -- [1]
+			"Verknoxx-Area52", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Verknoxx-Area52", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1474, -- [11]
+			"Player-3676-0E01227D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Verknoxx-Area52|r",
+			[51] = 1671323257,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [14]
+		{
+			"ya i can run that", -- [1]
+			"Pawnd-Illidan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Pawnd-Illidan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1475, -- [11]
+			"Player-57-0813215C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671323274,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [15]
+		{
+			"i'd run it back", -- [1]
 			"Madkow-Kil'jaeden", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -321,7 +365,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			869, -- [11]
+			1476, -- [11]
 			"Player-9-0007E692", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -329,737 +373,693 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671139268,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [14]
+			[51] = 1671323306,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [16]
 		{
-			"gj!", -- [1]
-			"Doomshadow-Kilrogg", -- [2]
+			"longest run of my life", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Doomshadow-Kilrogg", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			875, -- [11]
-			"Player-4-0003BF20", -- [12]
+			1477, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaDoomshadow-Kilrogg|r",
-			[51] = 1671139275,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [15]
-		{
-			"LF skilled crafter to make |cffa335ee|Hitem:193001::::::::70:577:::::::::|h[Elemental Lariat]|h|r", -- [1]
-			"Vybe-Kil'jaeden", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vybe-Kil'jaeden", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			888, -- [11]
-			"Player-9-0E2A1D6F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Vybe|r",
-			[51] = 1671139348,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"LFW |cffffd000|Htrade:Player-9-0E40166C:2018:164|h[Blacksmithing]|h|r Specialized in 1h/2h axes and maces and a caster sword. Also have BS and mining tools", -- [1]
-			"Tychodeadbro-Kil'jaeden", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tychodeadbro-Kil'jaeden", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			889, -- [11]
-			"Player-9-0E40166C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aTychodeadbro|r",
-			[51] = 1671139396,
-			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671323361,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [17]
 		{
-			"<Reforged> Selling M+ carries. +10s completed! Or Achievement runs! Full Guild Push Team Carry for Gold Only, DM for details ", -- [1]
-			"Creachy-Kil'jaeden", -- [2]
+			"we all staying for the +8", -- [1]
+			"Verknoxx-Area52", -- [2]
 			"", -- [3]
-			"5. Trade (Services) - City", -- [4]
-			"Creachy-Kil'jaeden", -- [5]
+			"", -- [4]
+			"Verknoxx-Area52", -- [5]
 			"", -- [6]
-			42, -- [7]
-			5, -- [8]
-			"Trade (Services) - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			890, -- [11]
-			"Player-9-0E3EF7C1", -- [12]
+			1490, -- [11]
+			"Player-3676-0E01227D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff33937fCreachy|r",
-			[51] = 1671139426,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa330c9Verknoxx-Area52|r",
+			[51] = 1671323417,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [18]
 		{
-			"Mail Specialized Leatherworker LFW!! Get your max rank Chest, Legs, or Shoulders and everything else rank 4!! Profession equipment, pvp gear, armor kits, and more! PST for link :)", -- [1]
-			"Creachy-Kil'jaeden", -- [2]
+			"I think yall were suppose to wait to open it lol", -- [1]
+			"Gorezul-Illidan", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Creachy-Kil'jaeden", -- [5]
+			"", -- [4]
+			"Gorezul-Illidan", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			891, -- [11]
-			"Player-9-0E3EF7C1", -- [12]
+			1491, -- [11]
+			"Player-57-0D62BA16", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff33937fCreachy|r",
-			[51] = 1671139426,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc69b6dGorezul-Illidan|r",
+			[51] = 1671323418,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [19]
 		{
-			"|cffffd100|HclubFinder:ClubFinder-1-1278-9-44492809|h[Guild: Ångst]|h|r LF Rng/Heal for raid groups Tues/Thur 7:30-10:30 server time. Building M+ groups as well! Casual/Social players welcome to join as well PST for more info or a inv to the guild.", -- [1]
-			"Evaunitheals-Kil'jaeden", -- [2]
+			"fuck we can't get through", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Evaunitheals-Kil'jaeden", -- [5]
+			"", -- [4]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			892, -- [11]
-			"Player-9-09CBE4A5", -- [12]
+			1493, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aEvaunitheals|r",
-			[51] = 1671139440,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671323418,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [20]
 		{
-			"LF skilled crafter to make |cffa335ee|Hitem:193001::::::::70:577:::::::::|h[Elemental Lariat]|h|r", -- [1]
-			"Vybe-Kil'jaeden", -- [2]
+			"LF LW for Tier5 Shoulders", -- [1]
+			"Koodiat-Kil'jaeden", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Vybe-Kil'jaeden", -- [5]
+			"Koodiat-Kil'jaeden", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			894, -- [11]
-			"Player-9-0E2A1D6F", -- [12]
+			1494, -- [11]
+			"Player-9-0DDBFE6C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa330c9Vybe|r",
-			[51] = 1671139497,
+			[52] = "|cff0070ddKoodiat|r",
+			[51] = 1671323424,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [21]
 		{
-			"LF anyone to make lariat ", -- [1]
-			"Sageth-Kil'jaeden", -- [2]
+			"this wall", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sageth-Kil'jaeden", -- [5]
+			"", -- [4]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			895, -- [11]
-			"Player-9-0E42C7BB", -- [12]
+			1495, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Sageth|r",
-			[51] = 1671139513,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671323426,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [22]
 		{
-			"lf pattern for lariat =p", -- [1]
-			"Sweetbracket-Kil'jaeden", -- [2]
+			"when you opened the chest it closed the wall", -- [1]
+			"Gorezul-Illidan", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sweetbracket-Kil'jaeden", -- [5]
+			"", -- [4]
+			"Gorezul-Illidan", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			896, -- [11]
-			"Player-9-0A83001D", -- [12]
+			1496, -- [11]
+			"Player-57-0D62BA16", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc7ebSweetbracket|r",
-			[51] = 1671139531,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc69b6dGorezul-Illidan|r",
+			[51] = 1671323426,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [23]
 		{
-			"|cffffd000|Htrade:Player-9-0E3DA96C:2018:164|h[Blacksmithing]|h|r get yer weapons here", -- [1]
-			"Warbound-Kil'jaeden", -- [2]
+			"WTS Mythic+10 for 398week Great and normal raid PL/armor type also exlusive loot, PST!!/1 v", -- [1]
+			"Gaeldikamai-Kil'jaeden", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Warbound-Kil'jaeden", -- [5]
+			"Gaeldikamai-Kil'jaeden", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			898, -- [11]
-			"Player-9-0E3DA96C", -- [12]
+			1497, -- [11]
+			"Player-9-0E4665D2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc41e3aWarbound|r",
-			[51] = 1671139595,
+			[52] = "|cffaad372Gaeldikamai|r",
+			[51] = 1671323438,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [24]
 		{
-			"LF BS to make Primal Molten Vambraces lvl 5", -- [1]
-			"Sìnful-Kil'jaeden", -- [2]
+			"ah what", -- [1]
+			"Madkow-Kil'jaeden", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sìnful-Kil'jaeden", -- [5]
+			"", -- [4]
+			"Madkow-Kil'jaeden", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			902, -- [11]
-			"Player-9-0E39B55D", -- [12]
+			1499, -- [11]
+			"Player-9-0007E692", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dSìnful|r",
-			[51] = 1671139725,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff0070ddMadkow|r",
+			[51] = 1671323442,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [25]
 		{
-			"LF skilled crafter to make |cffa335ee|Hitem:193001::::::::70:577:::::::::|h[Elemental Lariat]|h|r", -- [1]
-			"Vybe-Kil'jaeden", -- [2]
+			"ty", -- [1]
+			"Breecehall-Thrall", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vybe-Kil'jaeden", -- [5]
+			"", -- [4]
+			"Breecehall-Thrall", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			903, -- [11]
-			"Player-9-0E2A1D6F", -- [12]
+			1501, -- [11]
+			"Player-3678-0D594ED8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Vybe|r",
-			[51] = 1671139768,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8788eeBreecehall-Thrall|r",
+			[51] = 1671323446,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [26]
 		{
-			"WTS |cffa335ee|Hitem:193001::::::::70:62::13:2:3524:8795:2:40:260:38:7:::::|h[Elemental Lariat |A:Professions-ChatIcon-Quality-Tier4:17:17::1|a]|h|r Rank 4 guaranteed, Guaranteed rank 5 for extra fee!", -- [1]
-			"Jsbmage-Kil'jaeden", -- [2]
+			"LF tan skinned man to tend my garden", -- [1]
+			"Loccsocc-Kil'jaeden", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Jsbmage-Kil'jaeden", -- [5]
+			"Loccsocc-Kil'jaeden", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			46, -- [11]
-			"Player-9-0DCECF49", -- [12]
+			1503, -- [11]
+			"Player-9-0E4364D5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3fc7ebJsbmage|r",
-			[51] = 1671145292,
+			[52] = "|cff8788eeLoccsocc|r",
+			[51] = 1671323449,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [27]
 		{
-			"|cffffd000|Htrade:Player-9-07DB037A:195116:755|h[Jewelcrafting]|h|r LFW, I can make rank 5 Epic Rings |cffa335ee|Hitem:192999::::::::70:72::13:6:8836:8840:8902:8780:8802:8795:6:28:2164:29:40:30:49:38:8:40:258:48:194572:::::|h[Signet of Titanic Insight |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r or higher depending on mats used!", -- [1]
-			"Haytham-Kil'jaeden", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Haytham-Kil'jaeden", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			56, -- [11]
-			"Player-9-07DB037A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dHaytham|r",
-			[51] = 1671145375,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"nokhud offense mythic", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"nvm!", -- [1]
+			"Gorezul-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Gorezul-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			98, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1504, -- [11]
+			"Player-57-0D62BA16", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671145416,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [29]
+			[52] = "|cffc69b6dGorezul-Illidan|r",
+			[51] = 1671323461,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [28]
 		{
-			"does anyone know if the grand hunt spoils or w/e roll when given or when opened? cause if it's the latter imma save opening them til i'm max level and might get nice gear", -- [1]
-			"Mashenka-WyrmrestAccord", -- [2]
+			"Anyone who can craft |cffa335ee|Hitem:201945::::::::70:269::13:5:8851:8852:8800:8850:8795:7:28:2164:29:49:30:36:38:6:40:844:45:198059:46:194574::::Player-9-0E32E5ED:|h[Pioneer's Practiced Belt |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r 282?", -- [1]
+			"Youaregreat-Kil'jaeden", -- [2]
 			"", -- [3]
-			"1. General - Ohn'ahran Plains", -- [4]
-			"Mashenka-WyrmrestAccord", -- [5]
+			"2. Trade - City", -- [4]
+			"Youaregreat-Kil'jaeden", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Ohn'ahran Plains", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			101, -- [11]
-			"Player-1171-0A9B9F52", -- [12]
+			1506, -- [11]
+			"Player-9-0E43223F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffaad372Mashenka-WyrmrestAccord|r",
-			[51] = 1671145458,
+			[52] = "|cff00ff98Youaregreat|r",
+			[51] = 1671323472,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [29]
+		{
+			"LF JC to reforge 382 ring PST", -- [1]
+			"Leafsage-Kil'jaeden", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Leafsage-Kil'jaeden", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1507, -- [11]
+			"Player-9-01CE9EBB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aLeafsage|r",
+			[51] = 1671323493,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [30]
 		{
-			"ola", -- [1]
-			"Retbúl-BleedingHollow", -- [2]
+			"LF LW |cff0070dd|Hitem:201947::::::::70:262:::::::::|h[Trailblazer's Toughened Spikes]|h|r|cffa335ee|Hitem:198059::::::::70:262:::::::::|h[Titan Training Matrix IV]|h|r pst, tip good", -- [1]
+			"Koodiat-Kil'jaeden", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Retbúl-BleedingHollow", -- [5]
+			"2. Trade - City", -- [4]
+			"Koodiat-Kil'jaeden", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			102, -- [11]
-			"Player-73-0EDF7DD0", -- [12]
+			1512, -- [11]
+			"Player-9-0DDBFE6C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aRetbúl-BleedingHollow|r",
-			[51] = 1671145458,
-			[50] = "CHAT_MSG_PARTY",
+			true, -- [17]
+			[52] = "|cff0070ddKoodiat|r",
+			[51] = 1671323597,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [31]
 		{
-			"hi", -- [1]
-			"Mooncry-WyrmrestAccord", -- [2]
+			"ready?", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mooncry-WyrmrestAccord", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			103, -- [11]
-			"Player-1171-0A6C0A08", -- [12]
+			1532, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aMooncry-WyrmrestAccord|r",
-			[51] = 1671145464,
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671323726,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [32]
 		{
-			"donde es alla?", -- [1]
-			"Retbúl-BleedingHollow", -- [2]
+			"drink ", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Retbúl-BleedingHollow", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			106, -- [11]
-			"Player-73-0EDF7DD0", -- [12]
+			1560, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aRetbúl-BleedingHollow|r",
-			[51] = 1671145480,
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671324096,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [33]
 		{
-			"do we always start phased differently?", -- [1]
-			"Madkow-Kil'jaeden", -- [2]
+			"healer shoot crossbow", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Madkow-Kil'jaeden", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			112, -- [11]
-			"Player-9-0007E692", -- [12]
+			1567, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671145566,
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671324139,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [34]
 		{
-			"yeah if you guys arent in war mode :P", -- [1]
-			"Nazghash-WyrmrestAccord", -- [2]
+			"nice gh", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nazghash-WyrmrestAccord", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			115, -- [11]
-			"Player-1171-068A5106", -- [12]
+			1572, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddNazghash-WyrmrestAccord|r",
-			[51] = 1671145585,
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671324150,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [35]
 		{
-			"retbul", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"dh", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			118, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1573, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671145646,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671324152,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [36]
 		{
-			"tanking", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"kill totem", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			120, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1590, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671145680,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671324271,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [37]
 		{
-			"come in", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"kill the totam", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			122, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1596, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671145707,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671324312,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [38]
 		{
-			"?", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"KILL THE TOTEM", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			124, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1598, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671145727,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671324404,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [39]
 		{
-			"im your little buddy now", -- [1]
-			"Nazghash-WyrmrestAccord", -- [2]
+			"So what are we missing here", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nazghash-WyrmrestAccord", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			125, -- [11]
-			"Player-1171-068A5106", -- [12]
+			1606, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddNazghash-WyrmrestAccord|r",
-			[51] = 1671145748,
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671324468,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [40]
 		{
-			"wow", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"kill totem them move from lighting it leaves behind in a circle", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			133, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1607, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671145953,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671324537,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [41]
 		{
-			"crickets", -- [1]
-			"Madkow-Kil'jaeden", -- [2]
+			"k", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Madkow-Kil'jaeden", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			134, -- [11]
-			"Player-9-0007E692", -- [12]
+			1608, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671145964,
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671324510,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [42]
 		{
-			"hopefully we get a tank soon", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"jesus that's a lot of dam", -- [1]
+			"Madkow-Kil'jaeden", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Madkow-Kil'jaeden", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			135, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1615, -- [11]
+			"Player-9-0007E692", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671145964,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff0070ddMadkow|r",
+			[51] = 1671324617,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [43]
 		{
-			"run", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"we gotta be missing an interrupt ", -- [1]
+			"Verknoxx-Area52", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Verknoxx-Area52", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			140, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1616, -- [11]
+			"Player-3676-0E01227D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671146150,
+			[52] = "|cffa330c9Verknoxx-Area52|r",
+			[51] = 1671324625,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [44]
 		{
-			"Deadwaker Ghendish |cffffff00|Hworldmap:2023:3179:6735|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Pokee-Kil'jaeden", -- [2]
+			"temptest does that", -- [1]
+			"Lennasnow-Illidan", -- [2]
 			"", -- [3]
-			"1. General - Ohn'ahran Plains", -- [4]
-			"Pokee-Kil'jaeden", -- [5]
+			"", -- [4]
+			"Lennasnow-Illidan", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Ohn'ahran Plains", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			168, -- [11]
-			"Player-9-0B255E8A", -- [12]
+			1617, -- [11]
+			"Player-57-0D5E8C06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aPokee|r",
-			[51] = 1671146396,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff33937fLennasnow-Illidan|r",
+			[51] = 1671324629,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [45]
 		{
-			"Hello", -- [1]
-			"Beestly-Lightbringer", -- [2]
+			"|cff71d5ff|Hspell:386026:0|h[Surge]|h|r", -- [1]
+			"Verknoxx-Area52", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Beestly-Lightbringer", -- [5]
+			"Verknoxx-Area52", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			172, -- [11]
-			"Player-3694-07638B48", -- [12]
+			1618, -- [11]
+			"Player-3676-0E01227D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBeestly-Lightbringer|r",
-			[51] = 1671146357,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa330c9Verknoxx-Area52|r",
+			[51] = 1671324642,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [46]
 		{
-			"heya", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:16273:Player-9-0E3FCA65:1:12:17:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Azure Vault]|h|r!", -- [1]
+			"Lazytitan-Kil'jaeden", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Lazytitan-Kil'jaeden", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			174, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1620, -- [11]
+			"Player-9-0E3FCA65", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671146364,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff33937fLazytitan|r",
+			[51] = 1671324749,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [47]
 		{
-			"almost there", -- [1]
+			"mana", -- [1]
 			"Madkow-Kil'jaeden", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1069,7 +1069,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			177, -- [11]
+			1622, -- [11]
 			"Player-9-0007E692", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1077,561 +1077,561 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671146375,
+			[51] = 1671324789,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [48]
 		{
-			"fishing nearby", -- [1]
-			"Madkow-Kil'jaeden", -- [2]
+			"you need better water my dude", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Madkow-Kil'jaeden", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			178, -- [11]
-			"Player-9-0007E692", -- [12]
+			1623, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671146386,
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671324804,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [49]
 		{
-			"someone has to do the bow thing", -- [1]
-			"Nazghash-WyrmrestAccord", -- [2]
+			"yea", -- [1]
+			"Madkow-Kil'jaeden", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nazghash-WyrmrestAccord", -- [5]
+			"Madkow-Kil'jaeden", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			230, -- [11]
-			"Player-1171-068A5106", -- [12]
+			1624, -- [11]
+			"Player-9-0007E692", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddNazghash-WyrmrestAccord|r",
-			[51] = 1671146802,
+			[52] = "|cff0070ddMadkow|r",
+			[51] = 1671324808,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [50]
 		{
-			"someone getting lances?", -- [1]
-			"Beestly-Lightbringer", -- [2]
+			"ran out on SL shit", -- [1]
+			"Madkow-Kil'jaeden", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Beestly-Lightbringer", -- [5]
+			"Madkow-Kil'jaeden", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			231, -- [11]
-			"Player-3694-07638B48", -- [12]
+			1625, -- [11]
+			"Player-9-0007E692", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBeestly-Lightbringer|r",
-			[51] = 1671146805,
+			[52] = "|cff0070ddMadkow|r",
+			[51] = 1671324812,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [51]
 		{
-			"all look out for them", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"drinking that Dasani", -- [1]
+			"Gorezul-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Gorezul-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			232, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1626, -- [11]
+			"Player-57-0D62BA16", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671146830,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc69b6dGorezul-Illidan|r",
+			[51] = 1671324813,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [52]
 		{
-			"Lance", -- [1]
-			"Beestly-Lightbringer", -- [2]
+			"kk we good", -- [1]
+			"Madkow-Kil'jaeden", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Beestly-Lightbringer", -- [5]
+			"Madkow-Kil'jaeden", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			240, -- [11]
-			"Player-3694-07638B48", -- [12]
+			1627, -- [11]
+			"Player-9-0007E692", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBeestly-Lightbringer|r",
-			[51] = 1671146896,
+			[52] = "|cff0070ddMadkow|r",
+			[51] = 1671324816,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [53]
 		{
-			"i didnt see any ;/", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"absorb the balls", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			247, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1631, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671146991,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671324958,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [54]
 		{
-			"me either", -- [1]
-			"Nazghash-WyrmrestAccord", -- [2]
+			"so is this some of yalls first time", -- [1]
+			"Lennasnow-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nazghash-WyrmrestAccord", -- [5]
+			"Lennasnow-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			248, -- [11]
-			"Player-1171-068A5106", -- [12]
+			1636, -- [11]
+			"Player-57-0D5E8C06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddNazghash-WyrmrestAccord|r",
-			[51] = 1671146995,
+			[52] = "|cff33937fLennasnow-Illidan|r",
+			[51] = 1671324907,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [55]
 		{
-			"there is only 3 right", -- [1]
-			"Nazghash-WyrmrestAccord", -- [2]
+			"no ", -- [1]
+			"Verknoxx-Area52", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nazghash-WyrmrestAccord", -- [5]
+			"Verknoxx-Area52", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			251, -- [11]
-			"Player-1171-068A5106", -- [12]
+			1637, -- [11]
+			"Player-3676-0E01227D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddNazghash-WyrmrestAccord|r",
-			[51] = 1671146972,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa330c9Verknoxx-Area52|r",
+			[51] = 1671324918,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [56]
 		{
-			"Instruct the Shikaar Lancers to fire", -- [1]
-			"Beestly-Lightbringer", -- [2]
+			"cause you have to grab the orbs", -- [1]
+			"Lennasnow-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Beestly-Lightbringer", -- [5]
+			"Lennasnow-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			253, -- [11]
-			"Player-3694-07638B48", -- [12]
+			1638, -- [11]
+			"Player-57-0D5E8C06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBeestly-Lightbringer|r",
-			[51] = 1671147054,
+			[52] = "|cff33937fLennasnow-Illidan|r",
+			[51] = 1671324918,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [57]
 		{
-			"Should be an npc", -- [1]
-			"Beestly-Lightbringer", -- [2]
+			"apparently lol ", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Beestly-Lightbringer", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			254, -- [11]
-			"Player-3694-07638B48", -- [12]
+			1639, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBeestly-Lightbringer|r",
-			[51] = 1671147017,
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671324919,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [58]
 		{
-			"hmm, k", -- [1]
-			"Madkow-Kil'jaeden", -- [2]
+			"or the boss will kill us", -- [1]
+			"Lennasnow-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Madkow-Kil'jaeden", -- [5]
+			"Lennasnow-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			255, -- [11]
-			"Player-9-0007E692", -- [12]
+			1640, -- [11]
+			"Player-57-0D5E8C06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671147022,
+			[52] = "|cff33937fLennasnow-Illidan|r",
+			[51] = 1671324928,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [59]
 		{
-			"couldn't interact with anything last time", -- [1]
-			"Madkow-Kil'jaeden", -- [2]
+			"gotta absorb those lighting balls", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Madkow-Kil'jaeden", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			256, -- [11]
-			"Player-9-0007E692", -- [12]
+			1641, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671147031,
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671324931,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [60]
 		{
-			"sane'", -- [1]
-			"Nazghash-WyrmrestAccord", -- [2]
+			"im doing the mechanic ", -- [1]
+			"Verknoxx-Area52", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nazghash-WyrmrestAccord", -- [5]
+			"Verknoxx-Area52", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			257, -- [11]
-			"Player-1171-068A5106", -- [12]
+			1642, -- [11]
+			"Player-3676-0E01227D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddNazghash-WyrmrestAccord|r",
-			[51] = 1671147037,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa330c9Verknoxx-Area52|r",
+			[51] = 1671324936,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [61]
 		{
-			"go", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"spread when you have circle", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			258, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1643, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671147043,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671324938,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [62]
 		{
-			"we have to kill the add faster", -- [1]
-			"Madkow-Kil'jaeden", -- [2]
+			"yup", -- [1]
+			"Verknoxx-Area52", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Madkow-Kil'jaeden", -- [5]
+			"Verknoxx-Area52", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			270, -- [11]
-			"Player-9-0007E692", -- [12]
+			1644, -- [11]
+			"Player-3676-0E01227D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671147089,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa330c9Verknoxx-Area52|r",
+			[51] = 1671324951,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [63]
 		{
-			"we're just letting him run up to the lance and disable it", -- [1]
-			"Madkow-Kil'jaeden", -- [2]
+			"my dude where's the heals", -- [1]
+			"Lennasnow-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Madkow-Kil'jaeden", -- [5]
+			"Lennasnow-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			275, -- [11]
-			"Player-9-0007E692", -- [12]
+			1650, -- [11]
+			"Player-57-0D5E8C06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671147110,
+			[52] = "|cff33937fLennasnow-Illidan|r",
+			[51] = 1671325036,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [64]
 		{
-			"i was only 1 to attack it", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"nobody sitting in link", -- [1]
+			"Madkow-Kil'jaeden", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Madkow-Kil'jaeden", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			277, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1651, -- [11]
+			"Player-9-0007E692", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671147176,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff0070ddMadkow|r",
+			[51] = 1671325044,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [65]
 		{
-			"it runs right thru the boss", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"lol i was standing righrt next to you ", -- [1]
+			"Verknoxx-Area52", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Verknoxx-Area52", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			280, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1654, -- [11]
+			"Player-3676-0E01227D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671147135,
+			[52] = "|cffa330c9Verknoxx-Area52|r",
+			[51] = 1671325107,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [66]
 		{
-			"just jump on him", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"need the repair mount once we land if possible", -- [1]
+			"Gorezul-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Gorezul-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			281, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1659, -- [11]
+			"Player-57-0D62BA16", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671147138,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc69b6dGorezul-Illidan|r",
+			[51] = 1671325175,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [67]
 		{
-			"r", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"This is a heal check boss btw", -- [1]
+			"Lennasnow-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Lennasnow-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			282, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1660, -- [11]
+			"Player-57-0D5E8C06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671147148,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff33937fLennasnow-Illidan|r",
+			[51] = 1671325191,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [68]
 		{
-			"K add priority", -- [1]
-			"Beestly-Lightbringer", -- [2]
+			"damn from another realm", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Beestly-Lightbringer", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			283, -- [11]
-			"Player-3694-07638B48", -- [12]
+			1661, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBeestly-Lightbringer|r",
-			[51] = 1671147149,
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671325203,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [69]
 		{
-			"Now", -- [1]
-			"Beestly-Lightbringer", -- [2]
+			"trying to give you water", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Beestly-Lightbringer", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			293, -- [11]
-			"Player-3694-07638B48", -- [12]
+			1662, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBeestly-Lightbringer|r",
-			[51] = 1671147191,
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671325207,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [70]
 		{
-			"Heroe?", -- [1]
-			"Beestly-Lightbringer", -- [2]
+			"like you need to be fucking pumping healing", -- [1]
+			"Lennasnow-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Beestly-Lightbringer", -- [5]
+			"Lennasnow-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			295, -- [11]
-			"Player-3694-07638B48", -- [12]
+			1663, -- [11]
+			"Player-57-0D5E8C06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBeestly-Lightbringer|r",
-			[51] = 1671147199,
+			[52] = "|cff33937fLennasnow-Illidan|r",
+			[51] = 1671325209,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [71]
 		{
-			"Nice!", -- [1]
-			"Beestly-Lightbringer", -- [2]
+			"ah damn", -- [1]
+			"Madkow-Kil'jaeden", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Beestly-Lightbringer", -- [5]
+			"Madkow-Kil'jaeden", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			306, -- [11]
-			"Player-3694-07638B48", -- [12]
+			1664, -- [11]
+			"Player-9-0007E692", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBeestly-Lightbringer|r",
-			[51] = 1671147251,
+			[52] = "|cff0070ddMadkow|r",
+			[51] = 1671325212,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [72]
 		{
-			"Hate that boss", -- [1]
-			"Beestly-Lightbringer", -- [2]
+			"ready?", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Beestly-Lightbringer", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			312, -- [11]
-			"Player-3694-07638B48", -- [12]
+			1666, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBeestly-Lightbringer|r",
-			[51] = 1671147279,
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671325226,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [73]
 		{
-			"what is this damange", -- [1]
+			"r", -- [1]
 			"Madkow-Kil'jaeden", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1641,7 +1641,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			388, -- [11]
+			1667, -- [11]
 			"Player-9-0007E692", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1649,55 +1649,55 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671148196,
+			[51] = 1671325229,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [74]
 		{
-			"need to keep them together", -- [1]
-			"Madkow-Kil'jaeden", -- [2]
+			"everyone understand?", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Madkow-Kil'jaeden", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			395, -- [11]
-			"Player-9-0007E692", -- [12]
+			1668, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671148180,
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671325231,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [75]
 		{
-			"tornado just like spread i guess", -- [1]
-			"Nazghash-WyrmrestAccord", -- [2]
+			"also need to pick up orbs for healing", -- [1]
+			"Verknoxx-Area52", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nazghash-WyrmrestAccord", -- [5]
+			"Verknoxx-Area52", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			396, -- [11]
-			"Player-1171-068A5106", -- [12]
+			1669, -- [11]
+			"Player-3676-0E01227D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddNazghash-WyrmrestAccord|r",
-			[51] = 1671148183,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa330c9Verknoxx-Area52|r",
+			[51] = 1671325233,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [76]
 		{
-			"ancestral bond", -- [1]
+			"fack", -- [1]
 			"Madkow-Kil'jaeden", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1707,7 +1707,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			397, -- [11]
+			1674, -- [11]
 			"Player-9-0007E692", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1715,11 +1715,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671148184,
+			[51] = 1671325366,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [77]
 		{
-			"damage increased when apart", -- [1]
+			"don't think i got enough sustain hps", -- [1]
 			"Madkow-Kil'jaeden", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1729,7 +1729,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			398, -- [11]
+			1675, -- [11]
 			"Player-9-0007E692", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1737,165 +1737,143 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671148218,
+			[51] = 1671325373,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [78]
 		{
-			"Tank together got it", -- [1]
-			"Beestly-Lightbringer", -- [2]
+			"i dont see you picking up enough orbs ", -- [1]
+			"Gorezul-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Beestly-Lightbringer", -- [5]
+			"Gorezul-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			399, -- [11]
-			"Player-3694-07638B48", -- [12]
+			1678, -- [11]
+			"Player-57-0D62BA16", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBeestly-Lightbringer|r",
-			[51] = 1671148234,
+			[52] = "|cffc69b6dGorezul-Illidan|r",
+			[51] = 1671325406,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [79]
 		{
-			"I see that buff theey get now", -- [1]
-			"Beestly-Lightbringer", -- [2]
+			"are you picking up the orbs?", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Beestly-Lightbringer", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			400, -- [11]
-			"Player-3694-07638B48", -- [12]
+			1679, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBeestly-Lightbringer|r",
-			[51] = 1671148247,
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671325407,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [80]
 		{
-			"you can see wheere he jumps to", -- [1]
-			"Madkow-Kil'jaeden", -- [2]
+			"they will help you", -- [1]
+			"Gorezul-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Madkow-Kil'jaeden", -- [5]
+			"Gorezul-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			404, -- [11]
-			"Player-9-0007E692", -- [12]
+			1680, -- [11]
+			"Player-57-0D62BA16", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671148277,
+			[52] = "|cffc69b6dGorezul-Illidan|r",
+			[51] = 1671325410,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [81]
 		{
-			"to predict where to go", -- [1]
-			"Madkow-Kil'jaeden", -- [2]
+			"Like you need to get orbs as a healer", -- [1]
+			"Lennasnow-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Madkow-Kil'jaeden", -- [5]
+			"Lennasnow-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			406, -- [11]
-			"Player-9-0007E692", -- [12]
+			1683, -- [11]
+			"Player-57-0D5E8C06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671148284,
+			[52] = "|cff33937fLennasnow-Illidan|r",
+			[51] = 1671325415,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [82]
 		{
-			"were skipping", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"it boosts you too", -- [1]
+			"Lennasnow-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Lennasnow-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			427, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1684, -- [11]
+			"Player-57-0D5E8C06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671148468,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff33937fLennasnow-Illidan|r",
+			[51] = 1671325419,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [83]
 		{
-			"careful", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"I watched 5-6 orbs pass you within like 5ft and you didnt move lmao", -- [1]
+			"Gorezul-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Gorezul-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			428, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1685, -- [11]
+			"Player-57-0D62BA16", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671148470,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc69b6dGorezul-Illidan|r",
+			[51] = 1671325431,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [84]
 		{
-			"crap", -- [1]
-			"Beestly-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Beestly-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			433, -- [11]
-			"Player-3694-07638B48", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dBeestly-Lightbringer|r",
-			[51] = 1671148598,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [85]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:16277:Player-9-0007E692:1:12:15:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: The Nokhud Offensive]|h|r!", -- [1]
+			"i gotta plant and hard cast", -- [1]
 			"Madkow-Kil'jaeden", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1905,7 +1883,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			451, -- [11]
+			1686, -- [11]
 			"Player-9-0007E692", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1913,294 +1891,316 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff0070ddMadkow|r",
-			[51] = 1671148721,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [86]
+			[51] = 1671325499,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [85]
 		{
-			"Awesome thank you guys", -- [1]
-			"Beestly-Lightbringer", -- [2]
+			"like don't pick them up like crazy, but you should be getting 2-4 orbs", -- [1]
+			"Lennasnow-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Beestly-Lightbringer", -- [5]
+			"Lennasnow-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			473, -- [11]
-			"Player-3694-07638B48", -- [12]
+			1687, -- [11]
+			"Player-57-0D5E8C06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBeestly-Lightbringer|r",
-			[51] = 1671148742,
+			[52] = "|cff33937fLennasnow-Illidan|r",
+			[51] = 1671325440,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [86]
+		{
+			"ya wolf around and grab 3-5 i'd say", -- [1]
+			"Pawnd-Illidan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Pawnd-Illidan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1688, -- [11]
+			"Player-57-0813215C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671325459,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [87]
 		{
-			"4 legs to bad rng lol", -- [1]
-			"Mooncry-WyrmrestAccord", -- [2]
+			"airght", -- [1]
+			"Madkow-Kil'jaeden", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mooncry-WyrmrestAccord", -- [5]
+			"Madkow-Kil'jaeden", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			475, -- [11]
-			"Player-1171-0A6C0A08", -- [12]
+			1689, -- [11]
+			"Player-9-0007E692", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aMooncry-WyrmrestAccord|r",
-			[51] = 1671148744,
+			[52] = "|cff0070ddMadkow|r",
+			[51] = 1671325462,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [88]
 		{
-			"ty all", -- [1]
-			"Mooncry-WyrmrestAccord", -- [2]
+			"increases heals by 10% per orb", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mooncry-WyrmrestAccord", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			476, -- [11]
-			"Player-1171-0A6C0A08", -- [12]
+			1690, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aMooncry-WyrmrestAccord|r",
-			[51] = 1671148751,
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671325465,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [89]
 		{
-			"ty all", -- [1]
-			"Cn-WyrmrestAccord", -- [2]
+			"let's try 1 more time", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cn-WyrmrestAccord", -- [5]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			477, -- [11]
-			"Player-1171-0A6CD635", -- [12]
+			1691, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffCn-WyrmrestAccord|r",
-			[51] = 1671148751,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671325490,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [90]
 		{
-			"|cffffd100|HclubFinder:ClubFinder-1-1278-9-44492809|h[Guild: Ångst]|h|r LF Rng/Heal for raid groups Tues/Thur 7:30-10:30 server time. Building M+ groups as well! Casual/Social players welcome to join as well PST for more info or a inv to the guild.", -- [1]
-			"Metallican-Kil'jaeden", -- [2]
+			"r?", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Metallican-Kil'jaeden", -- [5]
+			"", -- [4]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			482, -- [11]
-			"Player-9-074EDB0A", -- [12]
+			1692, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaMetallican|r",
-			[51] = 1671148753,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671325505,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [91]
 		{
-			"You don't have to go home, but you can't stay here.", -- [1]
-			"Holystarfish-Kil'jaeden", -- [2]
+			"yea nah this isn't happening lol", -- [1]
+			"Lennasnow-Illidan", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holystarfish-Kil'jaeden", -- [5]
+			"", -- [4]
+			"Lennasnow-Illidan", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2, -- [11]
-			"Player-9-0E3AE260", -- [12]
+			1699, -- [11]
+			"Player-57-0D5E8C06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolystarfish|r",
-			[51] = 1671191854,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff33937fLennasnow-Illidan|r",
+			[51] = 1671325660,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [92]
 		{
-			"time to touchj grass", -- [1]
-			"Icekoldd-Kil'jaeden", -- [2]
+			"don't think i got the gear to keep you up", -- [1]
+			"Madkow-Kil'jaeden", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Icekoldd-Kil'jaeden", -- [5]
+			"", -- [4]
+			"Madkow-Kil'jaeden", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			6, -- [11]
-			"Player-9-09DC1D9F", -- [12]
+			1700, -- [11]
+			"Player-9-0007E692", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dIcekoldd|r",
-			[51] = 1671191860,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff0070ddMadkow|r",
+			[51] = 1671325665,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [93]
 		{
-			"Grass? Never heard of it", -- [1]
-			"Holystarfish-Kil'jaeden", -- [2]
+			"nah sorry dudes", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Holystarfish-Kil'jaeden", -- [5]
+			"", -- [4]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			7, -- [11]
-			"Player-9-0E3AE260", -- [12]
+			1701, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaHolystarfish|r",
-			[51] = 1671191869,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671325667,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [94]
 		{
-			"PORN TIME", -- [1]
-			"Maloran-Kil'jaeden", -- [2]
+			"srry all", -- [1]
+			"Madkow-Kil'jaeden", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Maloran-Kil'jaeden", -- [5]
+			"", -- [4]
+			"Madkow-Kil'jaeden", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			9, -- [11]
-			"Player-9-0DEECFB4", -- [12]
+			1702, -- [11]
+			"Player-9-0007E692", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8788eeMaloran|r",
-			[51] = 1671191870,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff0070ddMadkow|r",
+			[51] = 1671325671,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [95]
 		{
-			"kek", -- [1]
-			"Chìefbeef-Kil'jaeden", -- [2]
+			"all g", -- [1]
+			"Gorezul-Illidan", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Chìefbeef-Kil'jaeden", -- [5]
+			"", -- [4]
+			"Gorezul-Illidan", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			12, -- [11]
-			"Player-9-0BCD5236", -- [12]
+			1703, -- [11]
+			"Player-57-0D62BA16", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aChìefbeef|r",
-			[51] = 1671191823,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc69b6dGorezul-Illidan|r",
+			[51] = 1671325673,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [96]
 		{
-			"Is a pizza bagel considered pizza? and why?", -- [1]
-			"Intrusive-Kil'jaeden", -- [2]
+			"good try", -- [1]
+			"Gorezul-Illidan", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Intrusive-Kil'jaeden", -- [5]
+			"", -- [4]
+			"Gorezul-Illidan", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			14, -- [11]
-			"Player-9-04D47309", -- [12]
+			1704, -- [11]
+			"Player-57-0D62BA16", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff0070ddIntrusive|r",
-			[51] = 1671191826,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc69b6dGorezul-Illidan|r",
+			[51] = 1671325674,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [97]
 		{
-			"sdasdasdasdassada", -- [1]
-			"Icekoldd-Kil'jaeden", -- [2]
+			"no worries we tried", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Icekoldd-Kil'jaeden", -- [5]
+			"", -- [4]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			16, -- [11]
-			"Player-9-09DC1D9F", -- [12]
+			1705, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dIcekoldd|r",
-			[51] = 1671191832,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671325736,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [98]
 		{
-			"i want refund for the maintenance time", -- [1]
-			"Kimkaphwan-Kil'jaeden", -- [2]
+			"gg", -- [1]
+			"Pawnd-Illidan", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Kimkaphwan-Kil'jaeden", -- [5]
+			"", -- [4]
+			"Pawnd-Illidan", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			17, -- [11]
-			"Player-9-09AF435F", -- [12]
+			1706, -- [11]
+			"Player-57-0813215C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dKimkaphwan|r",
-			[51] = 1671191837,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfff48cbaPawnd-Illidan|r",
+			[51] = 1671325738,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [99]
 	},
 }

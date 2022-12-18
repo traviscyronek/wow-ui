@@ -12,13 +12,13 @@ OPie_SavedData = {
 			},
 			["Bindings"] = {
 				["RaidSymbols"] = "SHIFT-A",
-				["WorldMarkers"] = "CTRL-A",
 				["SpecMenu"] = "SHIFT-H",
-				["OPieAutoQuest"] = "SHIFT-Q",
+				["WorldMarkers"] = "CTRL-A",
+				["OPieTracking"] = false,
 				["CommonTrades"] = false,
 				["food"] = "SHIFT-N",
 				["travel"] = "CTRL-H",
-				["OPieTracking"] = false,
+				["OPieAutoQuest"] = "SHIFT-Q",
 			},
 		},
 	},
@@ -45,10 +45,10 @@ OPie_SavedData = {
 					172043, -- [2]
 					["sliceToken"] = "ABuevj7K7bt",
 				}, -- [4]
-				["limit"] = "Madkow-Kil'jaeden",
+				["name"] = "consumables",
 				["save"] = true,
 				["hotkey"] = "SHIFT-N",
-				["name"] = "consumables",
+				["limit"] = "Madkow-Kil'jaeden",
 			},
 			["SpecMenu"] = {
 				{
@@ -137,10 +137,10 @@ OPie_SavedData = {
 					["sliceToken"] = "ABuevj7K7bA",
 					["id"] = 159896,
 				}, -- [7]
-				["name"] = "travel+",
+				["limit"] = "Madkow-Kil'jaeden",
 				["save"] = true,
 				["hotkey"] = "CTRL-H",
-				["limit"] = "Madkow-Kil'jaeden",
+				["name"] = "travel+",
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 2,

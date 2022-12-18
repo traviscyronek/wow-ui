@@ -22,20 +22,20 @@ BigWigs:AddColors("Terros", {
 	[382458] = "blue",
 	[383073] = "yellow",
 	[388393] = "yellow",
-	[391592] = {"blue","yellow"},
+	[391592] = {"blue","green","yellow"},
 })
 
 BigWigs:AddColors("The Primal Council", {
-	[371624] = {"blue","cyan"},
+	[371624] = {"blue","purple"},
 	[372027] = "orange",
 	[372056] = {"blue","purple"},
 	[372279] = "yellow",
-	[373059] = "cyan",
+	[373059] = {"blue","cyan"},
 	[374038] = {"blue","red"},
 	[386289] = "red",
 	[386370] = "green",
 	[386375] = "purple",
-	[386661] = {"blue","cyan"},
+	[386661] = "cyan",
 	[397134] = "green",
 })
 
@@ -76,7 +76,7 @@ BigWigs:AddColors("Kurog Grimtotem", {
 	[372158] = {"blue","purple"},
 	[372458] = {"blue","orange","yellow"},
 	[373329] = "orange",
-	[373487] = {"blue","orange"},
+	[373487] = {"blue","orange","yellow"},
 	[373678] = "yellow",
 	[374023] = {"blue","yellow"},
 	[374215] = "orange",
@@ -124,6 +124,35 @@ BigWigs:AddColors("Broodkeeper Diurna", {
 })
 
 BigWigs:AddColors("Raszageth the Storm-Eater", {
+	[377467] = "yellow",
+	[377594] = "orange",
+	[377612] = "red",
+	[381251] = "blue",
+	[381615] = {"blue","yellow"},
+	[382434] = "yellow",
+	[385065] = {"blue","yellow"},
+	[385068] = "orange",
+	[385553] = "yellow",
+	[385569] = "yellow",
+	[385574] = "yellow",
+	[386410] = "purple",
+	[387261] = {"green","yellow"},
+	[388643] = "yellow",
+	[389870] = "yellow",
+	[389878] = {"blue","purple"},
+	[391285] = {"blue","purple"},
+	[391989] = {"blue","red"},
+	[394582] = "green",
+	[394583] = "red",
+	[394584] = "blue",
+	[395885] = "orange",
+	[395906] = {"blue","purple"},
+	[395929] = "blue",
+	[396037] = "blue",
+	[397382] = {"blue","green","yellow"},
+	[397387] = "red",
+	[399713] = {"blue","yellow"},
+	["stages"] = {"cyan","green"},
 })
 
 BigWigs:AddColors("Vault of the Incarnates Trash", {

@@ -18,11 +18,11 @@ ElvDB = {
 	["class"] = {
 		["Kil'jaeden"] = {
 			["Madklaw"] = "EVOKER",
-			["Madkow"] = "SHAMAN",
-			["Madkalf"] = "DRUID",
-			["Madtroll"] = "PRIEST",
-			["Madkub"] = "MONK",
 			["Madzug"] = "ROGUE",
+			["Madtroll"] = "PRIEST",
+			["Madkalf"] = "DRUID",
+			["Madkub"] = "MONK",
+			["Madkow"] = "SHAMAN",
 			["Madmon"] = "PALADIN",
 		},
 	},
@@ -119,10 +119,10 @@ ElvDB = {
 				["ZoneAbility"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-663,53",
 				["ElvUF_FocusCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,254,445",
 				["ElvUF_FocusMover"] = "BOTTOM,UIParent,BOTTOM,254,394",
-				["PowerBarContainerMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,280",
 				["MicrobarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-3,236",
-				["ClassBarMover"] = "BOTTOM,UIParent,BOTTOM,-201,235",
 				["DurabilityFrameMover"] = "BOTTOM,UIParent,BOTTOM,-331,172",
+				["ClassBarMover"] = "BOTTOM,UIParent,BOTTOM,-201,235",
+				["PowerBarContainerMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,280",
 				["ElvUF_PetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-237,136",
 				["VehicleSeatMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,629,105",
 				["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-2,23",
@@ -147,9 +147,9 @@ ElvDB = {
 				["ElvAB_6"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-128,236",
 				["ElvAB_5"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-2,236",
 				["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,198,235",
-				["TotemTrackerMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,252",
+				["BNETMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,416,23",
 				["ShiftAB"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,416,23",
-				["BNETMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,0,0",
+				["TotemTrackerMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,252",
 				["HonorBarMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-222,-2",
 				["ArenaHeaderMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-42,-297",
 				["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-415,-1",
@@ -481,11 +481,11 @@ ElvDB = {
 	["gold"] = {
 		["Kil'jaeden"] = {
 			["Madklaw"] = 8177269,
-			["Madkow"] = 4702062771,
-			["Madkalf"] = 118692640,
-			["Madtroll"] = 119231638,
-			["Madkub"] = 173838637,
 			["Madzug"] = 9938115,
+			["Madtroll"] = 119257378,
+			["Madkalf"] = 118692640,
+			["Madkub"] = 173838637,
+			["Madkow"] = 4802374187,
 			["Madmon"] = 111360715,
 		},
 	},
@@ -495,12 +495,22 @@ ElvDB = {
 				["shaman whitelist"] = {
 					["type"] = "whitelist",
 					["spells"] = {
+						[320763] = {
+							["enable"] = true,
+							["priority"] = 0,
+							["stackThreshold"] = 0,
+						},
 						[210714] = {
 							["enable"] = true,
 							["priority"] = 0,
 							["stackThreshold"] = 0,
 						},
-						[320763] = {
+						[216251] = {
+							["enable"] = true,
+							["priority"] = 0,
+							["stackThreshold"] = 0,
+						},
+						[114050] = {
 							["enable"] = true,
 							["priority"] = 0,
 							["stackThreshold"] = 0,
@@ -520,7 +530,7 @@ ElvDB = {
 							["priority"] = 0,
 							["stackThreshold"] = 0,
 						},
-						[216251] = {
+						[79206] = {
 							["enable"] = true,
 							["priority"] = 0,
 							["stackThreshold"] = 0,
@@ -530,7 +540,7 @@ ElvDB = {
 							["priority"] = 0,
 							["stackThreshold"] = 0,
 						},
-						[79206] = {
+						[207400] = {
 							["enable"] = true,
 							["priority"] = 0,
 							["stackThreshold"] = 0,
@@ -550,12 +560,12 @@ ElvDB = {
 							["priority"] = 0,
 							["stackThreshold"] = 0,
 						},
-						[207400] = {
+						[173183] = {
 							["enable"] = true,
 							["priority"] = 0,
 							["stackThreshold"] = 0,
 						},
-						[173183] = {
+						[108281] = {
 							["enable"] = true,
 							["priority"] = 0,
 							["stackThreshold"] = 0,
@@ -581,38 +591,25 @@ ElvDB = {
 			["settings"] = {
 				["Currencies"] = {
 					["tooltipData"] = {
-						nil, -- [1]
-						nil, -- [2]
-						nil, -- [3]
-						{
+						[5] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [4]
-						nil, -- [5]
-						nil, -- [6]
-						nil, -- [7]
-						nil, -- [8]
-						nil, -- [9]
-						nil, -- [10]
-						{
+						},
+						[12] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [11]
-						nil, -- [12]
-						nil, -- [13]
-						nil, -- [14]
-						nil, -- [15]
-						{
+						},
+						[17] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [16]
-						[29] = {
+						},
+						[30] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
@@ -638,11 +635,11 @@ ElvDB = {
 	["faction"] = {
 		["Kil'jaeden"] = {
 			["Madklaw"] = "Horde",
-			["Madkow"] = "Horde",
-			["Madkalf"] = "Horde",
-			["Madtroll"] = "Horde",
-			["Madkub"] = "Horde",
 			["Madzug"] = "Horde",
+			["Madtroll"] = "Horde",
+			["Madkalf"] = "Horde",
+			["Madkub"] = "Horde",
+			["Madkow"] = "Horde",
 			["Madmon"] = "Horde",
 		},
 	},

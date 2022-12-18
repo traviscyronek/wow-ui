@@ -53,24 +53,42 @@ L["DISABLE_RWF_MODE_BUTTON"] = "Desabilitar"
 L["DISABLE_RWF_MODE_BUTTON_TOOLTIP"] = "Clique para desativar o modo Race World First. Isso fará com que sua interface seja recarregada."
 L["DISABLE_RWF_MODE_RELOAD"] = "Você está desabilitando o modo Race World First. Clicar em Confirmar irá recarregar sua interface."
 L["DPS"] = "DPS"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_AA"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_AV"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_COS"] = ""--]] 
 L["DUNGEON_SHORT_NAME_DOS"] = "Outro Lado"
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_GD"] = ""--]] 
 L["DUNGEON_SHORT_NAME_GMBT"] = "Gambito de So'leah"
 L["DUNGEON_SHORT_NAME_HOA"] = "Salões"
 --[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_HOV"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_ID"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_LOWR"] = ""--]] 
 L["DUNGEON_SHORT_NAME_MISTS"] = "Brumas"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_NO"] = ""--]] 
 L["DUNGEON_SHORT_NAME_NW"] = "Chaga"
 L["DUNGEON_SHORT_NAME_PF"] = "Empéstia"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_RLP"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_SBG"] = ""--]] 
 L["DUNGEON_SHORT_NAME_SD"] = "Profundezas"
 L["DUNGEON_SHORT_NAME_SOA"] = "Torres"
 L["DUNGEON_SHORT_NAME_STRT"] = "Ruas das Maravilhas"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TJS"] = ""--]] 
 L["DUNGEON_SHORT_NAME_TOP"] = "Teatro"
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_UPPR"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_VOTW"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_WORK"] = ""--]] 
 --[[Translation missing --]]
@@ -230,6 +248,22 @@ L["RAID_BOSS_SOD_6"] = "Artífice da Dor Raznal"
 L["RAID_BOSS_SOD_7"] = "Guardião dos Primogênitos"
 L["RAID_BOSS_SOD_8"] = "Escreve-sinas Roh-Kalo"
 L["RAID_BOSS_SOD_9"] = "Kel'Thuzad"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_8"] = ""--]] 
 L["RAID_DIFFICULTY_NAME_HEROIC"] = "Heroico"
 L["RAID_DIFFICULTY_NAME_MYTHIC"] = "Mítico"
 L["RAID_DIFFICULTY_NAME_NORMAL"] = "Normal"

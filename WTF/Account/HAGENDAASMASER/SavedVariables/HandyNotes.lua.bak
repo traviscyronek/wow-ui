@@ -1,25 +1,37 @@
 
 HandyNotesDB = {
 	["profileKeys"] = {
-		["Madkalf - Kil'jaeden"] = "Madkalf - Kil'jaeden",
 		["Madkow - Kil'jaeden"] = "Madkow - Kil'jaeden",
+		["Madkalf - Kil'jaeden"] = "Madkalf - Kil'jaeden",
+		["Madtroll - Kil'jaeden"] = "Madtroll - Kil'jaeden",
+		["Madklaw - Kil'jaeden"] = "Madklaw - Kil'jaeden",
 	},
 	["profiles"] = {
+		["Madkow - Kil'jaeden"] = {
+		},
 		["Madkalf - Kil'jaeden"] = {
 		},
-		["Madkow - Kil'jaeden"] = {
+		["Madtroll - Kil'jaeden"] = {
+		},
+		["Madklaw - Kil'jaeden"] = {
 		},
 	},
 }
 HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
-		["Madkalf - Kil'jaeden"] = "Madkalf - Kil'jaeden",
 		["Madkow - Kil'jaeden"] = "Madkow - Kil'jaeden",
+		["Madkalf - Kil'jaeden"] = "Madkalf - Kil'jaeden",
+		["Madtroll - Kil'jaeden"] = "Madtroll - Kil'jaeden",
+		["Madklaw - Kil'jaeden"] = "Madklaw - Kil'jaeden",
 	},
 	["profiles"] = {
+		["Madkow - Kil'jaeden"] = {
+		},
 		["Madkalf - Kil'jaeden"] = {
 		},
-		["Madkow - Kil'jaeden"] = {
+		["Madtroll - Kil'jaeden"] = {
+		},
+		["Madklaw - Kil'jaeden"] = {
 		},
 	},
 }

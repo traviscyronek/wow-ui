@@ -9,13 +9,13 @@ OPie_SavedData = {
 		["default"] = {
 			["Bindings"] = {
 				["RaidSymbols"] = "SHIFT-A",
-				["OPieTracking"] = false,
 				["OPieAutoQuest"] = "SHIFT-Q",
-				["WorldMarkers"] = "CTRL-A",
+				["OPieTracking"] = false,
+				["SpecMenu"] = "SHIFT-H",
 				["CommonTrades"] = false,
 				["food"] = "SHIFT-N",
 				["travel"] = "CTRL-H",
-				["SpecMenu"] = "SHIFT-H",
+				["WorldMarkers"] = "CTRL-A",
 			},
 			["RotationTokens"] = {
 				["OPCTAt"] = "OPCHSh",
@@ -24,6 +24,56 @@ OPie_SavedData = {
 	},
 	["PersistentStorage"] = {
 		["RingKeeper"] = {
+			["RaidSymbols"] = {
+				{
+					"raidmark", -- [1]
+					8, -- [2]
+					["sliceToken"] = "OPCRSw",
+				}, -- [1]
+				{
+					"raidmark", -- [1]
+					7, -- [2]
+					["sliceToken"] = "OPCRSr",
+				}, -- [2]
+				{
+					"raidmark", -- [1]
+					2, -- [2]
+					["sliceToken"] = "OPCRSo",
+				}, -- [3]
+				{
+					"raidmark", -- [1]
+					1, -- [2]
+					["sliceToken"] = "OPCRSy",
+				}, -- [4]
+				{
+					"raidmark", -- [1]
+					4, -- [2]
+					["sliceToken"] = "OPCRSg",
+				}, -- [5]
+				{
+					"raidmark", -- [1]
+					6, -- [2]
+					["sliceToken"] = "OPCRSb",
+				}, -- [6]
+				{
+					"raidmark", -- [1]
+					3, -- [2]
+					["sliceToken"] = "OPCRSp",
+				}, -- [7]
+				{
+					"raidmark", -- [1]
+					5, -- [2]
+					["sliceToken"] = "OPCRSs",
+				}, -- [8]
+				{
+					"raidmark", -- [1]
+					0, -- [2]
+					["sliceToken"] = "OPCRSc",
+				}, -- [9]
+				["name"] = "Target Markers",
+				["save"] = true,
+				["hotkey"] = "ALT-R",
+			},
 			["SpecMenu"] = {
 				{
 					"specset", -- [1]
@@ -101,10 +151,10 @@ OPie_SavedData = {
 					172043, -- [2]
 					["sliceToken"] = "ABuevj7K7bt",
 				}, -- [4]
-				["limit"] = "Madkow-Kil'jaeden",
+				["name"] = "consumables",
 				["save"] = true,
 				["hotkey"] = "SHIFT-N",
-				["name"] = "consumables",
+				["limit"] = "Madkow-Kil'jaeden",
 			},
 			["travel"] = {
 				{
@@ -137,10 +187,10 @@ OPie_SavedData = {
 					["sliceToken"] = "ABuevj7K7bA",
 					["id"] = 159896,
 				}, -- [7]
-				["name"] = "travel+",
+				["limit"] = "Madkow-Kil'jaeden",
 				["save"] = true,
 				["hotkey"] = "CTRL-H",
-				["limit"] = "Madkow-Kil'jaeden",
+				["name"] = "travel+",
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 2,

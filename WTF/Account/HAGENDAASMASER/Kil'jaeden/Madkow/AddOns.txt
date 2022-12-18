@@ -31,3 +31,5 @@ Blizzard_CombatText: enabled
 LittleWigs: enabled
 ElvUI_Options: enabled
 BigWigs_DragonIsles: enabled
+LittleWigs_Legion: enabled
+LittleWigs_WarlordsOfDraenor: enabled

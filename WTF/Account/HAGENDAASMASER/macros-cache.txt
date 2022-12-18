@@ -8,8 +8,8 @@ END
 VER 3 000000000000000A "mount" "134400"
 #showicon
 /use [swimming, nomounted] Abyssal Seahorse
-/use [flyable, nomounted] Restoration Deathwalker
-/use [noflyable, nomounted] Swift Horde Wolf
+/use [flyable, nomounted] Nether-Gorged Greatwyrm
+/use [noflyable, nomounted] Swift Blue Raptor
 /dismount [noflying, mounted]
 /dismount [mod:alt, mounted]
 END

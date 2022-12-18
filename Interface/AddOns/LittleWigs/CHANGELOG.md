@@ -1,11 +1,11 @@
 # LittleWigs
 
-## [v10.0.13](https://github.com/BigWigsMods/LittleWigs/tree/v10.0.13) (2022-12-12)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v10.0.12...v10.0.13) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v10.0.15](https://github.com/BigWigsMods/LittleWigs/tree/v10.0.15) (2022-12-17)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v10.0.14...v10.0.15) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- Dragonflight/TheNokhudOffensive/TeeraAndMaruuk: Timer updates  
-- Dragonflight/TheAzureVault/Umbrelskul: Timer updates  
-- Dragonflight/TheAzureVault/TelashGreywing: Timer updates  
-- Dragonflight/TheAzureVault/Azureblade: Timer updates  
-- Dragonflight/TheAzureVault/Leymor: Timer update  
-- Dragonflight/AlgetharAcademy/Trash: Astral Bomb updates  
+- WoD/ShadowmoonBurialGrounds/Trash: Add trash module (#842)  
+- Dragonflight/TheNokhudOffensive/Trash: Stormshield  
+- Update zhCN.lua (#843)  
+- Dragonflight/Neltharus/WarlordSargha: The Dragon's Kiln updates  
+- Dragonflight/Neltharus/ChargathBaneOfScales: Fiery Focus updates  
+- Dragonflight/BrackenhideHollow/HackclawsWarBand: Bloodfrenzy updates  

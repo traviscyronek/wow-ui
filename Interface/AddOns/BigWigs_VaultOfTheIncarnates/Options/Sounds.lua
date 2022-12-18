@@ -22,13 +22,14 @@ BigWigs:AddSounds("Terros", {
 	[382458] = "underyou",
 	[383073] = "alarm",
 	[388393] = "alarm",
-	[391592] = {"alert","warning"},
+	[391592] = {"alert","info","warning"},
 })
 
 BigWigs:AddSounds("The Primal Council", {
 	[371624] = "warning",
 	[372027] = "warning",
-	[373059] = "alarm",
+	[372056] = {"alarm","warning"},
+	[373059] = {"alarm","warning"},
 	[374038] = {"alert","warning"},
 	[386289] = "info",
 	[386370] = "info",
@@ -72,7 +73,7 @@ BigWigs:AddSounds("Kurog Grimtotem", {
 	[372158] = "warning",
 	[372458] = {"alert","warning"},
 	[373329] = "alert",
-	[373487] = "warning",
+	[373487] = {"info","warning"},
 	[373678] = "info",
 	[374023] = {"info","warning"},
 	[374321] = "info",
@@ -119,6 +120,35 @@ BigWigs:AddSounds("Broodkeeper Diurna", {
 })
 
 BigWigs:AddSounds("Raszageth the Storm-Eater", {
+	[377467] = {"long","warning"},
+	[377594] = "alarm",
+	[377612] = "warning",
+	[381251] = "alarm",
+	[381615] = "warning",
+	[382434] = "alert",
+	[385065] = {"alert","warning"},
+	[385068] = "alarm",
+	[385553] = "alarm",
+	[385569] = "info",
+	[385574] = "alert",
+	[386410] = "alarm",
+	[387261] = {"info","long"},
+	[388643] = "alert",
+	[389870] = "alert",
+	[389878] = "alarm",
+	[391285] = "warning",
+	[391989] = "warning",
+	[394582] = "info",
+	[394583] = "alarm",
+	[394584] = "warning",
+	[395885] = "alert",
+	[395906] = {"alarm","info","warning"},
+	[395929] = "underyou",
+	[396037] = "warning",
+	[397382] = {"alarm","alert","info"},
+	[397387] = "warning",
+	[399713] = "warning",
+	["stages"] = "info",
 })
 
 BigWigs:AddSounds("Vault of the Incarnates Trash", {

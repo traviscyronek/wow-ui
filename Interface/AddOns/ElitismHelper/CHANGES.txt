@@ -1,0 +1,10 @@
+lightweight tag 26c0024f940a62dc830a1035ac6b05b45a77f2a1 0.13.1
+Author:	GitHub <noreply@github.com>
+Date:	Tue Nov 29 13:36:27 2022 +0100
+
+commit 26c0024f940a62dc830a1035ac6b05b45a77f2a1
+Author: Nicolas Le stunff <58040603+nicolas-le-stunff@users.noreply.github.com>
+Date:   Tue Nov 29 13:36:27 2022 +0100
+
+    Update ElitismHelper.toc
+

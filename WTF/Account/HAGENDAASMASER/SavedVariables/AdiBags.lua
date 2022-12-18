@@ -18,11 +18,11 @@ AdiBagsDB = {
 		},
 		["MoneyFrame"] = {
 		},
-		["CurrencyFrame"] = {
-		},
 		["DataSource"] = {
 		},
 		["ItemSets"] = {
+		},
+		["CurrencyFrame"] = {
 		},
 		["Junk"] = {
 		},
@@ -37,6 +37,8 @@ AdiBagsDB = {
 		},
 	},
 	["profileKeys"] = {
+		["Madklaw - Kil'jaeden"] = "Default",
+		["Madtroll - Kil'jaeden"] = "Default",
 		["Madkalf - Kil'jaeden"] = "Default",
 		["Madkow - Kil'jaeden"] = "Default",
 	},
@@ -61,7 +63,7 @@ AdiBagsDB = {
 			["positions"] = {
 				["anchor"] = {
 					["xOffset"] = 0,
-					["yOffset"] = 0,
+					["yOffset"] = 48.41021728515625,
 				},
 			},
 			["scale"] = 0.9,

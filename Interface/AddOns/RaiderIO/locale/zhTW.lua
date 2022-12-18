@@ -53,20 +53,38 @@ L["DISABLE_RWF_MODE_BUTTON"] = "停用"
 L["DISABLE_RWF_MODE_BUTTON_TOOLTIP"] = "單擊以停用競賽世界第一模式。這將導致您的界面重新載入。"
 L["DISABLE_RWF_MODE_RELOAD"] = "您正在停用競賽世界第一模式。單擊確認將重新載入您的界面。"
 L["DPS"] = "傷害輸出"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_AA"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_AV"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_COS"] = ""--]] 
 L["DUNGEON_SHORT_NAME_DOS"] = "彼界"
 L["DUNGEON_SHORT_NAME_GD"] = "車站"
 L["DUNGEON_SHORT_NAME_GMBT"] = "險招"
 L["DUNGEON_SHORT_NAME_HOA"] = "贖罪"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_HOV"] = ""--]] 
 L["DUNGEON_SHORT_NAME_ID"] = "碼頭"
 L["DUNGEON_SHORT_NAME_LOWR"] = "卡拉下"
 L["DUNGEON_SHORT_NAME_MISTS"] = "迷霧"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_NO"] = ""--]] 
 L["DUNGEON_SHORT_NAME_NW"] = "死靈"
 L["DUNGEON_SHORT_NAME_PF"] = "瘟疫"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_RLP"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_SBG"] = ""--]] 
 L["DUNGEON_SHORT_NAME_SD"] = "血紅"
 L["DUNGEON_SHORT_NAME_SOA"] = "晉升"
 L["DUNGEON_SHORT_NAME_STRT"] = "街道"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TJS"] = ""--]] 
 L["DUNGEON_SHORT_NAME_TOP"] = "苦痛"
 L["DUNGEON_SHORT_NAME_UPPR"] = "卡拉上"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_VOTW"] = ""--]] 
 L["DUNGEON_SHORT_NAME_WORK"] = "工坊"
 L["DUNGEON_SHORT_NAME_YARD"] = "廢料場"
 L["ENABLE_AUTO_FRAME_POSITION"] = "自動定位我的M+紀錄框架"
@@ -192,6 +210,22 @@ L["RAID_BOSS_SOD_6"] = "痛苦工匠拉茲內爾"
 L["RAID_BOSS_SOD_7"] = "首創者的守護者"
 L["RAID_BOSS_SOD_8"] = "述命者羅卡洛"
 L["RAID_BOSS_SOD_9"] = "科爾蘇加德"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_8"] = ""--]] 
 L["RAID_DIFFICULTY_NAME_HEROIC"] = "英雄"
 L["RAID_DIFFICULTY_NAME_MYTHIC"] = "傳奇"
 L["RAID_DIFFICULTY_NAME_NORMAL"] = "普通"

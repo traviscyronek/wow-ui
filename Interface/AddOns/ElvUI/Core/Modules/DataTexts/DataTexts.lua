@@ -3,6 +3,7 @@ local DT = E:GetModule('DataTexts')
 local TT = E:GetModule('Tooltip')
 local LDB = E.Libs.LDB
 local LSM = E.Libs.LSM
+-- GLOBALS: ElvDB
 
 local _G = _G
 local tostring, format, type, pcall, unpack = tostring, format, type, pcall, unpack
@@ -13,29 +14,26 @@ local hooksecurefunc = hooksecurefunc
 local CloseDropDownMenus = CloseDropDownMenus
 local CreateFrame = CreateFrame
 local EasyMenu = EasyMenu
-local GetBackpackCurrencyInfo = GetBackpackCurrencyInfo or C_CurrencyInfo.GetBackpackCurrencyInfo
-local GetCurrencyListSize = GetCurrencyListSize or C_CurrencyInfo.GetCurrencyListSize
+local GetCurrencyInfo = GetCurrencyInfo
+local GetCurrencyListInfo = GetCurrencyListInfo
 local GetNumSpecializations = GetNumSpecializations
 local GetSpecializationInfo = GetSpecializationInfo
 local InCombatLockdown = InCombatLockdown
 local IsInInstance = IsInInstance
-local MISCELLANEOUS = MISCELLANEOUS
 local MouseIsOver = MouseIsOver
 local RegisterStateDriver = RegisterStateDriver
 local UnregisterStateDriver = UnregisterStateDriver
 
---Retail
+local C_ClassTalents_GetActiveConfigID = C_ClassTalents and C_ClassTalents.GetActiveConfigID
+local C_CurrencyInfo_ExpandCurrencyList = C_CurrencyInfo.ExpandCurrencyList
+local C_CurrencyInfo_GetCurrencyIDFromLink = C_CurrencyInfo.GetCurrencyIDFromLink
 local C_CurrencyInfo_GetCurrencyInfo = C_CurrencyInfo.GetCurrencyInfo
 local C_CurrencyInfo_GetCurrencyListInfo = C_CurrencyInfo.GetCurrencyListInfo
 local C_CurrencyInfo_GetCurrencyListLink = C_CurrencyInfo.GetCurrencyListLink
-local C_CurrencyInfo_GetCurrencyIDFromLink = C_CurrencyInfo.GetCurrencyIDFromLink
-local C_CurrencyInfo_ExpandCurrencyList = C_CurrencyInfo.ExpandCurrencyList
-local C_ClassTalents_GetActiveConfigID = C_ClassTalents and C_ClassTalents.GetActiveConfigID
+local GetBackpackCurrencyInfo = GetBackpackCurrencyInfo or C_CurrencyInfo.GetBackpackCurrencyInfo
+local GetCurrencyListSize = GetCurrencyListSize or C_CurrencyInfo.GetCurrencyListSize
 
---Wrath
-local GetCurrencyInfo = GetCurrencyInfo
-local GetCurrencyListInfo = GetCurrencyListInfo
-
+local MISCELLANEOUS = MISCELLANEOUS
 local LFG_TYPE_DUNGEON = LFG_TYPE_DUNGEON
 local expansion = _G['EXPANSION_NAME'..GetExpansionLevel()]
 local QuickList = {}
@@ -242,18 +240,22 @@ function DT:BuildPanelFunctions(name, obj)
 end
 
 function DT:SetupObjectLDB(name, obj)
+	if DT.RegisteredDataTexts[name] then return end
+
 	local onEnter, onLeave, onClick, onCallback, onEvent = DT:BuildPanelFunctions(name, obj)
 	local data = DT:RegisterDatatext(name, 'Data Broker', nil, onEvent, nil, onClick, onEnter, onLeave)
 	E.valueColorUpdateFuncs[onCallback] = true
 	data.isLibDataBroker = true
+
+	if self ~= DT then -- This checks to see if we are calling it or the callback.
+		DT:UpdateQuickDT()
+	end
 end
 
 function DT:RegisterLDB()
 	for name, obj in LDB:DataObjectIterator() do
 		DT:SetupObjectLDB(name, obj)
 	end
-
-	DT:UpdateQuickDT()
 end
 
 function DT:GetDataPanelPoint(panel, i, numPoints, vertical)
@@ -594,31 +596,6 @@ do
 	end
 end
 
-function DT:RegisterQuickDT()
-	for name, info in pairs(DT.RegisteredDataTexts) do
-		local category = DT:GetMenuListCategory(info.category or MISCELLANEOUS)
-		if not category then
-			category = #QuickList + 1
-			tinsert(QuickList, { order = 0, text = info.category or MISCELLANEOUS, notCheckable = true, hasArrow = true, menuList = {} } )
-		end
-
-		tinsert(QuickList[category].menuList, {
-			text = info.localizedName or name,
-			checked = function() return E.EasyMenu.MenuGetItem(DT.SelectedDatatext, name) end,
-			func = function() E.EasyMenu.MenuSetItem(DT.SelectedDatatext, name) end
-		})
-	end
-
-	tinsert(QuickList, {
-		order = 100, text = L["None"],
-		checked = function() return E.EasyMenu.MenuGetItem(DT.SelectedDatatext, '') end,
-		func = function() E.EasyMenu.MenuSetItem(DT.SelectedDatatext, '') end
-	})
-
-	DT:SortMenuList(QuickList)
-	DT:RegisterEvent('MODIFIER_STATE_CHANGED', 'QuickDTMode')
-end
-
 do
 	local function hasName(tbl, name)
 		for _, data in pairs(tbl) do
@@ -629,6 +606,8 @@ do
 	end
 
 	function DT:UpdateQuickDT()
+		wipe(QuickList)
+
 		for name, info in pairs(DT.RegisteredDataTexts) do
 			local category = DT:GetMenuListCategory(info.category or MISCELLANEOUS)
 			if not category then
@@ -644,6 +623,12 @@ do
 				})
 			end
 		end
+
+		tinsert(QuickList, {
+			order = 100, text = L["None"],
+			checked = function() return E.EasyMenu.MenuGetItem(DT.SelectedDatatext, '') end,
+			func = function() E.EasyMenu.MenuSetItem(DT.SelectedDatatext, '') end
+		})
 
 		DT:SortMenuList(QuickList)
 	end
@@ -752,9 +737,31 @@ function DT:PLAYER_ENTERING_WORLD()
 	DT:LoadDataTexts()
 end
 
+function DT:BuildTables()
+	local db = ElvDB
+	if not db then db = {} ElvDB = db end
+
+	if not db.gold then db.gold = {} end
+	db.gold[E.myrealm] = db.gold[E.myrealm] or {}
+
+	if not db.class then db.class = {} end
+	db.class[E.myrealm] = db.class[E.myrealm] or {}
+	db.class[E.myrealm][E.myname] = E.myclass
+
+	if not db.faction then db.faction = {} end
+	db.faction[E.myrealm] = db.faction[E.myrealm] or {}
+	db.faction[E.myrealm][E.myname] = E.myfaction
+
+	if not db.serverID then db.serverID = {} end
+	db.serverID[E.serverID] = db.serverID[E.serverID] or {}
+	db.serverID[E.serverID][E.myrealm] = true
+end
+
 function DT:Initialize()
 	DT.Initialized = true
 	DT.db = E.db.datatexts
+
+	DT:BuildTables()
 
 	E.EasyMenu:SetClampedToScreen(true)
 	E.EasyMenu:EnableMouse(true)
@@ -779,9 +786,6 @@ function DT:Initialize()
 	local textSize = E.db.tooltip.textFontSize
 	_G.DataTextTooltipTextLeft1:FontTemplate(font, textSize, fontOutline)
 	_G.DataTextTooltipTextRight1:FontTemplate(font, textSize, fontOutline)
-
-	LDB.RegisterCallback(E, 'LibDataBroker_DataObjectCreated', DT.SetupObjectLDB)
-	DT:RegisterLDB() -- LibDataBroker
 
 	if E.Retail or E.Wrath then
 		DT:RegisterCustomCurrencyDT() -- Register all the user created currency datatexts from the 'CustomCurrency' DT.
@@ -812,7 +816,11 @@ function DT:Initialize()
 	DT.BattleStats.LEFT.panel = _G.LeftChatDataPanel.dataPanels
 	DT.BattleStats.RIGHT.panel = _G.RightChatDataPanel.dataPanels
 
-	DT:RegisterQuickDT()
+	LDB.RegisterCallback(E, 'LibDataBroker_DataObjectCreated', DT.SetupObjectLDB)
+	DT:RegisterLDB() -- LibDataBroker
+	DT:UpdateQuickDT()
+
+	DT:RegisterEvent('MODIFIER_STATE_CHANGED', 'QuickDTMode')
 	DT:RegisterEvent('PLAYER_ENTERING_WORLD')
 end
 

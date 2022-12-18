@@ -18,11 +18,11 @@ ElvDB = {
 	["class"] = {
 		["Kil'jaeden"] = {
 			["Madklaw"] = "EVOKER",
-			["Madkalf"] = "DRUID",
-			["Madzug"] = "ROGUE",
-			["Madkow"] = "SHAMAN",
-			["Madkub"] = "MONK",
 			["Madtroll"] = "PRIEST",
+			["Madkow"] = "SHAMAN",
+			["Madzug"] = "ROGUE",
+			["Madkub"] = "MONK",
+			["Madkalf"] = "DRUID",
 			["Madmon"] = "PALADIN",
 		},
 	},
@@ -102,10 +102,10 @@ ElvDB = {
 				["ZoneAbility"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-663,53",
 				["ElvUF_FocusCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,254,445",
 				["ElvUF_FocusMover"] = "BOTTOM,UIParent,BOTTOM,254,394",
-				["MicrobarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-3,236",
 				["DurabilityFrameMover"] = "BOTTOM,UIParent,BOTTOM,-331,172",
-				["ClassBarMover"] = "BOTTOM,UIParent,BOTTOM,-201,235",
 				["PowerBarContainerMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,280",
+				["ClassBarMover"] = "BOTTOM,UIParent,BOTTOM,-201,235",
+				["MicrobarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-3,236",
 				["ElvUF_PetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-237,136",
 				["VehicleSeatMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,629,105",
 				["ElvUF_PartyMover"] = "TOPLEFT,UIParent,TOPLEFT,3,-314",
@@ -129,8 +129,8 @@ ElvDB = {
 				["VehicleLeaveButton"] = "BOTTOM,ElvUIParent,BOTTOM,-312,191",
 				["ArenaHeaderMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-42,-297",
 				["ElvAB_5"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-2,236",
-				["BNETMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,0,0",
 				["TotemTrackerMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,252",
+				["BNETMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,416,23",
 				["ShiftAB"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,416,23",
 				["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,198,235",
 				["HonorBarMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-222,-2",
@@ -481,11 +481,11 @@ ElvDB = {
 	["gold"] = {
 		["Kil'jaeden"] = {
 			["Madklaw"] = 8177269,
-			["Madkalf"] = 118692640,
+			["Madtroll"] = 119257378,
+			["Madkow"] = 4800827363,
 			["Madzug"] = 9938115,
-			["Madkow"] = 4701296611,
 			["Madkub"] = 173838637,
-			["Madtroll"] = 119231638,
+			["Madkalf"] = 118692640,
 			["Madmon"] = 111360715,
 		},
 	},
@@ -497,11 +497,11 @@ ElvDB = {
 	["faction"] = {
 		["Kil'jaeden"] = {
 			["Madklaw"] = "Horde",
-			["Madkalf"] = "Horde",
-			["Madzug"] = "Horde",
-			["Madkow"] = "Horde",
-			["Madkub"] = "Horde",
 			["Madtroll"] = "Horde",
+			["Madkow"] = "Horde",
+			["Madzug"] = "Horde",
+			["Madkub"] = "Horde",
+			["Madkalf"] = "Horde",
 			["Madmon"] = "Horde",
 		},
 	},
@@ -510,12 +510,22 @@ ElvDB = {
 			["aurafilters"] = {
 				["shaman whitelist"] = {
 					["spells"] = {
+						[173184] = {
+							["enable"] = true,
+							["priority"] = 0,
+							["stackThreshold"] = 0,
+						},
 						[210714] = {
 							["enable"] = true,
 							["priority"] = 0,
 							["stackThreshold"] = 0,
 						},
 						[320763] = {
+							["enable"] = true,
+							["priority"] = 0,
+							["stackThreshold"] = 0,
+						},
+						[378102] = {
 							["enable"] = true,
 							["priority"] = 0,
 							["stackThreshold"] = 0,
@@ -535,12 +545,12 @@ ElvDB = {
 							["priority"] = 0,
 							["stackThreshold"] = 0,
 						},
-						[173184] = {
+						[173183] = {
 							["enable"] = true,
 							["priority"] = 0,
 							["stackThreshold"] = 0,
 						},
-						[378102] = {
+						[114050] = {
 							["enable"] = true,
 							["priority"] = 0,
 							["stackThreshold"] = 0,
@@ -565,12 +575,12 @@ ElvDB = {
 							["priority"] = 0,
 							["stackThreshold"] = 0,
 						},
-						[173183] = {
+						[207400] = {
 							["enable"] = true,
 							["priority"] = 0,
 							["stackThreshold"] = 0,
 						},
-						[207400] = {
+						[108281] = {
 							["enable"] = true,
 							["priority"] = 0,
 							["stackThreshold"] = 0,
@@ -589,38 +599,25 @@ ElvDB = {
 			["settings"] = {
 				["Currencies"] = {
 					["tooltipData"] = {
-						nil, -- [1]
-						nil, -- [2]
-						nil, -- [3]
-						{
+						[5] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [4]
-						nil, -- [5]
-						nil, -- [6]
-						nil, -- [7]
-						nil, -- [8]
-						nil, -- [9]
-						nil, -- [10]
-						{
+						},
+						[12] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [11]
-						nil, -- [12]
-						nil, -- [13]
-						nil, -- [14]
-						nil, -- [15]
-						{
+						},
+						[17] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [16]
-						[29] = {
+						},
+						[30] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]

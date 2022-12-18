@@ -1,8 +1,10 @@
 
 HandyNotes_DragonflightDB = {
 	["profileKeys"] = {
-		["Madkalf - Kil'jaeden"] = "Default",
 		["Madkow - Kil'jaeden"] = "Default",
+		["Madkalf - Kil'jaeden"] = "Default",
+		["Madtroll - Kil'jaeden"] = "Default",
+		["Madklaw - Kil'jaeden"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -6,6 +6,7 @@ ElvCharacterDB = {
 		"will do heals definitely", -- [2]
 		"yea very unique", -- [3]
 		"/ec", -- [4]
+		"/cw Flappity kk", -- [5]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -734,5 +735,115 @@ ElvCharacterDB = {
 			[51] = 1669480505,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [33]
+		{
+			"damn", -- [1]
+			"Arazena-Kil'jaeden", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Arazena-Kil'jaeden", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			816, -- [11]
+			"Player-9-0E40BCF3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fArazena|r",
+			[51] = 1671289248,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [34]
+		{
+			"kk", -- [1]
+			"Flappity-Kil'jaeden", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Flappity-Kil'jaeden", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			817, -- [11]
+			"Player-9-0DB74E29", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aFlappity|r",
+			[51] = 1671289257,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [35]
+		{
+			"|cffa335ee|Hitem:193001::::::::70:103:::::::::|h[元素套索]|h|r lf jewelry pst please", -- [1]
+			"Yoxiu-Kil'jaeden", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Yoxiu-Kil'jaeden", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			818, -- [11]
+			"Player-9-0E275DB0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aYoxiu|r",
+			[51] = 1671289205,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [36]
+		{
+			"i don't have permission to invite lol", -- [1]
+			"Flappity-Kil'jaeden", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Flappity-Kil'jaeden", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			819, -- [11]
+			"Player-9-0DB74E29", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aFlappity|r",
+			[51] = 1671289213,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [37]
+		{
+			"you can get it maxed out after enough quests and crafting though", -- [1]
+			"Mooburdir-Kil'jaeden", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mooburdir-Kil'jaeden", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			820, -- [11]
+			"Player-9-0E410222", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fMooburdir|r",
+			[51] = 1671289217,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [38]
 	},
 }

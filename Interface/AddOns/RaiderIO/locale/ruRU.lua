@@ -55,20 +55,38 @@ L["DISABLE_RWF_MODE_BUTTON"] = "Отключить"
 --[[Translation missing --]]
 --[[ L["DISABLE_RWF_MODE_RELOAD"] = ""--]] 
 L["DPS"] = "Боец"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_AA"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_AV"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_COS"] = ""--]] 
 L["DUNGEON_SHORT_NAME_DOS"] = "Та Сторона"
 L["DUNGEON_SHORT_NAME_GD"] = "Депо Мрачных Путей"
 L["DUNGEON_SHORT_NAME_GMBT"] = "Гамбит Со'леи"
 L["DUNGEON_SHORT_NAME_HOA"] = "Чертоги Покаяния"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_HOV"] = ""--]] 
 L["DUNGEON_SHORT_NAME_ID"] = "Железные доки"
 L["DUNGEON_SHORT_NAME_LOWR"] = "Каражан (нижний ярус)"
 L["DUNGEON_SHORT_NAME_MISTS"] = "Туманы Тирна Скитта"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_NO"] = ""--]] 
 L["DUNGEON_SHORT_NAME_NW"] = "Смертельная тризна"
 L["DUNGEON_SHORT_NAME_PF"] = "Чумные каскады"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_RLP"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_SBG"] = ""--]] 
 L["DUNGEON_SHORT_NAME_SD"] = "Кровавые катакомбы"
 L["DUNGEON_SHORT_NAME_SOA"] = "Шпили Перерождения"
 L["DUNGEON_SHORT_NAME_STRT"] = "Улицы Чудес"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_TJS"] = ""--]] 
 L["DUNGEON_SHORT_NAME_TOP"] = "Театр Боли"
 L["DUNGEON_SHORT_NAME_UPPR"] = "Каражан (верхний ярус)"
+--[[Translation missing --]]
+--[[ L["DUNGEON_SHORT_NAME_VOTW"] = ""--]] 
 L["DUNGEON_SHORT_NAME_WORK"] = "Мехагон — мастерская"
 L["DUNGEON_SHORT_NAME_YARD"] = "Мехагон — свалка"
 L["ENABLE_AUTO_FRAME_POSITION"] = "Автоматическая позиция окна профиля RaiderIO"
@@ -199,6 +217,22 @@ L["RAID_BOSS_SOD_6"] = "Кузнец боли Разнал"
 L["RAID_BOSS_SOD_7"] = "Стражница Предвечных"
 L["RAID_BOSS_SOD_8"] = "Писарь Судьбы Ро-Кало"
 L["RAID_BOSS_SOD_9"] = "Кел'Тузад"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_VOTI_8"] = ""--]] 
 L["RAID_DIFFICULTY_NAME_HEROIC"] = "Героический"
 L["RAID_DIFFICULTY_NAME_MYTHIC"] = "Эпохальный"
 L["RAID_DIFFICULTY_NAME_NORMAL"] = "Обычный"
