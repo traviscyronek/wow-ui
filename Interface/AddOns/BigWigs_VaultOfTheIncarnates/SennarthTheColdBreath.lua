@@ -26,7 +26,7 @@ local timers = {
 	-- Stage 1
 	[371976] = {15.5, 39, 37, 28.5, 38, 22, 38.5, 38, 38}, -- Chilling Blast
 	[372082] = {17.9, 26.4, 26.4, 27.8, 24.0, 26.4, 27.5, 26.2, 20.5, 28.1, 31.9}, -- Enveloping Webs
-	[373405] = {33, 37.5, 67, 38, 60, 38}, -- Gossamer Burst
+	[373405] = {33, 37.5, 67, 38, 60, 38, 34}, -- Gossamer Burst
 	[372238] = {0, 25.5, 25.5, 38, 25.5, 25.5, 27, 27, 19, 27, 26, 26, 26, 24} -- Call Spiderlings
 }
 
@@ -180,10 +180,10 @@ function mod:EncounterEvent(args)
 		callSpiderlingsCount = 1
 
 		if self:Mythic() then
-			-- self:CDBar(372238, 20, CL.count:format(CL.small_adds) -- Call Spiderlings
-			-- self:Bar(371976, 30, CL.count:format(L.chilling_blast, chillingBlastCount)) -- Chilling Blast
-			-- self:Bar(373048, 30, CL.count:format(L.webs, webCount)) -- Suffocating Webs
-			-- self:Bar(371983, 93, CL.count:format(L.repelling_burst, burstCount)) -- Repelling Burst
+			self:CDBar(372238, 13.3, CL.small_adds) -- Call Spiderlings
+			self:Bar(371976, 15.7, CL.count:format(L.chilling_blast, chillingBlastCount)) -- Chilling Blast
+			self:Bar(373048, 26.2, CL.count:format(L.webs, webCount)) -- Suffocating Webs
+			self:Bar(371983, 32.8, CL.count:format(L.repelling_burst, burstCount)) -- Repelling Burst
 		end
 	end
 end
@@ -224,7 +224,13 @@ end
 function mod:CallSpiderlings(args)
 	self:Message(args.spellId, "cyan", CL.small_adds)
 	callSpiderlingsCount = callSpiderlingsCount + 1
-	self:CDBar(args.spellId, self:GetStage() == 2 and 30 or timers[args.spellId][callSpiderlingsCount], CL.small_adds)
+	local cd = 0
+	if self:GetStage() == 1 then
+		cd = timers[args.spellId][callSpiderlingsCount]
+	else
+		cd = self:Easy() and 26 and self:Heroic() and 34 or 30
+	end
+	self:CDBar(args.spellId, cd, CL.small_adds)
 end
 
 -- Stage 1
@@ -247,7 +253,7 @@ do
 			self:SayCountdown(args.spellId, 6, count)
 			self:PlaySound(args.spellId, "warning")
 		end
-		self:TargetsMessage(args.spellId, "yellow", playerList, 3, L.webs)
+		self:TargetsMessage(args.spellId, "yellow", playerList, 3, CL.count:format(L.webs, webCount-1), nil, 1)
 		self:CustomIcon(envelopingWebsMarker, args.destName, count)
 	end
 
@@ -318,7 +324,7 @@ do
 		self:StopBar(CL.count:format(L.webs, webCount))
 		playerList = {}
 		webCount = webCount + 1
-		self:CDBar(373048, 49, CL.count:format(L.webs, webCount))
+		self:Bar(373048, not self:Mythic() and 49 or webCount % 2 == 0 and 39 or 45, CL.count:format(L.webs, webCount))
 	end
 
 	function mod:SuffocatingWebsApplied(args)
@@ -331,7 +337,7 @@ do
 			self:PlaySound(args.spellId, "warning")
 		end
 		self:CustomIcon(suffocatingWebsMarker, args.destName, count)
-		self:TargetsMessage(args.spellId, "yellow", playerList, 3, L.webs)
+		self:TargetsMessage(args.spellId, "yellow", playerList, 2, CL.count:format(L.webs, webCount-1), nil, 1)
 	end
 
 	function mod:SuffocatingWebsRemoved(args)

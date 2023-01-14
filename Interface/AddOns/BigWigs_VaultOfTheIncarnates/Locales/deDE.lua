@@ -35,6 +35,8 @@ if L then
 
 	L.custom_on_stop_timers = "Fähigkeitenleisten immer anzeigen"
 	L.custom_on_stop_timers_desc = "Fähigkeiten, welche immer angezeigt werden: Leitfähiges Zeichen"
+
+	L.skipped_cast = "%s (%d) übersprungen"
 end
 
 L = BigWigs:NewBossLocale("Sennarth, The Cold Breath", "deDE")
@@ -73,10 +75,18 @@ if L then
 	L.ultimate_desc = "Zeigt Timer für ultimative Fähigkeiten an (Sengendes Gemetzel, Absoluter Nullpunkt, Seismischer Riss, Donnerschlag) wenn nicht bekannt ist, an welchem Altar der Boss ist."
 	L.ultimate_bartext = "%s [Ultimativ]" -- {Spell} [Ult]
 
+	L.add_bartext = "%s [Add]" -- "{Spell} [Add]"
+
+	L.Fire = "Feuer"
+	L.Frost = "Frost"
+	L.Earth = "Erde"
+	L.Storm = "Sturm"
+
 	-- -- Fire
 	L.magma_burst = "Pfützen"
 	L.molten_rupture = "Wellen"
 	L.searing_carnage = "Tanzen"
+	L.raging_inferno = "Pfützen soaken"
 
 	-- -- Frost
 	L.biting_chill = "Kälte DoT"
@@ -111,6 +121,7 @@ if L then
 	L.icy_shroud = "Heilung absorbiert"
 	L.broodkeepers_fury = "Wut (Bruthüterin)"
 	L.frozen_shroud = "Bewegungsunfähig / Absorbtion"
+	-- L.detonating_stoneslam = "Tank Soak"
 end
 
 L = BigWigs:NewBossLocale("Raszageth the Storm-Eater", "deDE")
@@ -142,8 +153,18 @@ if L then
 	L.ball_lightning = "Kugeln"
 	-- Stage Three: Storm Incarnate
 	L.magnetic_charge = "Magnetische Ladung"
-	-- Mythic
-	L.storm_eater = "Sturmfresserin"
+
+	L.storm_nova_cast = "Sturmnova Zauberleiste"
+	L.storm_nova_cast_desc = "Zauberleiste für Sturmnova"
+
+	L.custom_on_repeating_stormcharged = "Positiv oder Negativ wiederholen"
+	L.custom_on_repeating_stormcharged_desc = "Gibt wiederholt Positive oder Negative Chatnachrichten mit Symbolen {rt1}, {rt3} aus, um Übereinstimmungen zum Entfernen des Schwächungszaubers zu finden."
+
+	L.skipped_cast = "%s (%d) übersprungen"
+
+	L.custom_off_raidleader_devastation = "Blitzverheerung: Leiter-Modus"
+	L.custom_off_raidleader_devastation_desc = "Zeigt eine Leiste für Blitzverheerung (Atem) auch auf der anderen Seite an."
+	L.breath_other = "%s [Gegenseite]" -- Breath on opposite platform
 end
 
 L = BigWigs:NewBossLocale("Vault of the Incarnates Trash", "deDE")

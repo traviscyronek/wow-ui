@@ -937,6 +937,7 @@ DF.CrowdControlSpells = {
 	[61721] = "MAGE", --Polymorph Rabbit
 	[28272] = "MAGE", --Polymorph Pig
 	[277792] = "MAGE", --Polymorph Bumblebee
+	[391622] = "MAGE", --Polymorph Duck
 	[2139] = "MAGE", --Counterspell
 	
 	[82691] = "MAGE", --Ring of Frost (debuff spellid)
@@ -1395,16 +1396,16 @@ elseif (DF.IsWotLKWow()) then
 	}
 	
 	DF.PotionIDs = {
-		[40093] = true, --Indestructable Potion
-		[40211] = true, --Potion of Speed
-		[40212] = true, --Potion of Wild Magic
-		[40081] = true, --Potion of Nightmares
-		[33447] = true, -- Runic Healing Potion
-		[41166] = true, -- Runic Healing Injector
-		[40087] = true, -- Powerful Rejuvenation Potion
-		[40077] = true, -- Crazy Alchemist's Potion
-		[33448] = true, -- Runic Mana Potion
-		[42545] = true, -- Runic Mana Injector
+		[53762] = true, --Indestructable Potion
+		[53908] = true, --Potion of Speed
+		[53909] = true, --Potion of Wild Magic
+		[53753] = true, --Potion of Nightmares
+		[43185] = true, -- Runic Healing Potion
+		[67489] = true, -- Runic Healing Injector
+		[53761] = true, -- Powerful Rejuvenation Potion
+		[53750] = true, -- Crazy Alchemist's Potion
+		[43186] = true, -- Runic Mana Potion
+		[67490] = true, -- Runic Mana Injector
 	}
 	DF.FeastIDs = {}
 	DF.RuneIDs = {}

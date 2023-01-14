@@ -35,6 +35,8 @@ if L then
 
 	L.custom_on_stop_timers = "总是显示计时条"
 	L.custom_on_stop_timers_desc = "总是显示的技能: 传导印记"
+
+	-- L.skipped_cast = "Skipped %s (%d)"
 end
 
 L = BigWigs:NewBossLocale("Sennarth, The Cold Breath", "zhCN")
@@ -63,20 +65,28 @@ if L then
 	-- Types
 	L.damage = "伤害技能"
 	L.damage_desc = "在我们不知道首领是什么元素时，显示伤害技能的计时条（岩浆爆裂，酷寒，大地笼罩，闪电崩裂）。"
-	L.damage_bartext = "%s [伤害]" -- {Spell} [Dmg]
+	L.damage_bartext = "[伤害] %s" -- {Spell} [Dmg]
 
 	L.avoid = "躲避技能"
 	L.avoid_desc = "在我们不知道首领是什么元素时，显示躲避技能的计时条（熔火破裂，冷冽洪流，基岩喷发，震撼爆裂）。"
-	L.avoid_bartext = "%s [躲避]" -- {Spell} [Avoid]
+	L.avoid_bartext = "[躲避] %s" -- {Spell} [Avoid]
 
 	L.ultimate = "终极技能"
 	L.ultimate_desc = "在我们不知道首领是什么元素时，显示终极技能的计时条（灼热屠戮，绝对零度，地层裂口，雷霆打击）"
-	L.ultimate_bartext = "%s [终极]" -- {Spell} [Ult]
+	L.ultimate_bartext = "[终极] %s" -- {Spell} [Ult]
+
+	L.add_bartext = "[增援] %s" -- "{Spell} [Add]"
+
+	L.Fire = "烈焰"
+	L.Frost = "冰霜"
+	L.Earth = "大地" -- check
+	L.Storm = "风暴"
 
 	-- Fire
 	L.magma_burst = "岩浆池"
 	L.molten_rupture = "熔岩"
 	L.searing_carnage = "火焰跳舞"
+	L.raging_inferno = "吸收岩浆池"
 
 	-- Frost
 	L.biting_chill = "刺骨寒意"
@@ -97,7 +107,7 @@ if L then
 	L.primal_attunement = "软狂暴"
 
 	-- Stage 2
-	L.violent_upheaval = "柱子"
+	L.violent_upheaval = "石柱"
 end
 
 L = BigWigs:NewBossLocale("Broodkeeper Diurna", "zhCN")
@@ -111,12 +121,13 @@ if L then
 	L.icy_shroud = "治疗吸收盾"
 	L.broodkeepers_fury = "愤怒"
 	L.frozen_shroud = "定身吸收盾"
+	L.detonating_stoneslam = "坦克分摊"
 end
 
 L = BigWigs:NewBossLocale("Raszageth the Storm-Eater", "zhCN")
 if L then
-	L.lighting_devastation_trigger = "深呼吸" -- Raszageth takes a deep breath...
-	
+	L.lighting_devastation_trigger = "深吸" -- Raszageth takes a deep breath...
+
 	-- Stage One: The Winds of Change
 	L.hurricane_wing = "推开"
 	L.volatile_current = "火花"
@@ -142,8 +153,18 @@ if L then
 	L.ball_lightning = "闪电球"
 	-- Stage Three: Storm Incarnate
 	L.magnetic_charge = "积雷倒数"
-	-- Mythic
-	L.storm_eater = "噬雷之龙"
+
+	L.storm_nova_cast = "风暴新星施法条"
+	L.storm_nova_cast_desc = "显示风暴新星施法条"
+
+	L.custom_on_repeating_stormcharged = "重复正和负"
+	L.custom_on_repeating_stormcharged_desc = "使用图标{rt1}, {rt3} 重复显示正和负的信息，来帮助你找到正确的位置。"
+
+	-- L.skipped_cast = "Skipped %s (%d)"
+
+	L.custom_off_raidleader_devastation = "闪电毁灭: 全局模式"
+	L.custom_off_raidleader_devastation_desc = "在另一个台子上也显示闪电毁灭（吐息）"
+	L.breath_other = "[对面] %s" -- Breath on opposite platform
 end
 
 L = BigWigs:NewBossLocale("Vault of the Incarnates Trash", "zhCN")

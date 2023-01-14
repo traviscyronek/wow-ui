@@ -4,18 +4,18 @@ OPie_SavedData = {
 	["CharProfiles"] = {
 	},
 	["_GameVersion"] = "10.0.2",
-	["_OPieVersion"] = "Yuzu 4 (4.112)",
+	["_OPieVersion"] = "Yuzu 5b (4.114)",
 	["ProfileStorage"] = {
 		["default"] = {
 			["Bindings"] = {
 				["RaidSymbols"] = "SHIFT-A",
-				["OPieAutoQuest"] = "SHIFT-Q",
 				["OPieTracking"] = false,
-				["SpecMenu"] = "SHIFT-H",
+				["OPieAutoQuest"] = "SHIFT-Q",
+				["WorldMarkers"] = "CTRL-A",
 				["CommonTrades"] = false,
 				["food"] = "SHIFT-N",
 				["travel"] = "CTRL-H",
-				["WorldMarkers"] = "CTRL-A",
+				["SpecMenu"] = "SHIFT-H",
 			},
 			["RotationTokens"] = {
 				["OPCTAt"] = "OPCHSh",
@@ -138,19 +138,9 @@ OPie_SavedData = {
 				}, -- [1]
 				{
 					"item", -- [1]
-					173859, -- [2]
-					["sliceToken"] = "ABuevj7K7bu",
+					194684, -- [2]
+					["sliceToken"] = "ABuevOuoe5y",
 				}, -- [2]
-				{
-					"item", -- [1]
-					172041, -- [2]
-					["sliceToken"] = "ABuevj7K7by",
-				}, -- [3]
-				{
-					"item", -- [1]
-					172043, -- [2]
-					["sliceToken"] = "ABuevj7K7bt",
-				}, -- [4]
 				["name"] = "consumables",
 				["save"] = true,
 				["hotkey"] = "SHIFT-N",
@@ -187,10 +177,10 @@ OPie_SavedData = {
 					["sliceToken"] = "ABuevj7K7bA",
 					["id"] = 159896,
 				}, -- [7]
-				["limit"] = "Madkow-Kil'jaeden",
+				["name"] = "travel+",
 				["save"] = true,
 				["hotkey"] = "CTRL-H",
-				["name"] = "travel+",
+				["limit"] = "Madkow-Kil'jaeden",
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 2,

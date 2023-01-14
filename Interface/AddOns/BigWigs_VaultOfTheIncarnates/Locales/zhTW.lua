@@ -35,6 +35,8 @@ if L then
 
 	L.custom_on_stop_timers = "總是顯示計時器"
 	L.custom_on_stop_timers_desc = "啟用此選項後，導電印記的計時條會保持顯示。"
+
+	-- L.skipped_cast = "Skipped %s (%d)"
 end
 
 L = BigWigs:NewBossLocale("Sennarth, The Cold Breath", "zhTW")
@@ -73,31 +75,39 @@ if L then
 	L.ultimate_desc = "當我們不知道首領獲得什麼元素能力時，顯示終結技能的計時器（灼熱屠殺、絕對零度、震地破裂、雷擊）。"
 	L.ultimate_bartext = "[終結] %s" -- {Spell} [Ult]
 
-	-- -- Fire
+	L.add_bartext = "[增援] %s" -- "{Spell} [Add]"
+
+	L.Fire = "火焰"
+	L.Frost = "冰霜"
+	L.Earth = "大地"
+	L.Storm = "風暴"
+
+	-- Fire
 	L.magma_burst = "熔岩池"
 	L.molten_rupture = "熔岩波"
 	L.searing_carnage = "火圈跳舞"
+	L.raging_inferno = "吸收熔岩池"
 
-	-- -- Frost
+	-- Frost
 	L.biting_chill = "刺骨之寒"
 	L.frigid_torrent = "冰球跳舞"
 	L.absolute_zero = "大圈分攤"
 	L.absolute_zero_melee = "近戰分攤"
 	L.absolute_zero_ranged = "遠程分攤"
 
-	-- -- Earth
+	-- Earth
 	L.enveloping_earth = "吸收盾"
 	L.erupting_bedrock = "地震跳舞"
 
-	-- -- Storm
+	-- Storm
 	L.lightning_crash = "閃電暴擊"
 	L.thundering_strike = "接圈"
 
-	-- -- General
+	-- General
 	L.primal_attunement = "軟狂暴"
 
-	-- -- Stage 2
-	-- L.violent_upheaval = "Pillars"
+	-- Stage 2
+	L.violent_upheaval = "石柱"
 end
 
 L = BigWigs:NewBossLocale("Broodkeeper Diurna", "zhTW")
@@ -111,11 +121,51 @@ if L then
 	L.icy_shroud = "減速吸收盾"
 	L.broodkeepers_fury = "狂怒"
 	L.frozen_shroud = "定身吸收盾"
+	L.detonating_stoneslam = "坦克分攤"
 end
 
 L = BigWigs:NewBossLocale("Raszageth the Storm-Eater", "zhTW")
 if L then
-	L.lighting_devastation_trigger = "深呼吸" -- Raszageth takes a deep breath...
+	L.lighting_devastation_trigger = "深吸" -- Raszageth takes a deep breath...
+
+	-- Stage One: The Winds of Change
+	L.hurricane_wing = "吹風"
+	L.volatile_current = "火花"
+	L.thunderous_blast = "射線"
+	L.lightning_breath = "吐息"
+	L.lightning_strikes = "落雷"
+	L.electric_scales = "團隊傷害"
+	L.electric_lash = "電鞭"
+	-- Intermission: The Primalist Strike
+	L.lightning_devastation = "吐息"
+	L.shattering_shroud = "治療吸收盾"
+	-- Stage Two: Surging Power
+	L.absorb_text = "%s (%.0f%%)"
+	L.stormsurge = "帶電吸收盾"
+	L.stormcharged = "風暴充能"
+	L.positive = "正極"
+	L.negative = "負極"
+	L.focused_charge = "聚能電荷"
+	L.tempest_wing = "風暴之翼"
+	L.fulminating_charge = "電能炸裂"
+	L.fulminating_charge_debuff = "電能炸裂"
+	-- Intermission: The Vault Falters
+	L.storm_break = "傳送"
+	L.ball_lightning = "閃電球"
+	-- Stage Three: Storm Incarnate
+	L.magnetic_charge = "磁性電荷"
+
+	L.storm_nova_cast = "風暴新星施法"
+	L.storm_nova_cast_desc = "顯示風暴新星的施法計時"
+
+	L.custom_on_repeating_stormcharged = "重複正負極"
+	L.custom_on_repeating_stormcharged_desc = "以 {rt1} 和 {rt3} 持續喊話正負極，方便你快速找到相同印記的隊友。"
+
+	-- L.skipped_cast = "Skipped %s (%d)"
+
+	L.custom_off_raidleader_devastation = "閃電破滅：團長模式"
+	L.custom_off_raidleader_devastation_desc = "在另一個平台上也顯示閃電破滅（吐息）的計時器。"
+	L.breath_other = "[對面] %s" -- Breath on opposite platform
 end
 
 L = BigWigs:NewBossLocale("Vault of the Incarnates Trash", "zhTW")

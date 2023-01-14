@@ -4,6 +4,7 @@ BigWigs:AddSounds("Patrol Captain Gerdo", {
 	[207278] = "long",
 	[207806] = "alert",
 	[207815] = "info",
+	[215204] = {"alert","warning"},
 	[219488] = "info",
 })
 
@@ -21,11 +22,11 @@ BigWigs:AddSounds("Advisor Melandrus", {
 })
 
 BigWigs:AddSounds("Court of Stars Trash", {
-	[207979] = "alert",
-	[207980] = "long",
+	[207979] = "alarm",
+	[207980] = {"alert","long"},
 	[209027] = "alarm",
 	[209033] = "alert",
-	[209378] = "alert",
+	[209378] = "alarm",
 	[209404] = "alert",
 	[209410] = "alert",
 	[209413] = {"alarm","alert"},
@@ -50,6 +51,9 @@ BigWigs:AddSounds("Court of Stars Trash", {
 	[216110] = "alert",
 	[224377] = "alarm",
 	[225100] = "alert",
+	[397892] = "alarm",
+	[397897] = "alert",
+	[397907] = "alarm",
 	["announce_buff_items"] = "info",
 	["spy_helper"] = "info",
 })

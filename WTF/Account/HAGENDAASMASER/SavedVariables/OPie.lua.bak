@@ -4,7 +4,7 @@ OPie_SavedData = {
 	["CharProfiles"] = {
 	},
 	["_GameVersion"] = "10.0.2",
-	["_OPieVersion"] = "Yuzu 4 (4.112)",
+	["_OPieVersion"] = "Yuzu 5b (4.114)",
 	["ProfileStorage"] = {
 		["default"] = {
 			["RotationTokens"] = {
@@ -12,43 +12,67 @@ OPie_SavedData = {
 			},
 			["Bindings"] = {
 				["RaidSymbols"] = "SHIFT-A",
-				["SpecMenu"] = "SHIFT-H",
 				["WorldMarkers"] = "CTRL-A",
-				["OPieTracking"] = false,
+				["SpecMenu"] = "SHIFT-H",
+				["OPieAutoQuest"] = "SHIFT-Q",
 				["CommonTrades"] = false,
 				["food"] = "SHIFT-N",
 				["travel"] = "CTRL-H",
-				["OPieAutoQuest"] = "SHIFT-Q",
+				["OPieTracking"] = false,
 			},
 		},
 	},
 	["PersistentStorage"] = {
 		["RingKeeper"] = {
-			["food"] = {
+			["RaidSymbols"] = {
 				{
-					"item", -- [1]
-					113509, -- [2]
-					["sliceToken"] = "ABuevj7K7bJ",
+					"raidmark", -- [1]
+					8, -- [2]
+					["sliceToken"] = "OPCRSw",
 				}, -- [1]
 				{
-					"item", -- [1]
-					173859, -- [2]
-					["sliceToken"] = "ABuevj7K7bu",
+					"raidmark", -- [1]
+					7, -- [2]
+					["sliceToken"] = "OPCRSr",
 				}, -- [2]
 				{
-					"item", -- [1]
-					172041, -- [2]
-					["sliceToken"] = "ABuevj7K7by",
+					"raidmark", -- [1]
+					2, -- [2]
+					["sliceToken"] = "OPCRSo",
 				}, -- [3]
 				{
-					"item", -- [1]
-					172043, -- [2]
-					["sliceToken"] = "ABuevj7K7bt",
+					"raidmark", -- [1]
+					1, -- [2]
+					["sliceToken"] = "OPCRSy",
 				}, -- [4]
-				["name"] = "consumables",
+				{
+					"raidmark", -- [1]
+					4, -- [2]
+					["sliceToken"] = "OPCRSg",
+				}, -- [5]
+				{
+					"raidmark", -- [1]
+					6, -- [2]
+					["sliceToken"] = "OPCRSb",
+				}, -- [6]
+				{
+					"raidmark", -- [1]
+					3, -- [2]
+					["sliceToken"] = "OPCRSp",
+				}, -- [7]
+				{
+					"raidmark", -- [1]
+					5, -- [2]
+					["sliceToken"] = "OPCRSs",
+				}, -- [8]
+				{
+					"raidmark", -- [1]
+					0, -- [2]
+					["sliceToken"] = "OPCRSc",
+				}, -- [9]
+				["name"] = "Target Markers",
 				["save"] = true,
-				["hotkey"] = "SHIFT-N",
-				["limit"] = "Madkow-Kil'jaeden",
+				["hotkey"] = "ALT-R",
 			},
 			["SpecMenu"] = {
 				{
@@ -106,6 +130,22 @@ OPie_SavedData = {
 				["save"] = true,
 				["hotkey"] = "ALT-H",
 			},
+			["food"] = {
+				{
+					"item", -- [1]
+					113509, -- [2]
+					["sliceToken"] = "ABuevj7K7bJ",
+				}, -- [1]
+				{
+					"item", -- [1]
+					194684, -- [2]
+					["sliceToken"] = "ABuevOuoe5y",
+				}, -- [2]
+				["name"] = "consumables",
+				["save"] = true,
+				["hotkey"] = "SHIFT-N",
+				["limit"] = "Madkow-Kil'jaeden",
+			},
 			["travel"] = {
 				{
 					"item", -- [1]
@@ -137,10 +177,10 @@ OPie_SavedData = {
 					["sliceToken"] = "ABuevj7K7bA",
 					["id"] = 159896,
 				}, -- [7]
-				["limit"] = "Madkow-Kil'jaeden",
+				["name"] = "travel+",
 				["save"] = true,
 				["hotkey"] = "CTRL-H",
-				["name"] = "travel+",
+				["limit"] = "Madkow-Kil'jaeden",
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 2,

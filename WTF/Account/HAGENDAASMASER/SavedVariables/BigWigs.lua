@@ -1,77 +1,32 @@
 
 BigWigs3DB = {
 	["namespaces"] = {
-		["BigWigs_Bosses_Crawth"] = {
+		["BigWigs_Plugins_Victory"] = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Bosses_Bonemaw"] = {
+		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Bosses_Azureblade"] = {
-		},
-		["BigWigs_Bosses_Echo of Doragosa"] = {
+		["BigWigs_Plugins_Pull"] = {
 		},
 		["BigWigs_Plugins_Statistics"] = {
 		},
 		["BigWigs_Plugins_AltPower"] = {
 		},
-		["BigWigs_Plugins_Wipe"] = {
-		},
-		["BigWigs_Bosses_Vexamus"] = {
-		},
-		["BigWigs_Bosses_Ruby Life Pools Trash"] = {
-		},
-		["BigWigs_Plugins_Messages"] = {
+		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
 				["Default"] = {
-					["emphPosition"] = {
-						nil, -- [1]
-						nil, -- [2]
-						0.8207343816757202, -- [3]
-						155.8970642089844, -- [4]
-					},
+					["posx"] = 298.1999463374814,
+					["fontSize"] = 12,
+					["height"] = 204.5128936767578,
+					["posy"] = 228.6667900134307,
+					["width"] = 127.6926879882813,
 				},
 			},
-		},
-		["BigWigs_Bosses_Leymor"] = {
-		},
-		["BigWigs_Plugins_Victory"] = {
-		},
-		["BigWigs_Bosses_Kyrakka and Erkhart Stormvein"] = {
-		},
-		["BigWigs_Bosses_Melidrussa Chillworn"] = {
-		},
-		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Bosses_Kokia Blazehoof"] = {
-		},
-		["BigWigs_Bosses_Granyth"] = {
-		},
-		["BigWigs_Bosses_The Nokhud Offensive Trash"] = {
-		},
-		["BigWigs_Bosses_Ner'zhul"] = {
-		},
-		["BigWigs_Bosses_Sadana Bloodfury"] = {
-		},
-		["BigWigs_Plugins_Countdown"] = {
-			["profiles"] = {
-				["Default"] = {
-					["position"] = {
-						"CENTER", -- [1]
-						"CENTER", -- [2]
-						-222.3589935302734, -- [3]
-						-274.3587951660156, -- [4]
-					},
-				},
-			},
-		},
-		["BigWigs_Bosses_Nhallish"] = {
-		},
-		["BigWigs_Bosses_Shadowmoon Burial Grounds Trash"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Plugins_BossBlock"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
@@ -86,49 +41,57 @@ BigWigs3DB = {
 				["Default"] = {
 					["BigWigsEmphasizeAnchor_y"] = 270.1502494903616,
 					["emphasize"] = false,
-					["BigWigsAnchor_width"] = 180.0000610351563,
-					["BigWigsAnchor_x"] = 789.5337539990578,
 					["BigWigsEmphasizeAnchor_height"] = 21.99994850158691,
-					["BigWigsAnchor_height"] = 20.0000057220459,
+					["BigWigsAnchor_width"] = 180.0000610351563,
 					["BigWigsAnchor_y"] = 422.1338040963019,
-					["BigWigsEmphasizeAnchor_width"] = 293.7433471679688,
 					["BigWigsEmphasizeAnchor_x"] = 587.7333585690212,
+					["BigWigsAnchor_height"] = 20.0000057220459,
+					["BigWigsAnchor_x"] = 789.5337539990578,
+					["BigWigsEmphasizeAnchor_width"] = 293.7433471679688,
 				},
 			},
-		},
-		["BigWigs_Bosses_The Raging Tempest"] = {
-		},
-		["BigWigs_Bosses_The Azure Vault Trash"] = {
-		},
-		["BigWigs_Bosses_Telash Greywing"] = {
-		},
-		["BigWigs_Bosses_Umbrelskul"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Bosses_Algeth'ar Academy Trash"] = {
-		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["fontSize"] = 12,
-					["width"] = 127.6926879882813,
-					["posy"] = 228.6667900134307,
-					["height"] = 204.5129089355469,
-					["posx"] = 298.1999463374814,
-				},
-			},
-		},
-		["BigWigs_Bosses_Overgrown Ancient"] = {
-		},
-		["BigWigs_Plugins_Pull"] = {
 		},
 		["BigWigs_Plugins_Raid Icons"] = {
+		},
+		["BigWigs_Plugins_BossBlock"] = {
+		},
+		["BigWigs_Plugins_Countdown"] = {
+			["profiles"] = {
+				["Default"] = {
+					["position"] = {
+						"CENTER", -- [1]
+						"CENTER", -- [2]
+						-222.3589935302734, -- [3]
+						-274.3587951660156, -- [4]
+					},
+				},
+			},
+		},
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["Default"] = {
+					["emphPosition"] = {
+						nil, -- [1]
+						nil, -- [2]
+						0.8207343816757202, -- [3]
+						155.8970642089844, -- [4]
+					},
+				},
+			},
+		},
+		["BigWigs_Plugins_AutoReply"] = {
 		},
 	},
 	["global"] = {
 		["watchedMovies"] = {
 			[-575] = true,
+			[-607] = true,
+			[-609] = true,
+			[-573] = true,
+			[-593] = {
+				true, -- [1]
+				true, -- [2]
+			},
 		},
 	},
 	["profileKeys"] = {
@@ -145,4 +108,45 @@ BigWigsIconDB = {
 	["hide"] = true,
 }
 BigWigsStatsDB = {
+	[2522] = {
+		[2491] = {
+			["LFR"] = {
+				["best"] = 406.7519999998622,
+				["kills"] = 2,
+			},
+		},
+		[2486] = {
+			["LFR"] = {
+				["kills"] = 3,
+				["best"] = 209.1969999999274,
+				["wipes"] = 2,
+			},
+		},
+		[2480] = {
+			["LFR"] = {
+				["kills"] = 3,
+				["wipes"] = 2,
+				["best"] = 205.4439999999013,
+			},
+		},
+		[2502] = {
+			["LFR"] = {
+				["best"] = 235.4020000000019,
+				["kills"] = 3,
+			},
+		},
+		[2482] = {
+			["LFR"] = {
+				["kills"] = 1,
+				["wipes"] = 2,
+				["best"] = 307.908000000054,
+			},
+		},
+		[2500] = {
+			["LFR"] = {
+				["best"] = 328.1080000000075,
+				["kills"] = 1,
+			},
+		},
+	},
 }

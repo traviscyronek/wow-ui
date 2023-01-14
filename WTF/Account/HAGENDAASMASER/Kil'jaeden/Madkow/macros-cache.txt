@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "EGT/WRT" "132319"
+#showtooltip
+/cast [known:Wind Rush Totem] Wind Rush Totem; [known:Earthgrab Totem] Earthgrab Totem
+END

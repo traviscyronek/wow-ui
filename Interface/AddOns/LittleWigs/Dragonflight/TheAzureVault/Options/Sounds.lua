@@ -17,7 +17,7 @@ BigWigs:AddSounds("Azureblade", {
 BigWigs:AddSounds("Telash Greywing", {
 	[386781] = "alert",
 	[387151] = {"alarm","alert"},
-	[388008] = "long",
+	[388008] = {"alert","long"},
 })
 
 BigWigs:AddSounds("Umbrelskul", {
@@ -29,10 +29,15 @@ BigWigs:AddSounds("Umbrelskul", {
 })
 
 BigWigs:AddSounds("The Azure Vault Trash", {
+	[370764] = "alarm",
 	[370766] = "alarm",
 	[371358] = "long",
-	[375596] = "alert",
+	[375596] = "alarm",
+	[375649] = "underyou",
 	[377488] = "alert",
 	[386546] = "alert",
 	[387067] = "alarm",
+	[387564] = "alert",
+	[396991] = "alarm",
+	[397726] = {"long","warning"},
 })

@@ -33,3 +33,5 @@ ElvUI_Options: enabled
 BigWigs_DragonIsles: enabled
 LittleWigs_Legion: enabled
 LittleWigs_WarlordsOfDraenor: enabled
+LittleWigs_MistsOfPandaria: enabled
+BigWigs_VaultOfTheIncarnates: enabled

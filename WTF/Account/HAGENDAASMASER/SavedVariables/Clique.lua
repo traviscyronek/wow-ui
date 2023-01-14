@@ -2,6 +2,14 @@
 CliqueDB = nil
 CliqueDB3 = {
 	["char"] = {
+		["Madzug - Kil'jaeden"] = {
+			["spec1_profileKey"] = "Madzug - Kil'jaeden",
+			["spec3_profileKey"] = "Madzug - Kil'jaeden",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Madzug - Kil'jaeden",
+			["specswap"] = false,
+		},
 		["Madklaw - Kil'jaeden"] = {
 			["spec1_profileKey"] = "Madklaw - Kil'jaeden",
 			["spec2_profileKey"] = "Madklaw - Kil'jaeden",
@@ -29,21 +37,21 @@ CliqueDB3 = {
 		},
 		["Madtroll - Kil'jaeden"] = {
 			["spec1_profileKey"] = "Madtroll - Kil'jaeden",
-			["alerthidden"] = true,
+			["spec3_profileKey"] = "Madtroll - Kil'jaeden",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Madtroll - Kil'jaeden",
 			["spec2_profileKey"] = "Madtroll - Kil'jaeden",
 			["specswap"] = false,
+			["alerthidden"] = true,
 		},
 		["Madkow - Kil'jaeden"] = {
 			["spec1_profileKey"] = "Madkow - Kil'jaeden",
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Madkow - Kil'jaeden",
-			["downclick"] = false,
 			["specswap"] = false,
+			["downclick"] = false,
 			["spec3_profileKey"] = "Madkow - Kil'jaeden",
 			["alerthidden"] = true,
+			["spec2_profileKey"] = "Madkow - Kil'jaeden",
 		},
 	},
 	["profileKeys"] = {
@@ -254,65 +262,13 @@ CliqueDB3 = {
 				}, -- [1]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-V",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136066,
-					["spell"] = "Dispel Magic",
-				}, -- [2]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-T",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 463835,
-					["spell"] = "Leap of Faith",
-				}, -- [3]
-				{
-					["type"] = "spell",
 					["key"] = "SHIFT-Z",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135955,
 					["spell"] = "Resurrection",
-				}, -- [4]
-				{
-					["type"] = "spell",
-					["key"] = "5",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135887,
-					["spell"] = "Circle of Healing",
-				}, -- [5]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135939,
-					["spell"] = "Power Infusion",
-				}, -- [6]
-				{
-					["type"] = "spell",
-					["key"] = "F",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135937,
-					["spell"] = "Holy Word: Serenity",
-				}, -- [7]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [8]
+				}, -- [2]
 				{
 					["type"] = "spell",
 					["key"] = "1",
@@ -321,43 +277,59 @@ CliqueDB3 = {
 					},
 					["icon"] = 135953,
 					["spell"] = "Renew",
+				}, -- [3]
+				{
+					["type"] = "spell",
+					["key"] = "F",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135937,
+					["spell"] = "Holy Word: Serenity",
+				}, -- [4]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135939,
+					["spell"] = "Power Infusion",
+				}, -- [5]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-T",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 463835,
+					["spell"] = "Leap of Faith",
+				}, -- [6]
+				{
+					["type"] = "spell",
+					["key"] = "5",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135887,
+					["spell"] = "Circle of Healing",
+				}, -- [7]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-V",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136066,
+					["spell"] = "Dispel Magic",
+				}, -- [8]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
 				}, -- [9]
-				{
-					["type"] = "spell",
-					["key"] = "R",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135940,
-					["spell"] = "Power Word: Shield",
-				}, -- [10]
-				{
-					["type"] = "spell",
-					["key"] = "V",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135894,
-					["spell"] = "Purify",
-				}, -- [11]
-				{
-					["type"] = "spell",
-					["key"] = "3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135913,
-					["spell"] = "Heal",
-				}, -- [12]
-				{
-					["type"] = "spell",
-					["key"] = "2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135907,
-					["spell"] = "Flash Heal",
-				}, -- [13]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-6",
@@ -366,25 +338,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 237542,
 					["spell"] = "Guardian Spirit",
-				}, -- [14]
-				{
-					["type"] = "spell",
-					["key"] = "6",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135940,
-					["spell"] = "Power Word: Shield",
-				}, -- [15]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON5",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135928,
-					["spell"] = "Levitate",
-				}, -- [16]
+				}, -- [10]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-5",
@@ -393,6 +347,60 @@ CliqueDB3 = {
 					},
 					["icon"] = 135943,
 					["spell"] = "Prayer of Healing",
+				}, -- [11]
+				{
+					["type"] = "spell",
+					["key"] = "R",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135940,
+					["spell"] = "Power Word: Shield",
+				}, -- [12]
+				{
+					["type"] = "spell",
+					["key"] = "6",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135940,
+					["spell"] = "Power Word: Shield",
+				}, -- [13]
+				{
+					["type"] = "spell",
+					["key"] = "2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135907,
+					["spell"] = "Flash Heal",
+				}, -- [14]
+				{
+					["type"] = "spell",
+					["key"] = "V",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135894,
+					["spell"] = "Purify",
+				}, -- [15]
+				{
+					["type"] = "spell",
+					["key"] = "3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135913,
+					["spell"] = "Heal",
+				}, -- [16]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON5",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135928,
+					["spell"] = "Levitate",
 				}, -- [17]
 				{
 					["type"] = "spell",

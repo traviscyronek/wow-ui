@@ -155,7 +155,7 @@ function containerProto:OnCreate(name, isBank, bagObject)
 	headerLeftRegion:SetFrameLevel(frameLevel)
 
 	local headerRightRegion = SimpleLayeredRegion:Create(self, "TOPRIGHT", "LEFT", 4)
-	headerRightRegion:SetPoint("TOPRIGHT", -32, -BAG_INSET)
+	headerRightRegion:SetPoint("TOPRIGHT", -BAG_INSET, -BAG_INSET)
 	self.HeaderRightRegion = headerRightRegion
 	self:AddWidget(headerRightRegion)
 	headerRightRegion:SetFrameLevel(frameLevel)
@@ -176,12 +176,6 @@ function containerProto:OnCreate(name, isBank, bagObject)
 	bagSlotPanel:Hide()
 	self.BagSlotPanel = bagSlotPanel
 	wipe(bagSlots)
-
-	local closeButton = CreateFrame("Button", nil, self, "UIPanelCloseButton")
-	self.CloseButton = closeButton
-	closeButton:SetPoint("TOPRIGHT", -2, -2)
-	addon.SetupTooltip(closeButton, L["Close"])
-	closeButton:SetFrameLevel(frameLevel)
 
 	local bagSlotButton = CreateFrame("CheckButton", nil, self)
 	bagSlotButton:SetNormalTexture([[Interface\Buttons\Button-Backpack-Up]])
@@ -206,7 +200,7 @@ function containerProto:OnCreate(name, isBank, bagObject)
 
 	local title = self:CreateFontString(self:GetName().."Title","OVERLAY")
 	self.Title = title
-	title:SetFontObject(addon.bagFont)
+	title:SetFontObject(addon.fonts[string.lower(name)].bagFont)
 	title:SetText(L[name])
 	title:SetHeight(18)
 	title:SetJustifyH("LEFT")
@@ -225,6 +219,7 @@ function containerProto:OnCreate(name, isBank, bagObject)
 		end
 		self:CreateSortButton()
 	end
+	self.CloseButton = self:CreateCloseButton()
 
 	local toSortSection = addon:AcquireSection(self, L["Recent Items"], self.name)
 	toSortSection:SetPoint("TOPLEFT", BAG_INSET, -addon.TOP_PADDING)
@@ -269,6 +264,8 @@ function containerProto:OnCreate(name, isBank, bagObject)
 	RegisterMessage(name, 'AdiBags_ConfigChanged', self.ConfigChanged, self)
 	RegisterMessage(name, 'AdiBags_ForceFullLayout', ForceFullLayout)
 	RegisterMessage(name, 'AdiBags_GridUpdate', self.OnLayout, self)
+	RegisterMessage(name, 'AdiBags_ThemeChanged', self.UpdateSkin, self)
+	RegisterMessage(name..'SectionFonts', 'AdiBags_ThemeChanged', self.UpdateSectionFonts, self)
 	if addon.isRetail then
 		LibStub('ABEvent-1.0').RegisterEvent(name, 'EQUIPMENT_SWAP_FINISHED', ForceFullLayout)
 
@@ -363,6 +360,17 @@ function containerProto:CreateDepositButton()
 	end
 end
 
+function containerProto:CreateCloseButton()
+	return self:CreateModuleButton(
+		"X",
+		200,
+		function()
+			self:Close()
+		end,
+		L["Close"]
+	)
+end
+
 function containerProto:CreateSortButton()
 	self:CreateModuleButton(
 		"S",
@@ -452,7 +460,7 @@ function containerProto:CanUpdate()
 end
 
 function containerProto:ConfigChanged(event, name)
-	if strsplit('.', name) == 'skin' then
+	if strsplit('.', name) == 'theme' then
 		self:UpdateSkin()
 	end
 end
@@ -470,6 +478,9 @@ function containerProto:OnShow()
 end
 
 function containerProto:OnHide()
+	if self.isReagentBank then
+		self:ShowReagentTab(false)
+	end
 	containerParentProto.OnHide(self)
 	PlaySound(self.isBank and SOUNDKIT.IG_MAINMENU_CLOSE or SOUNDKIT.IG_BACKPACK_CLOSE)
 	self:PauseUpdates()
@@ -514,12 +525,25 @@ function containerProto:ShowReagentTab(show)
 	local previousBags = self:GetBagIds()
 	self.isReagentBank = show
 
+	if self.isReagentBank then
+		self.Title:SetFontObject(addon.fonts.reagentBank.bagFont)
+	else
+		self.Title:SetFontObject(addon.fonts[string.lower(self.name)].bagFont)
+	end
+
 	for bag in pairs(previousBags) do
 		self:UpdateContent(bag)
 	end
 	self.forceLayout = true
 	self:RefreshContents()
 	self:UpdateSkin()
+	self:UpdateSectionFonts()
+end
+
+function containerProto:UpdateSectionFonts()
+	for _, section in pairs(self.sections) do
+		section:UpdateFont()
+	end
 end
 
 function containerProto:AUCTION_MULTISELL_UPDATE(event, current, total)
@@ -642,6 +666,7 @@ function containerProto:UpdateSkin()
 	else
 		self:SetBackdropBorderColor(0.5+(0.5*r/m), 0.5+(0.5*g/m), 0.5+(0.5*b/m), a)
 	end
+	addon.fonts[string.lower(self.name)].bagFont:ApplySettings()
 end
 
 --------------------------------------------------------------------------------
@@ -684,11 +709,11 @@ function containerProto:UpdateContent(bag)
 				content[slot] = slotData
 			end
 
-			local name, count, quality, iLevel, reqLevel, class, subclass, maxStack, equipSlot, texture, vendorPrice
+			local name, count, quality, iLevel, reqLevel, class, subclass, maxStack, equipSlot, texture, vendorPrice, classID, subclassID, bindType, expacID, setID, isCraftingReagent
 			if link then
-				name, _, quality, iLevel, reqLevel, class, subclass, maxStack, equipSlot, texture, vendorPrice = GetItemInfo(link)
+				name, _, quality, iLevel, reqLevel, class, subclass, maxStack, equipSlot, texture, vendorPrice, classID, subclassID, bindType, expacID, setID, isCraftingReagent = GetItemInfo(link)
 				if not name then
-					name, _, quality, iLevel, reqLevel, class, subclass, maxStack, equipSlot, texture, vendorPrice = GetItemInfo(itemId)
+					name, _, quality, iLevel, reqLevel, class, subclass, maxStack, equipSlot, texture, vendorPrice, classID, subclassID, bindType, expacID, setID, isCraftingReagent = GetItemInfo(itemId)
 				end
 				-- Correctly catch battlepets and store their name.
 				if string.match(link, "|Hbattlepet:") then
@@ -718,6 +743,7 @@ function containerProto:UpdateContent(bag)
 				slotData.guid = guid
 				slotData.itemLocation = itemLocation
 				slotData.name, slotData.quality, slotData.iLevel, slotData.reqLevel, slotData.class, slotData.subclass, slotData.equipSlot, slotData.texture, slotData.vendorPrice = name, quality, iLevel, reqLevel, class, subclass, equipSlot, texture, vendorPrice
+				slotData.classID, slotData.subclassID, slotData.bindType, slotData.expacID, slotData.setID, slotData.isCraftingReagent = classID, subclassID, bindType, expacID, setID, isCraftingReagent
 				slotData.maxStack = maxStack or (link and 1 or 0)
 				if sameItem then
 						changed[slotData.slotId] = slotData
@@ -870,7 +896,6 @@ function containerProto:DispatchItem(slotData, fullUpdate)
 		self.ToSortSection:AddItemButton(slotId, button)
 		return
 	end
-
 	local section = self:GetSection(sectionName, category or sectionName)
 	section:AddItemButton(slotId, button)
 end

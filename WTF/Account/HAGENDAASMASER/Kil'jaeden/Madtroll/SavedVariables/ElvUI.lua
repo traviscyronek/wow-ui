@@ -25,50 +25,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"exp grp plz", -- [1]
-			"Fendor-Darkspear", -- [2]
-			"", -- [3]
-			"1. General - Northern Barrens", -- [4]
-			"Fendor-Darkspear", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Northern Barrens", -- [9]
-			0, -- [10]
-			472, -- [11]
-			"Player-120-08C93C5A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc7ebFendor-Darkspear|r",
-			[51] = 1669596580,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"inv", -- [1]
-			"Berengar-Kil'jaeden", -- [2]
-			"", -- [3]
-			"1. General - Northern Barrens", -- [4]
-			"Berengar-Kil'jaeden", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Northern Barrens", -- [9]
-			0, -- [10]
-			477, -- [11]
-			"Player-9-08726303", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dBerengar|r",
-			[51] = 1669596590,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
 			"helllllllooooooo! ", -- [1]
 			"Fendor-Darkspear", -- [2]
 			"", -- [3]
@@ -89,7 +45,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebFendor-Darkspear|r",
 			[51] = 1669596610,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [3]
+		}, -- [1]
 		{
 			"o/", -- [1]
 			"Fendor-Darkspear", -- [2]
@@ -111,7 +67,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebFendor-Darkspear|r",
 			[51] = 1669596612,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [4]
+		}, -- [2]
 		{
 			"hey hey", -- [1]
 			"Madtroll-Kil'jaeden", -- [2]
@@ -133,7 +89,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffMadtroll|r",
 			[51] = 1669596616,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [5]
+		}, -- [3]
 		{
 			"ranged focus on tagging", -- [1]
 			"Zuju-Kil'jaeden", -- [2]
@@ -155,7 +111,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff98Zuju|r",
 			[51] = 1669596684,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [6]
+		}, -- [4]
 		{
 			"stop just dpsing in mid lol", -- [1]
 			"Zuju-Kil'jaeden", -- [2]
@@ -177,7 +133,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff98Zuju|r",
 			[51] = 1669596694,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [7]
+		}, -- [5]
 		{
 			"lfg", -- [1]
 			"Aingeal-Kil'jaeden", -- [2]
@@ -199,7 +155,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffAingeal|r",
 			[51] = 1669596959,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [8]
+		}, -- [6]
 		{
 			"invite please", -- [1]
 			"Leahpain-Darkspear", -- [2]
@@ -221,7 +177,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffLeahpain-Darkspear|r",
 			[51] = 1669597186,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [9]
+		}, -- [7]
 		{
 			"same", -- [1]
 			"Naughtydoog-Kil'jaeden", -- [2]
@@ -243,7 +199,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Naughtydoog|r",
 			[51] = 1669597193,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [10]
+		}, -- [8]
 		{
 			"anyone get an undimmed thingy they dont need?", -- [1]
 			"Feludiius-Kil'jaeden", -- [2]
@@ -265,7 +221,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddFeludiius|r",
 			[51] = 1669597328,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [9]
 		{
 			"got a |cff0070dd|Hitem:199839::::::::52:258::::1:28:2425:::::|h[Dimmed Primeval Water]|h|r if someone needs", -- [1]
 			"Immortalyz-Kil'jaeden", -- [2]
@@ -287,7 +243,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffImmortalyz|r",
 			[51] = 1669597361,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [10]
 		{
 			"i thought they were account bound", -- [1]
 			"Keledin-Darkspear", -- [2]
@@ -309,7 +265,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaKeledin-Darkspear|r",
 			[51] = 1669597386,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [11]
 		{
 			"Tradable for 60 mins to those eligible ", -- [1]
 			"Alerath-Kil'jaeden", -- [2]
@@ -331,7 +287,7 @@ ElvCharacterDB = {
 			[52] = "|cff33937fAlerath|r",
 			[51] = 1669597421,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [12]
 		{
 			"can be traded if you both fought the same boss", -- [1]
 			"Immortalyz-Kil'jaeden", -- [2]
@@ -353,7 +309,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffImmortalyz|r",
 			[51] = 1669597422,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [13]
 		{
 			"oh thats cool", -- [1]
 			"Keledin-Darkspear", -- [2]
@@ -375,7 +331,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaKeledin-Darkspear|r",
 			[51] = 1669597381,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [14]
 		{
 			"Kick Berengar", -- [1]
 			"Zuju-Kil'jaeden", -- [2]
@@ -397,7 +353,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff98Zuju|r",
 			[51] = 1669597382,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [17]
+		}, -- [15]
 		{
 			"afking", -- [1]
 			"Zuju-Kil'jaeden", -- [2]
@@ -419,7 +375,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff98Zuju|r",
 			[51] = 1669597444,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [18]
+		}, -- [16]
 		{
 			"soaking tag", -- [1]
 			"Zuju-Kil'jaeden", -- [2]
@@ -441,7 +397,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff98Zuju|r",
 			[51] = 1669597449,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [19]
+		}, -- [17]
 		{
 			"BRB ", -- [1]
 			"Dobermen-Kil'jaeden", -- [2]
@@ -463,7 +419,7 @@ ElvCharacterDB = {
 			[52] = "|cff8788eeDobermen|r",
 			[51] = 1669597460,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [20]
+		}, -- [18]
 		{
 			" /w for inv", -- [1]
 			"Madtroll-Kil'jaeden", -- [2]
@@ -485,7 +441,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffMadtroll|r",
 			[51] = 1669597734,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
+		}, -- [19]
 		{
 			"inv", -- [1]
 			"Durtygurty-Kil'jaeden", -- [2]
@@ -507,7 +463,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDurtygurty|r",
 			[51] = 1669597680,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [22]
+		}, -- [20]
 		{
 			"Whats timer on new boss?", -- [1]
 			"Durtygurty-Kil'jaeden", -- [2]
@@ -529,7 +485,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDurtygurty|r",
 			[51] = 1669597947,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [23]
+		}, -- [21]
 		{
 			"any groups?", -- [1]
 			"Erylith-Darkspear", -- [2]
@@ -551,7 +507,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebErylith-Darkspear|r",
 			[51] = 1669597951,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [24]
+		}, -- [22]
 		{
 			"idk actually", -- [1]
 			"Madtroll-Kil'jaeden", -- [2]
@@ -573,7 +529,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffMadtroll|r",
 			[51] = 1669597965,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [25]
+		}, -- [23]
 		{
 			"group? : ) ", -- [1]
 			"Puppyranger-Kil'jaeden", -- [2]
@@ -595,7 +551,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Puppyranger|r",
 			[51] = 1669597982,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [26]
+		}, -- [24]
 		{
 			"Anyone have timer?", -- [1]
 			"Durtygurty-Kil'jaeden", -- [2]
@@ -617,7 +573,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDurtygurty|r",
 			[51] = 1669598116,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [27]
+		}, -- [25]
 		{
 			"lon", -- [1]
 			"Allburta-Darkspear", -- [2]
@@ -639,7 +595,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Allburta-Darkspear|r",
 			[51] = 1669598386,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [28]
+		}, -- [26]
 		{
 			"Anyone have timer?", -- [1]
 			"Durtygurty-Kil'jaeden", -- [2]
@@ -661,7 +617,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDurtygurty|r",
 			[51] = 1669598453,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [29]
+		}, -- [27]
 		{
 			"invite please!", -- [1]
 			"Leahpain-Darkspear", -- [2]
@@ -683,7 +639,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffLeahpain-Darkspear|r",
 			[51] = 1669598489,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [30]
+		}, -- [28]
 		{
 			"inv", -- [1]
 			"Yiffmaster-Kil'jaeden", -- [2]
@@ -705,7 +661,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddYiffmaster|r",
 			[51] = 1669598661,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [31]
+		}, -- [29]
 		{
 			"Anyone got a spare?", -- [1]
 			"Synblade-Kil'jaeden", -- [2]
@@ -727,7 +683,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aSynblade|r",
 			[51] = 1669598985,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
+		}, -- [30]
 		{
 			"anyone need |cff0070dd|Hitem:199839::::::::60:64::::1:28:2425:::::|h[Dimmed Primeval Water]|h|r I have a spare", -- [1]
 			"Erylith-Darkspear", -- [2]
@@ -749,7 +705,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebErylith-Darkspear|r",
 			[51] = 1669598988,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [33]
+		}, -- [31]
 		{
 			"i have the water thing whoneed?", -- [1]
 			"Gallithil-Kil'jaeden", -- [2]
@@ -771,7 +727,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGallithil|r",
 			[51] = 1669599005,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [34]
+		}, -- [32]
 		{
 			"aleady given", -- [1]
 			"Erylith-Darkspear", -- [2]
@@ -793,7 +749,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebErylith-Darkspear|r",
 			[51] = 1669599009,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [35]
+		}, -- [33]
 		{
 			"ill take one", -- [1]
 			"Paindriven-Kil'jaeden", -- [2]
@@ -815,7 +771,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Paindriven|r",
 			[51] = 1669599019,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [36]
+		}, -- [34]
 		{
 			"ill take one if anyone else has", -- [1]
 			"Yiffmaster-Kil'jaeden", -- [2]
@@ -837,7 +793,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddYiffmaster|r",
 			[51] = 1669599031,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [37]
+		}, -- [35]
 		{
 			" /w for inv", -- [1]
 			"Madtroll-Kil'jaeden", -- [2]
@@ -859,7 +815,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffMadtroll|r",
 			[51] = 1669599292,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
+		}, -- [36]
 		{
 			"do you have the big grp", -- [1]
 			"Fendor-Darkspear", -- [2]
@@ -881,7 +837,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebFendor-Darkspear|r",
 			[51] = 1669599306,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [39]
+		}, -- [37]
 		{
 			"you were in it", -- [1]
 			"Fendor-Darkspear", -- [2]
@@ -903,7 +859,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebFendor-Darkspear|r",
 			[51] = 1669599319,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [40]
+		}, -- [38]
 		{
 			"inv", -- [1]
 			"Fendor-Darkspear", -- [2]
@@ -925,7 +881,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebFendor-Darkspear|r",
 			[51] = 1669599335,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [41]
+		}, -- [39]
 		{
 			"any partys", -- [1]
 			"Bloodhart-Kil'jaeden", -- [2]
@@ -947,7 +903,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aBloodhart|r",
 			[51] = 1669599340,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [40]
 		{
 			"invite pliss", -- [1]
 			"Theirn-Kil'jaeden", -- [2]
@@ -969,7 +925,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aTheirn|r",
 			[51] = 1669599387,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [43]
+		}, -- [41]
 		{
 			"convert to raid and we can get them all yea?", -- [1]
 			"Fendor-Darkspear", -- [2]
@@ -991,7 +947,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebFendor-Darkspear|r",
 			[51] = 1669599388,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [44]
+		}, -- [42]
 		{
 			"any groups with space?", -- [1]
 			"Frausting-Kil'jaeden", -- [2]
@@ -1013,7 +969,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff98Frausting|r",
 			[51] = 1669599402,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [43]
 		{
 			"LFG", -- [1]
 			"Fingerguns-Kil'jaeden", -- [2]
@@ -1035,7 +991,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Fingerguns|r",
 			[51] = 1669599751,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [46]
+		}, -- [44]
 		{
 			"lfg for elementals", -- [1]
 			"Hopescow-Kil'jaeden", -- [2]
@@ -1057,7 +1013,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aHopescow|r",
 			[51] = 1669599867,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [45]
 		{
 			"there a group", -- [1]
 			"Hopescow-Kil'jaeden", -- [2]
@@ -1079,7 +1035,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aHopescow|r",
 			[51] = 1669599898,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
+		}, -- [46]
 		{
 			"lf grp ", -- [1]
 			"Iburn-Kil'jaeden", -- [2]
@@ -1101,7 +1057,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebIburn|r",
 			[51] = 1669599903,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [47]
 		{
 			"any grps:)?", -- [1]
 			"Iburn-Kil'jaeden", -- [2]
@@ -1123,7 +1079,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebIburn|r",
 			[51] = 1669599925,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [48]
 		{
 			"bruh farm elites in the boss zone. no group req", -- [1]
 			"Celdona-Kil'jaeden", -- [2]
@@ -1145,7 +1101,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aCeldona|r",
 			[51] = 1669599955,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [49]
 		{
 			"nice getting priest 60", -- [1]
 			"|Kq12|k", -- [2]
@@ -1167,7 +1123,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600177,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [52]
+		}, -- [50]
 		{
 			"yea, did paladin earlier", -- [1]
 			"|Kq12|k", -- [2]
@@ -1189,7 +1145,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600190,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [53]
+		}, -- [51]
 		{
 			"is it that fast?", -- [1]
 			"|Kq12|k", -- [2]
@@ -1211,7 +1167,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600196,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [54]
+		}, -- [52]
 		{
 			"50-60?", -- [1]
 			"|Kq12|k", -- [2]
@@ -1233,7 +1189,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600199,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [55]
+		}, -- [53]
 		{
 			"yea", -- [1]
 			"|Kq12|k", -- [2]
@@ -1255,7 +1211,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600207,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [56]
+		}, -- [54]
 		{
 			"don't think i'll have it in me to do monk, which would be the last healer class to get 60", -- [1]
 			"|Kq12|k", -- [2]
@@ -1277,7 +1233,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600223,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [57]
+		}, -- [55]
 		{
 			"how long roughly", -- [1]
 			"|Kq12|k", -- [2]
@@ -1299,7 +1255,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600237,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [58]
+		}, -- [56]
 		{
 			"maybe 2", -- [1]
 			"|Kq12|k", -- [2]
@@ -1321,7 +1277,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600244,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [59]
+		}, -- [57]
 		{
 			"get in a group of 5 in the main barrens farm", -- [1]
 			"|Kq12|k", -- [2]
@@ -1343,7 +1299,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600257,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [60]
+		}, -- [58]
 		{
 			"pretty much just tab target", -- [1]
 			"|Kq12|k", -- [2]
@@ -1365,7 +1321,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600263,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [61]
+		}, -- [59]
 		{
 			"have a tank, and everone else tag", -- [1]
 			"|Kq12|k", -- [2]
@@ -1387,7 +1343,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600265,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [62]
+		}, -- [60]
 		{
 			"and afk", -- [1]
 			"|Kq12|k", -- [2]
@@ -1409,7 +1365,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600266,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [63]
+		}, -- [61]
 		{
 			"nice", -- [1]
 			"|Kq12|k", -- [2]
@@ -1431,7 +1387,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600271,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [64]
+		}, -- [62]
 		{
 			"are you gonna be on at release?", -- [1]
 			"|Kq12|k", -- [2]
@@ -1453,7 +1409,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600289,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [65]
+		}, -- [63]
 		{
 			"we are gonna do a leveling group", -- [1]
 			"|Kq12|k", -- [2]
@@ -1475,7 +1431,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600295,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [66]
+		}, -- [64]
 		{
 			"possibly, likely close to it", -- [1]
 			"|Kq12|k", -- [2]
@@ -1497,7 +1453,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600298,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [67]
+		}, -- [65]
 		{
 			"i'll see if ppl need to do impromptu meetings", -- [1]
 			"|Kq12|k", -- [2]
@@ -1519,7 +1475,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600309,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [68]
+		}, -- [66]
 		{
 			"kk", -- [1]
 			"|Kq12|k", -- [2]
@@ -1541,7 +1497,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600314,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [69]
+		}, -- [67]
 		{
 			"if ur on", -- [1]
 			"|Kq12|k", -- [2]
@@ -1563,7 +1519,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600316,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [70]
+		}, -- [68]
 		{
 			"hop in our group", -- [1]
 			"|Kq12|k", -- [2]
@@ -1585,7 +1541,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600318,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [71]
+		}, -- [69]
 		{
 			"we are all horde side", -- [1]
 			"|Kq12|k", -- [2]
@@ -1607,7 +1563,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600261,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [72]
+		}, -- [70]
 		{
 			"kk", -- [1]
 			"|Kq12|k", -- [2]
@@ -1629,7 +1585,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTcyronek|r",
 			[51] = 1669600327,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [73]
+		}, -- [71]
 		{
 			"group?", -- [1]
 			"Grammond-Kil'jaeden", -- [2]
@@ -1651,7 +1607,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aGrammond|r",
 			[51] = 1669600327,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [74]
+		}, -- [72]
 		{
 			"how often do the elementals change?", -- [1]
 			"Shamanbeef-Kil'jaeden", -- [2]
@@ -1673,7 +1629,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddShamanbeef|r",
 			[51] = 1669600393,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [73]
 		{
 			"not often enough", -- [1]
 			"Shockens-Kil'jaeden", -- [2]
@@ -1695,7 +1651,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaShockens|r",
 			[51] = 1669600403,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [74]
 		{
 			"yeah righto cobba", -- [1]
 			"Shamanbeef-Kil'jaeden", -- [2]
@@ -1717,7 +1673,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddShamanbeef|r",
 			[51] = 1669600414,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [75]
 		{
 			"every couple hours I think", -- [1]
 			"Lucrylla-Kil'jaeden", -- [2]
@@ -1739,7 +1695,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Lucrylla|r",
 			[51] = 1669600417,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [76]
 		{
 			"ok thanks mate", -- [1]
 			"Shamanbeef-Kil'jaeden", -- [2]
@@ -1761,7 +1717,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddShamanbeef|r",
 			[51] = 1669600423,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [77]
 		{
 			"every 3 hours", -- [1]
 			"Celdona-Kil'jaeden", -- [2]
@@ -1783,7 +1739,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aCeldona|r",
 			[51] = 1669600382,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [78]
 		{
 			"next rotation is in ~1 hour", -- [1]
 			"Celdona-Kil'jaeden", -- [2]
@@ -1805,7 +1761,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aCeldona|r",
 			[51] = 1669600460,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [79]
 		{
 			"Does anyone know where to find Mankrik's Wife?", -- [1]
 			"Celdona-Kil'jaeden", -- [2]
@@ -1827,7 +1783,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aCeldona|r",
 			[51] = 1669600524,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [80]
 		{
 			"Silithus", -- [1]
 			"Dió-Kil'jaeden", -- [2]
@@ -1849,7 +1805,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff98Dió|r",
 			[51] = 1669600502,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [81]
 		{
 			"anyone need a dimmed water?", -- [1]
 			"Shockens-Kil'jaeden", -- [2]
@@ -1871,7 +1827,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaShockens|r",
 			[51] = 1669600662,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [82]
 		{
 			"Now extending black friday deals! come on in!", -- [1]
 			"Radioshack-Darkspear", -- [2]
@@ -1893,7 +1849,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Radioshack-Darkspear|r",
 			[51] = 1669600662,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [83]
 		{
 			"anyone need |cff0070dd|Hitem:199839::::::::55:72::::1:28:2425:::::|h[Dimmed Primeval Water]|h|r?", -- [1]
 			"Gulmok-Kil'jaeden", -- [2]
@@ -1915,7 +1871,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dGulmok|r",
 			[51] = 1669600668,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [86]
+		}, -- [84]
 		{
 			"me", -- [1]
 			"Fendor-Darkspear", -- [2]
@@ -1937,7 +1893,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebFendor-Darkspear|r",
 			[51] = 1669600668,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [85]
 		{
 			"brb", -- [1]
 			"Fendor-Darkspear", -- [2]
@@ -1959,7 +1915,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebFendor-Darkspear|r",
 			[51] = 1669600622,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [88]
+		}, -- [86]
 		{
 			"anyone need", -- [1]
 			"Bloodhart-Kil'jaeden", -- [2]
@@ -1981,7 +1937,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aBloodhart|r",
 			[51] = 1669600622,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [89]
+		}, -- [87]
 		{
 			"|cff0070dd|Hitem:199839::::::::52:251::::1:28:2425:::::|h[Dimmed Primeval Water]|h|r", -- [1]
 			"Bloodhart-Kil'jaeden", -- [2]
@@ -2003,7 +1959,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aBloodhart|r",
 			[51] = 1669600688,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [90]
+		}, -- [88]
 		{
 			"anyone need |cff0070dd|Hitem:199400::::::::60:252::26:2:6652:8936:2:28:2425:9:60:::::|h[Squallbreaker Greatsword]|h|r", -- [1]
 			"Zaralyse-Kil'jaeden", -- [2]
@@ -2025,7 +1981,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aZaralyse|r",
 			[51] = 1669600698,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [91]
+		}, -- [89]
 		{
 			"i got one", -- [1]
 			"Fendor-Darkspear", -- [2]
@@ -2047,7 +2003,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebFendor-Darkspear|r",
 			[51] = 1669600709,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
+		}, -- [90]
 		{
 			"anyone want the cloud mantle?", -- [1]
 			"Gallithil-Kil'jaeden", -- [2]
@@ -2069,7 +2025,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGallithil|r",
 			[51] = 1669600719,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [93]
+		}, -- [91]
 		{
 			"yes", -- [1]
 			"Tyrien-Kil'jaeden", -- [2]
@@ -2091,7 +2047,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebTyrien|r",
 			[51] = 1669600729,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [94]
+		}, -- [92]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14783:Player-9-09E2DFA6:1:11:27:22:4294967295:4294967295:4294967295:4294967295|h[Level 60]|h|r!", -- [1]
 			"Madtroll-Kil'jaeden", -- [2]
@@ -2113,7 +2069,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffMadtroll|r",
 			[51] = 1669600752,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [95]
+		}, -- [93]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14796:Player-9-09E2DFA6:1:11:27:22:4294967295:4294967295:4294967295:4294967295|h[Superior]|h|r!", -- [1]
 			"Madtroll-Kil'jaeden", -- [2]
@@ -2135,7 +2091,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffMadtroll|r",
 			[51] = 1669601263,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [96]
+		}, -- [94]
 		{
 			"kk /gleader Madtroll", -- [1]
 			"Madtroll-Kil'jaeden", -- [2]
@@ -2157,7 +2113,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffMadtroll|r",
 			[51] = 1671289198,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [95]
 		{
 			"can you hear me?", -- [1]
 			"Flappity-Kil'jaeden", -- [2]
@@ -2179,7 +2135,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aFlappity|r",
 			[51] = 1671289212,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [96]
 		{
 			"yea", -- [1]
 			"Flappity-Kil'jaeden", -- [2]
@@ -2201,6 +2157,50 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aFlappity|r",
 			[51] = 1671289225,
 			[50] = "CHAT_MSG_GUILD",
+		}, -- [97]
+		{
+			"order for |cffa335ee|Hitem:192989::::::::70:269:::::::::|h[Resplendent Illimited Diamond |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r up 100g commission ", -- [1]
+			"Fitchin-Kil'jaeden", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fitchin-Kil'jaeden", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			238, -- [11]
+			"Player-9-0E3EC88D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff98Fitchin|r",
+			[51] = 1673030381,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"1000g", -- [1]
+			"Fitchin-Kil'jaeden", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fitchin-Kil'jaeden", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			239, -- [11]
+			"Player-9-0E3EC88D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff98Fitchin|r",
+			[51] = 1673030386,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 }

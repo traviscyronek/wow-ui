@@ -18,15 +18,17 @@ AdiBagsDB = {
 		},
 		["Equipment"] = {
 		},
-		["CurrencyFrame"] = {
+		["MoneyFrame"] = {
 		},
 		["DataSource"] = {
+		},
+		["CurrencyFrame"] = {
 		},
 		["ItemSets"] = {
 		},
 		["Junk"] = {
 		},
-		["MoneyFrame"] = {
+		["Dragonflight"] = {
 		},
 	},
 	["char"] = {
@@ -37,10 +39,11 @@ AdiBagsDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Madkow - Kil'jaeden"] = "Default",
+		["Madzug - Kil'jaeden"] = "Default",
 		["Madkalf - Kil'jaeden"] = "Default",
-		["Madtroll - Kil'jaeden"] = "Default",
 		["Madklaw - Kil'jaeden"] = "Default",
+		["Madtroll - Kil'jaeden"] = "Default",
+		["Madkow - Kil'jaeden"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -49,27 +52,119 @@ AdiBagsDB = {
 			},
 			["columnWidth"] = {
 				["Bank"] = 11,
-				["Backpack"] = 11,
+				["Backpack"] = 16,
 			},
 			["maxHeight"] = 0.8,
-			["skin"] = {
-				["ReagentBankColor"] = {
-					nil, -- [1]
-					0.501960813999176, -- [2]
+			["theme"] = {
+				["reagentBank"] = {
+					["background"] = "Blizzard Dialog Background Dark",
+					["border"] = "None",
 				},
-				["background"] = "Blizzard Dialog Background Dark",
-				["border"] = "None",
+				["currentTheme"] = "legacy theme",
+				["themes"] = {
+					["legacy theme"] = {
+						["reagentBank"] = {
+							["sectionFont"] = {
+								["name"] = "PT Sans Narrow",
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0.8196079134941101,
+								["size"] = 12,
+							},
+							["color"] = {
+								0, -- [1]
+								0, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+							["background"] = "Blizzard Dialog Background Dark",
+							["border"] = "None",
+							["bagFont"] = {
+								["name"] = "PT Sans Narrow",
+								["r"] = 1,
+								["b"] = 1,
+								["g"] = 1,
+								["size"] = 15,
+							},
+						},
+						["bank"] = {
+							["sectionFont"] = {
+								["name"] = "PT Sans Narrow",
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0.8196079134941101,
+								["size"] = 12,
+							},
+							["color"] = {
+								0, -- [1]
+								0, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+							["background"] = "Blizzard Dialog Background Dark",
+							["border"] = "None",
+							["bagFont"] = {
+								["name"] = "PT Sans Narrow",
+								["r"] = 1,
+								["b"] = 1,
+								["g"] = 1,
+								["size"] = 15,
+							},
+						},
+						["backpack"] = {
+							["sectionFont"] = {
+								["name"] = "PT Sans Narrow",
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0.8196079134941101,
+								["size"] = 12,
+							},
+							["color"] = {
+								0, -- [1]
+								0, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+							["background"] = "Blizzard Dialog Background Dark",
+							["border"] = "None",
+							["bagFont"] = {
+								["name"] = "PT Sans Narrow",
+								["r"] = 1,
+								["b"] = 1,
+								["g"] = 1,
+								["size"] = 15,
+							},
+						},
+					},
+				},
+				["bank"] = {
+					["background"] = "Blizzard Dialog Background Dark",
+					["border"] = "None",
+				},
+				["backpack"] = {
+					["background"] = "Blizzard Dialog Background Dark",
+					["border"] = "None",
+				},
 			},
-			["positions"] = {
-				["anchor"] = {
-					["xOffset"] = 0,
-					["yOffset"] = 48.41021728515625,
-				},
+			["modules"] = {
+				["CurrencyFrame"] = false,
 			},
 			["scale"] = 0.9,
 			["sortingOrder"] = "byQualityAndLevel",
-			["modules"] = {
-				["CurrencyFrame"] = false,
+			["positions"] = {
+				["anchor"] = {
+					["xOffset"] = 0,
+					["yOffset"] = 22.15347480773926,
+				},
+				["Bank"] = {
+					["xOffset"] = 625.2310930561725,
+					["yOffset"] = -257.4359009452019,
+				},
+				["Backpack"] = {
+					["xOffset"] = -269.9515499581612,
+					["point"] = "TOPRIGHT",
+					["yOffset"] = -176.9624777840509,
+				},
 			},
 		},
 	},

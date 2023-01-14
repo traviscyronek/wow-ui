@@ -1,10 +1,16 @@
-lightweight tag 26c0024f940a62dc830a1035ac6b05b45a77f2a1 0.13.1
+lightweight tag 8370e81475f60bbf4b012af3904704d8935c8311 0.13.31
 Author:	GitHub <noreply@github.com>
-Date:	Tue Nov 29 13:36:27 2022 +0100
+Date:	Sun Dec 18 13:28:35 2022 +0100
 
-commit 26c0024f940a62dc830a1035ac6b05b45a77f2a1
-Author: Nicolas Le stunff <58040603+nicolas-le-stunff@users.noreply.github.com>
-Date:   Tue Nov 29 13:36:27 2022 +0100
+commit 8370e81475f60bbf4b012af3904704d8935c8311
+Author: Nicolas <58040603+nicolas-le-stunff@users.noreply.github.com>
+Date:   Sun Dec 18 13:28:35 2022 +0100
+
+    Update ElitismHelper.lua
+
+commit 0d5b0630f09cb148be62fc7152c489905a1882d6
+Author: Nicolas <58040603+nicolas-le-stunff@users.noreply.github.com>
+Date:   Sun Dec 18 13:28:27 2022 +0100
 
     Update ElitismHelper.toc
 

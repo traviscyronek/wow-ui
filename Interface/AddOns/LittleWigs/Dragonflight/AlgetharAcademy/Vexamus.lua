@@ -45,13 +45,14 @@ function mod:OnBossEnable()
 	self:Log("SPELL_ENERGIZE", "ArcaneOrbAbsorbed", 386088)
 	self:Log("SPELL_CAST_START", "ManaBombs", 386173)
 	self:Log("SPELL_AURA_APPLIED", "ManaBombApplied", 386181)
+	self:Log("SPELL_AURA_REMOVED", "ManaBombRemoved", 386181)
 	self:Log("SPELL_CAST_START", "ArcaneExpulsion", 385958)
 end
 
 function mod:OnEngage()
-	self:Bar(386544, 4.1) -- Arcane Orbs
+	self:CDBar(386544, 4.1) -- Arcane Orbs
 	self:CDBar(385958, 12.1) -- Arcane Expulsion
-	self:CDBar(386173, 24) -- Mana Bombs
+	self:CDBar(386173, 22.1) -- Mana Bombs
 	self:CDBar(388537, 40.9) -- Arcane Fissure
 	-- 40 second energy gain + .9 seconds until energy gain is initially turned on
 	arcaneFissureTime = GetTime() + 40.9
@@ -66,7 +67,8 @@ end
 function mod:ArcaneOrbs(args)
 	self:Message(args.spellId, "yellow")
 	self:PlaySound(args.spellId, "long")
-	self:Bar(args.spellId, 17)
+	-- minimum CD is 20.7, but for each Arcane Fissure cast 3.6 seconds is added
+	self:CDBar(args.spellId, 20.7)
 end
 
 function mod:OversurgeApplied(args)
@@ -95,11 +97,24 @@ function mod:ArcaneFissure(args)
 	self:StopBar(args.spellId)
 	self:Message(args.spellId, "red")
 	self:PlaySound(args.spellId, "alert")
+	-- Arcane Fissure adds 3.6 seconds to all other timers
+	local arcaneExpulsionTimeLeft = self:BarTimeLeft(385958)
+	if arcaneExpulsionTimeLeft > .1 then
+		self:CDBar(385958, {arcaneExpulsionTimeLeft + 3.6, 23.1})
+	end
+	local manaBombsTimeLeft = self:BarTimeLeft(386173)
+	if manaBombsTimeLeft > .1 then
+		self:CDBar(386173, {manaBombsTimeLeft + 3.6, 23.1})
+	end
+	local arcaneOrbsTimeLeft = self:BarTimeLeft(386544)
+	if arcaneOrbsTimeLeft > .1 then
+		self:CDBar(386544, {arcaneOrbsTimeLeft + 3.6, 20.7})
+	end
 end
 
 function mod:ArcaneFissureSuccess(args)
-	-- Cast at 100 energy, gains 2.5 energy per second
-	self:Bar(args.spellId, 40.7)
+	-- cast at 100 energy, gains 2.5 energy per second
+	self:CDBar(args.spellId, 40.7)
 	arcaneFissureTime = GetTime() + 40.7
 end
 
@@ -108,7 +123,7 @@ function mod:ArcaneOrbAbsorbed(args)
 	arcaneFissureTime = arcaneFissureTime - 8
 	local timeLeft = arcaneFissureTime - GetTime()
 	if timeLeft > 0 then
-		self:Bar(388537, {timeLeft, 40.7}) -- Arcane Fissure
+		self:CDBar(388537, {timeLeft, 40.7}) -- Arcane Fissure
 	else
 		self:StopBar(388537) -- Arcane Fissure
 	end
@@ -119,11 +134,12 @@ do
 
 	function mod:ManaBombs(args)
 		playerList = {}
-		self:CDBar(args.spellId, 23)
+		-- minimum CD is 23.1, but for each Arcane Fissure cast 3.6 seconds is added
+		self:CDBar(args.spellId, 23.1)
 	end
 
 	function mod:ManaBombApplied(args)
-		playerList[#playerList+1] = args.destName
+		playerList[#playerList + 1] = args.destName
 		self:TargetsMessage(386173, "yellow", playerList, 3)
 		self:PlaySound(386173, "alarm", nil, playerList)
 		if self:Me(args.destGUID) then
@@ -131,10 +147,17 @@ do
 			self:SayCountdown(386173, 4, args.spellName)
 		end
 	end
+
+	function mod:ManaBombRemoved(args)
+		if self:Me(args.destGUID) then
+			self:CancelSayCountdown(386173)
+		end
+	end
 end
 
 function mod:ArcaneExpulsion(args)
 	self:Message(args.spellId, "purple")
 	self:PlaySound(args.spellId, "alarm")
-	self:CDBar(args.spellId, 19.4) -- either 19.4 or 23.1, usually alternating
+	-- minimum CD is 23.1, but for each Arcane Fissure cast 3.6 seconds is added
+	self:CDBar(args.spellId, 23.1)
 end

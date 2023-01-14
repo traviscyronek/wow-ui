@@ -11,6 +11,7 @@ AddOnSkinsDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["Auctionator"] = false,
 			["EmbedSystemDual"] = true,
 		},
 	},

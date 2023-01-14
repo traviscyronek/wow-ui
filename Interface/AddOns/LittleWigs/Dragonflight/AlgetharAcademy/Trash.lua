@@ -30,8 +30,8 @@ mod:RegisterEnableMob(
 
 local L = mod:GetLocale()
 if L then
-	L.recruiter_autotalk = "Autotalk"
-	L.recruiter_autotalk_desc = "Instantly pledge to the Dragonflight Recruiters for a buff."
+	L.custom_on_recruiter_autotalk = "Autotalk"
+	L.custom_on_recruiter_autotalk_desc = "Instantly pledge to the Dragonflight Recruiters for a buff."
 	L.critical_strike = "+5% Critical Strike"
 	L.haste = "+5% Haste"
 	L.mastery = "+Mastery"
@@ -58,7 +58,7 @@ end
 function mod:GetOptions()
 	return {
 		-- General
-		"recruiter_autotalk",
+		"custom_on_recruiter_autotalk",
 		389516, -- Black Dragonflight Pledge Pin
 		389512, -- Bronze Dragonflight Pledge Pin
 		389521, -- Blue Dragonflight Pledge Pin
@@ -76,8 +76,11 @@ function mod:GetOptions()
 		388392, -- Monotonous Lecture
 		-- Guardian Sentry
 		377912, -- Expel Intruders
+		378003, -- Deadly Winds
+		{377991, "TANK"}, -- Storm Slash
 		-- Alpha Eagle
 		377389, -- Call of the Flock
+		377383, -- Gust
 		-- Vile Lasher
 		390912, -- Detonation Seeds
 		-- Algeth'ar Security
@@ -89,7 +92,7 @@ function mod:GetOptions()
 		-- Ethereal Restorer
 		{387955, "DISPEL"}, -- Celestial Shield
 	}, {
-		["recruiter_autotalk"] = CL.general,
+		["custom_on_recruiter_autotalk"] = CL.general,
 		[388863] = L.corrupted_manafiend,
 		[396812] = L.spellbound_scepter,
 		[388976] = L.arcane_ravager,
@@ -130,9 +133,13 @@ function mod:OnBossEnable()
 
 	-- Guardian Sentry
 	self:Log("SPELL_CAST_START", "ExpelIntruders", 377912)
+	self:Log("SPELL_CAST_START", "DeadlyWinds", 378003)
+	self:Log("SPELL_CAST_START", "StormSlash", 377991)
+	self:Death("GuardianSentryDeath", 192680)
 
 	-- Alpha Eagle
 	self:Log("SPELL_CAST_START", "CallOfTheFlock", 377389)
+	self:Log("SPELL_CAST_START", "Gust", 377383)
 
 	-- Vile Lasher
 	self:Log("SPELL_CAST_SUCCESS", "DetonationSeeds", 390912)
@@ -163,7 +170,7 @@ end
 -- Auto-gossip
 
 function mod:GOSSIP_SHOW(event)
-	if self:GetOption("recruiter_autotalk") then
+	if self:GetOption("custom_on_recruiter_autotalk") then
 		if self:GetGossipID(107065) then
 			-- Black Dragonflight Recruiter (+Critical Strike)
 			self:SelectGossipID(107065)
@@ -287,6 +294,25 @@ end
 function mod:ExpelIntruders(args)
 	self:Message(args.spellId, "red", CL.casting:format(args.spellName))
 	self:PlaySound(args.spellId, "alarm")
+	self:Bar(args.spellId, 26.7)
+end
+
+function mod:DeadlyWinds(args)
+	self:Message(args.spellId, "orange")
+	self:PlaySound(args.spellId, "alarm")
+	self:CDBar(args.spellId, 11)
+end
+
+function mod:StormSlash(args)
+	self:Message(args.spellId, "purple")
+	self:PlaySound(args.spellId, "alert")
+	self:CDBar(args.spellId, 9.7)
+end
+
+function mod:GuardianSentryDeath(args)
+	self:StopBar(377912) -- Expel Intruders
+	self:StopBar(378003) -- Deadly Winds
+	self:StopBar(377991) -- Storm Slash
 end
 
 -- Alpha Eagle
@@ -294,6 +320,11 @@ end
 function mod:CallOfTheFlock(args)
 	self:Message(args.spellId, "red", CL.casting:format(args.spellName))
 	self:PlaySound(args.spellId, "warning")
+end
+
+function mod:Gust(args)
+	self:Message(args.spellId, "orange")
+	self:PlaySound(args.spellId, "alarm")
 end
 
 -- Vile Lasher
@@ -385,7 +416,7 @@ end
 
 function mod:CelestialShield(args)
 	self:Message(args.spellId, "red", CL.casting:format(args.spellName))
-	self:PlaySound(args.spellId, "warning")
+	self:PlaySound(args.spellId, "alert")
 end
 
 function mod:CelestialShieldApplied(args)

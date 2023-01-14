@@ -64,7 +64,8 @@ if (WOW_PROJECT_ID ~= WOW_PROJECT_MAINLINE and not isExpansion_Dragonflight()) t
 end
 
 local major = "LibOpenRaid-1.0"
-local CONST_LIB_VERSION = 87
+--local CONST_LIB_VERSION = 87
+local CONST_LIB_VERSION = 92 --this is a rollback version, due to some zero hour bug issues
 
 if (not LIB_OPEN_RAID_MAX_VERSION) then
     LIB_OPEN_RAID_MAX_VERSION = CONST_LIB_VERSION

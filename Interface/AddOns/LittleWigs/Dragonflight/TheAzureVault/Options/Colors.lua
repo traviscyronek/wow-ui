@@ -17,7 +17,7 @@ BigWigs:AddColors("Azureblade", {
 BigWigs:AddColors("Telash Greywing", {
 	[386781] = "orange",
 	[387151] = {"blue","orange"},
-	[388008] = "red",
+	[388008] = {"blue","orange","red"},
 })
 
 BigWigs:AddColors("Umbrelskul", {
@@ -29,10 +29,15 @@ BigWigs:AddColors("Umbrelskul", {
 })
 
 BigWigs:AddColors("The Azure Vault Trash", {
+	[370764] = "purple",
 	[370766] = "orange",
 	[371358] = "red",
-	[375596] = "yellow",
+	[375596] = {"blue","orange","yellow"},
+	[375649] = "blue",
 	[377488] = "yellow",
 	[386546] = "yellow",
-	[387067] = "purple",
+	[387067] = "red",
+	[387564] = "red",
+	[396991] = "red",
+	[397726] = {"cyan","red"},
 })

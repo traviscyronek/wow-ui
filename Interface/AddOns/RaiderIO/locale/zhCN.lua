@@ -23,33 +23,23 @@ L["CANCEL"] = "取消"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[您的改动已保存，但您必须重新加载（/reload）界面才能生效。
 
 你现在就重新加载吗？]=]
---[[Translation missing --]]
---[[ L["CHARACTER_LF_GUILD_MPLUS"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHARACTER_LF_GUILD_MPLUS_WITH_SCORE"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHARACTER_LF_GUILD_PVP"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHARACTER_LF_GUILD_RAID_DEFAULT"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHARACTER_LF_GUILD_RAID_HEROIC"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHARACTER_LF_GUILD_RAID_MYTHIC"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHARACTER_LF_GUILD_RAID_NORMAL"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHARACTER_LF_GUILD_SOCIAL"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHARACTER_LF_TEAM_MPLUS_DEFAULT"] = ""--]] 
---[[Translation missing --]]
---[[ L["CHARACTER_LF_TEAM_MPLUS_WITH_SCORE"] = ""--]] 
+L["CHARACTER_LF_GUILD_MPLUS"] = "正在寻找大秘境公会"
+L["CHARACTER_LF_GUILD_MPLUS_WITH_SCORE"] = "正在寻找大秘境公会"
+L["CHARACTER_LF_GUILD_PVP"] = "正在寻找PvP公会"
+L["CHARACTER_LF_GUILD_RAID_DEFAULT"] = "正在寻找团队副本公会"
+L["CHARACTER_LF_GUILD_RAID_HEROIC"] = "正在寻找英雄团队副本公会"
+L["CHARACTER_LF_GUILD_RAID_MYTHIC"] = "正在寻找史诗团队副本公会"
+L["CHARACTER_LF_GUILD_RAID_NORMAL"] = "正在寻找普通团队副本公会"
+L["CHARACTER_LF_GUILD_SOCIAL"] = "正在寻找休闲社交公会"
+L["CHARACTER_LF_TEAM_MPLUS_DEFAULT"] = "正在寻找大秘境队伍"
+L["CHARACTER_LF_TEAM_MPLUS_WITH_SCORE"] = "正在寻找%d+的大秘境队伍"
 L["CHECKBOX_DISPLAY_WEEKLY"] = "显示每周最高记录"
 L["CHOOSE_HEADLINE_HEADER"] = "大秘境鼠标提示标题"
 L["CONFIG_WHERE_TO_SHOW_TOOLTIPS"] = "在哪里显示大秘境和团队副本进度"
 L["CONFIRM"] = "确认"
-L["COPY_RAIDERIO_PROFILE_URL"] = "复制 Raider.IO 人物主页链接"
+L["COPY_RAIDERIO_PROFILE_URL"] = "复制Raider.IO人物主页链接"
 L["COPY_RAIDERIO_RECRUITMENT_URL"] = "复制招募链接"
-L["COPY_RAIDERIO_URL"] = "复制 Raider.IO 链接 "
+L["COPY_RAIDERIO_URL"] = "复制Raider.IO链接 "
 L["CURRENT_MAINS_SCORE"] = "大号本季大秘分数"
 L["CURRENT_SCORE"] = "本季大秘分数"
 L["DB_MODULES"] = "数据库模块"
@@ -96,14 +86,14 @@ L["ENABLE_NO_SCORE_COLORS_DESC"] = "关闭分数颜色，所有分数会显示�
 L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS"] = "允许启用Raider.IO客户端增强功能"
 L["ENABLE_RAIDERIO_CLIENT_ENHANCEMENTS_DESC"] = "开启这个将会从Raider.IO客户端下载你的角色具体的Raider.IO大秘境个人信息。"
 L["ENABLE_RWF_MODE_BUTTON"] = "禁用"
-L["ENABLE_RWF_MODE_BUTTON_TOOLTIP"] = "点击以开启冲击世界首杀模式。需要重新加载你的界面。"
+L["ENABLE_RWF_MODE_BUTTON_TOOLTIP"] = "点击以开启冲击世界首杀模式。需要重新加载你的界面。 "
 L["ENABLE_RWF_MODE_RELOAD"] = "你正在开启冲击世界首杀模式。这是为了与大秘境世界首杀比赛一起使用并且只能用于此，并通过Raider.IO客户端上传数据。点击确认重新加载你的界面。"
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "使用简单大秘境分数颜色"
 L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "分数使用基础装备等级颜色显示，这会让有色觉缺陷的用户更简单的区分分数等级。"
 L["EXPORTJSON_COPY_TEXT"] = "复制下方的链接然后在 |cff00C8FFhttps://raider.io|r 的任何地方粘贴来查看所有的玩家。"
 L["GENERAL_TOOLTIP_OPTIONS"] = "常规鼠标提示选项"
 L["GUILD_BEST_SEASON"] = "公会：赛季最佳"
-L["GUILD_BEST_TITLE"] = "Raider.IO 记录"
+L["GUILD_BEST_TITLE"] = "记录"
 L["GUILD_BEST_WEEKLY"] = "公会：每周最佳"
 L["GUILD_LF_MPLUS_DEFAULT"] = "正在招募大秘境玩家"
 L["GUILD_LF_MPLUS_WITH_SCORE"] = "正在招募分数%d+的大秘境成员"
@@ -120,7 +110,7 @@ L["INVERSE_PROFILE_MODIFIER"] = "反转Raider.IO个人页面鼠标提示快捷�
 L["INVERSE_PROFILE_MODIFIER_DESC"] = "启用这个将会反转Raider.IO个人页面鼠标提示的快捷键（Shift/Ctrl/Alt）：按住来显示个人/队长或队长个人页面/个人页面。"
 L["LOCKING_PROFILE_FRAME"] = "Raider.IO：锁定大秘境个人页面框体"
 L["MAINS_BEST_SCORE_BEST_SEASON"] = "大号最高大秘境分数 (%s)"
-L["MAINS_RAID_PROGRESS"] = "大号进度"
+L["MAINS_RAID_PROGRESS"] = "大号团本进度"
 L["MAINS_SCORE"] = "大号大秘境分数"
 L["MODULE_AMERICAS"] = "美洲"
 L["MODULE_EUROPE"] = "欧洲"
@@ -135,11 +125,11 @@ L["OUT_OF_SYNC_DATABASE_S"] = "|cffFFFFFF%s|r 的部落/联盟数据没有同步
 L["OUTDATED_DATABASE"] = "%天前的分数"
 L["OUTDATED_DATABASE_HOURS"] = "%d 小时前的分数"
 L["OUTDATED_DOWNLOAD_LINK"] = "下载： |cffffbd0a%s|r"
-L["OUTDATED_EXPIRED_ALERT"] = "|cffFFFFFF%s|r 正在使用过期的数据. 请现在更新来显示最准确的数据: |cffFFFFFF%s|r"
-L["OUTDATED_EXPIRED_TITLE"] = "Raider.IO数据已经过期"
-L["OUTDATED_EXPIRES_IN_DAYS"] = "Raider.IO数据将在 %d 天后到期。"
-L["OUTDATED_EXPIRES_IN_HOURS"] = "Raider.IO数据将在 %d 小时后到期。"
-L["OUTDATED_EXPIRES_IN_MINUTES"] = "Raider.IO数据将在 %d 分钟后到期。"
+L["OUTDATED_EXPIRED_ALERT"] = "|cffFFFFFF%s|r 正在使用过期的数据。请现在更新来显示最准确的数据: |cffFFFFFF%s|r"
+L["OUTDATED_EXPIRED_TITLE"] = "数据已经过期"
+L["OUTDATED_EXPIRES_IN_DAYS"] = "数据将在%d天后到期"
+L["OUTDATED_EXPIRES_IN_HOURS"] = "数据将在%d小时后到期"
+L["OUTDATED_EXPIRES_IN_MINUTES"] = "数据将在%d分钟后到期"
 L["OUTDATED_PROFILE_TOOLTIP_MESSAGE"] = "请更新你的插件来查看最准确的数据。每个玩家为了提升自己都非常的努力，只显示他们很久以前的数据对他们而言是不公平的。你可以使用Raider.IO的客户端来自动同步你的数据。"
 L["PREVIOUS_SCORE"] = "之前的大秘境分数 (%s)"
 L["PROFILE_BEST_RUNS"] = "按地下城显示最佳记录"
@@ -218,31 +208,28 @@ L["RAID_BOSS_VOTI_8"] = "莱萨杰丝，噬雷之龙"
 L["RAID_DIFFICULTY_NAME_HEROIC"] = "英雄"
 L["RAID_DIFFICULTY_NAME_MYTHIC"] = "史诗"
 L["RAID_DIFFICULTY_NAME_NORMAL"] = "普通"
-L["RAID_DIFFICULTY_SUFFIX_HEROIC"] = "H"
-L["RAID_DIFFICULTY_SUFFIX_MYTHIC"] = "M"
-L["RAID_DIFFICULTY_SUFFIX_NORMAL"] = "PT"
+L["RAID_DIFFICULTY_SUFFIX_HEROIC"] = "英雄"
+L["RAID_DIFFICULTY_SUFFIX_MYTHIC"] = "史诗"
+L["RAID_DIFFICULTY_SUFFIX_NORMAL"] = "普通"
 L["RAID_ENCOUNTERS_DEFEATED_TITLE"] = "已击杀团队副本首领"
 L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = "能限时%s层的平均分数"
-L["RAIDERIO_BEST_RUN"] = "Raider.IO大秘境最佳成绩"
-L["RAIDERIO_CLIENT_CUSTOMIZATION"] = "Raider.IO客户端自定义"
-L["RAIDERIO_LIVE_TRACKING"] = "Raider.IO实时上传"
-L["RAIDERIO_MP_BASE_SCORE"] = "Raider.IO大秘境基础分数"
-L["RAIDERIO_MP_BEST_SCORE"] = "Raider.IO大秘境分数 (%s)"
-L["RAIDERIO_MP_SCORE"] = "Raider.IO 大秘境分数"
-L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO 插件选项"
-L["RAIDING_DATA_HEADER"] = "Raider.IO 团队副本进度"
+L["RAIDERIO_BEST_RUN"] = "大秘境最佳成绩"
+L["RAIDERIO_CLIENT_CUSTOMIZATION"] = "Raider.IO客户端个性化设置"
+L["RAIDERIO_LIVE_TRACKING"] = "Raider.IO实时追踪"
+L["RAIDERIO_MP_BASE_SCORE"] = "大秘境基础分数"
+L["RAIDERIO_MP_BEST_SCORE"] = "大秘境分数 (%s)"
+L["RAIDERIO_MP_SCORE"] = "大秘境分数"
+L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO插件选项"
+L["RAIDING_DATA_HEADER"] = "团队副本进度"
 L["RAIDING_DB_MODULES"] = "团本数据库模块"
 L["RECRUITMENT_DB_MODULES"] = "招募数据库模块"
 L["RELOAD_LATER"] = "我一会儿再重载界面（Reload）"
 L["RELOAD_NOW"] = "现在重载界面（Reload）"
 L["RELOAD_RWF_MODE_BUTTON"] = "保存"
 L["RELOAD_RWF_MODE_BUTTON_TOOLTIP"] = "点击保存到储存文件，这将需要重新加载您的界面。"
---[[Translation missing --]]
---[[ L["RWF_MINIBUTTON_TOOLTIP"] = ""--]] 
---[[Translation missing --]]
---[[ L["RWF_SUBTITLE_LOGGING_FILTERED_LOOT"] = ""--]] 
---[[Translation missing --]]
---[[ L["RWF_SUBTITLE_LOGGING_LOOT"] = ""--]] 
+L["RWF_MINIBUTTON_TOOLTIP"] = "每当有待处理的战利品时左键单击。 这将会重新加载你的界面。 右键单击以打开冲击世界首杀框架。"
+L["RWF_SUBTITLE_LOGGING_FILTERED_LOOT"] = "（记录相关项目）"
+L["RWF_SUBTITLE_LOGGING_LOOT"] = "（记录战利品）"
 L["RWF_TITLE"] = "|cffFFFFFFRaider.IO|r 冲击世界首杀"
 L["SEARCH_NAME_LABEL"] = "名字"
 L["SEARCH_REALM_LABEL"] = "领域"
@@ -311,7 +298,7 @@ L["USE_RAIDERIO_CLIENT_LIVE_TRACKING_SETTINGS"] = "允许Raider.IO客户端控�
 L["USE_RAIDERIO_CLIENT_LIVE_TRACKING_SETTINGS_DESC"] = "允许Raider.IO客户端（运行时）自动控制你的战斗日志设置。"
 L["WARNING_DEBUG_MODE_ENABLE"] = "|cffFFFFFF%s|r Debug模式已经开启. 输入 |cffFFFFFF/raiderio debug|r 关闭debug模式"
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "Raider.IO：你必须先关闭Raider.IO个人页面的自动定位"
-L["WARNING_RWF_MODE_ENABLE"] = "|cffFFFFFF%s|r 冲击世界首杀模式已开启. 你可以通过使用 |cffFFFFFF/raiderio rwf |r来关闭它."
+L["WARNING_RWF_MODE_ENABLE"] = "|cffFFFFFF%s|r 冲击世界首杀模式已开启。你可以通过使用 |cffFFFFFF/raiderio rwf |r来关闭它。"
 L["WIPE_RWF_MODE_BUTTON"] = "清除"
 L["WIPE_RWF_MODE_BUTTON_TOOLTIP"] = "点击以从存储文件中清除日志。 这将需要重新加载您的界面。"
 

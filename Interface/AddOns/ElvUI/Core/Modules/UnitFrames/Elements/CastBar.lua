@@ -521,22 +521,33 @@ function UF:PostCastStart(unit)
 			baseTicks = selectedTicks
 		end
 
+		-- Base ticks upgraded by another aura
+		local auraTicks = baseTicks and global.AuraChannelTicks[spellID]
+		if auraTicks then
+			for auraID, tickCount in next, auraTicks.spells do
+				if E:GetAuraByID(unit, auraID, auraTicks.filter) then
+					baseTicks = tickCount
+					break -- found one so stop
+				end
+			end
+		end
+
 		-- Wait for chain to happen
 		local chainTicks = baseTicks and global.ChainChannelTicks[spellID]
 		if chainTicks then -- requires a window: ChainChannelTime
 			local now = GetTime() -- this will clear old ones too
-			local seconds = chainTicks and global.ChainChannelTime[spellID]
+			local seconds = global.ChainChannelTime[spellID]
 			local match = seconds and self.chainTime and self.chainTick == spellID
 
 			if match and (now - seconds) < self.chainTime then
 				baseTicks = chainTicks
-
-				self.chainTick = nil -- reset it cause this is the chain cast
-				self.chainTime = nil -- clear the time too
-			else
-				self.chainTick = chainTicks and spellID or nil
-				self.chainTime = now
 			end
+
+			self.chainTime = now
+			self.chainTick = spellID
+		else
+			self.chainTick = nil -- not a chain spell
+			self.chainTime = nil -- clear the time too
 		end
 
 		local ticksSize = baseTicks and global.ChannelTicksSize[spellID]

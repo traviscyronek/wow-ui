@@ -1,10 +1,10 @@
-lightweight tag 8272e2a4787d40d8210c3d4e1a7b408127e10f2d v1.9.50
-Author:	GitHub <noreply@github.com>
-Date:	Tue Nov 29 12:50:44 2022 -0800
+lightweight tag cf60072f89d57301018ae82ffc64d58753b3b298 v1.10.5
+Author:	Antonio Lobato <aj.lobato@gmail.com>
+Date:	Wed Jan 11 22:53:18 2023 -0800
 
-commit 8272e2a4787d40d8210c3d4e1a7b408127e10f2d
+commit cf60072f89d57301018ae82ffc64d58753b3b298
 Author: Antonio Lobato <aj.lobato@gmail.com>
-Date:   Tue Nov 29 12:50:44 2022 -0800
+Date:   Wed Jan 11 22:53:18 2023 -0800
 
-    Fixed itemlevel range for Dragonflight (#835)
+    Small fix for Classic and Wrath.
 
